@@ -1,0 +1,460 @@
+[2022-05-05 12:23:24,083] {processor.py:163} INFO - Started process (PID=2019) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:23:24,084] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:23:24,085] {logging_mixin.py:109} INFO - [2022-05-05 12:23:24,085] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:23:24,099] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:23:24,409] {logging_mixin.py:109} INFO - [2022-05-05 12:23:24,409] {manager.py:496} INFO - Created Permission View: can read on DAG:my_first_dag
+[2022-05-05 12:23:24,420] {logging_mixin.py:109} INFO - [2022-05-05 12:23:24,420] {manager.py:496} INFO - Created Permission View: can edit on DAG:my_first_dag
+[2022-05-05 12:23:24,420] {logging_mixin.py:109} INFO - [2022-05-05 12:23:24,420] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:23:24,480] {logging_mixin.py:109} INFO - [2022-05-05 12:23:24,480] {dag.py:2417} INFO - Creating ORM DAG for my_first_dag
+[2022-05-05 12:23:24,484] {logging_mixin.py:109} INFO - [2022-05-05 12:23:24,484] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:23:24,500] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.419 seconds
+[2022-05-05 12:23:57,612] {processor.py:163} INFO - Started process (PID=2154) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:23:57,612] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:23:57,613] {logging_mixin.py:109} INFO - [2022-05-05 12:23:57,613] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:23:57,622] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:23:57,629] {logging_mixin.py:109} INFO - [2022-05-05 12:23:57,629] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:23:57,636] {logging_mixin.py:109} INFO - [2022-05-05 12:23:57,636] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:23:57,648] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.038 seconds
+[2022-05-05 12:24:32,423] {processor.py:163} INFO - Started process (PID=2249) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:24:32,432] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:24:32,432] {logging_mixin.py:109} INFO - [2022-05-05 12:24:32,432] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:24:32,445] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:24:32,453] {logging_mixin.py:109} INFO - [2022-05-05 12:24:32,453] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:24:32,460] {logging_mixin.py:109} INFO - [2022-05-05 12:24:32,460] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:24:32,471] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.051 seconds
+[2022-05-05 12:25:06,331] {processor.py:163} INFO - Started process (PID=2282) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:25:06,342] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:25:06,344] {logging_mixin.py:109} INFO - [2022-05-05 12:25:06,343] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:25:06,366] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:25:06,376] {logging_mixin.py:109} INFO - [2022-05-05 12:25:06,376] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:25:06,384] {logging_mixin.py:109} INFO - [2022-05-05 12:25:06,384] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:25:06,397] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.068 seconds
+[2022-05-05 12:25:39,781] {processor.py:163} INFO - Started process (PID=2315) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:25:39,790] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:25:39,790] {logging_mixin.py:109} INFO - [2022-05-05 12:25:39,790] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:25:39,799] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:25:39,806] {logging_mixin.py:109} INFO - [2022-05-05 12:25:39,806] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:25:39,813] {logging_mixin.py:109} INFO - [2022-05-05 12:25:39,813] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:25:39,825] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.045 seconds
+[2022-05-05 12:26:12,431] {processor.py:163} INFO - Started process (PID=2354) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:26:12,440] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:26:12,441] {logging_mixin.py:109} INFO - [2022-05-05 12:26:12,441] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:26:12,450] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:26:12,457] {logging_mixin.py:109} INFO - [2022-05-05 12:26:12,457] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:26:12,464] {logging_mixin.py:109} INFO - [2022-05-05 12:26:12,464] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:26:12,477] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.048 seconds
+[2022-05-05 12:26:45,733] {processor.py:163} INFO - Started process (PID=2387) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:26:45,743] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:26:45,743] {logging_mixin.py:109} INFO - [2022-05-05 12:26:45,743] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:26:45,753] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:26:45,761] {logging_mixin.py:109} INFO - [2022-05-05 12:26:45,761] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:26:45,769] {logging_mixin.py:109} INFO - [2022-05-05 12:26:45,768] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:26:45,782] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.051 seconds
+[2022-05-05 12:27:19,410] {processor.py:163} INFO - Started process (PID=2420) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:27:19,420] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:27:19,421] {logging_mixin.py:109} INFO - [2022-05-05 12:27:19,421] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:27:19,436] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:27:19,444] {logging_mixin.py:109} INFO - [2022-05-05 12:27:19,444] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:27:19,452] {logging_mixin.py:109} INFO - [2022-05-05 12:27:19,452] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:27:19,464] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.058 seconds
+[2022-05-05 12:27:53,547] {processor.py:163} INFO - Started process (PID=2459) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:27:53,548] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:27:53,549] {logging_mixin.py:109} INFO - [2022-05-05 12:27:53,549] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:27:53,559] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:27:53,566] {logging_mixin.py:109} INFO - [2022-05-05 12:27:53,566] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:27:53,574] {logging_mixin.py:109} INFO - [2022-05-05 12:27:53,574] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:27:53,588] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.042 seconds
+[2022-05-05 12:28:27,356] {processor.py:163} INFO - Started process (PID=2492) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:28:27,365] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:28:27,365] {logging_mixin.py:109} INFO - [2022-05-05 12:28:27,365] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:28:27,374] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:28:27,382] {logging_mixin.py:109} INFO - [2022-05-05 12:28:27,382] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:28:27,389] {logging_mixin.py:109} INFO - [2022-05-05 12:28:27,389] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:28:27,402] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.047 seconds
+[2022-05-05 12:29:01,472] {processor.py:163} INFO - Started process (PID=2525) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:29:01,482] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:29:01,482] {logging_mixin.py:109} INFO - [2022-05-05 12:29:01,482] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:29:01,492] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:29:01,500] {logging_mixin.py:109} INFO - [2022-05-05 12:29:01,500] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:29:01,508] {logging_mixin.py:109} INFO - [2022-05-05 12:29:01,508] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:29:01,521] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.051 seconds
+[2022-05-05 12:29:34,749] {processor.py:163} INFO - Started process (PID=2558) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:29:34,753] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:29:34,753] {logging_mixin.py:109} INFO - [2022-05-05 12:29:34,753] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:29:34,763] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:29:34,771] {logging_mixin.py:109} INFO - [2022-05-05 12:29:34,771] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:29:34,779] {logging_mixin.py:109} INFO - [2022-05-05 12:29:34,779] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:29:34,793] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.046 seconds
+[2022-05-05 12:30:08,092] {processor.py:163} INFO - Started process (PID=2591) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:30:08,096] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:30:08,097] {logging_mixin.py:109} INFO - [2022-05-05 12:30:08,097] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:30:08,113] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:30:08,123] {logging_mixin.py:109} INFO - [2022-05-05 12:30:08,123] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:30:08,130] {logging_mixin.py:109} INFO - [2022-05-05 12:30:08,130] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:30:08,143] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.055 seconds
+[2022-05-05 12:30:41,531] {processor.py:163} INFO - Started process (PID=2624) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:30:41,532] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:30:41,533] {logging_mixin.py:109} INFO - [2022-05-05 12:30:41,532] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:30:41,542] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:30:41,549] {logging_mixin.py:109} INFO - [2022-05-05 12:30:41,549] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:30:41,556] {logging_mixin.py:109} INFO - [2022-05-05 12:30:41,556] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:30:41,569] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.040 seconds
+[2022-05-05 12:31:15,151] {processor.py:163} INFO - Started process (PID=2657) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:31:15,161] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:31:15,161] {logging_mixin.py:109} INFO - [2022-05-05 12:31:15,161] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:31:15,173] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:31:15,182] {logging_mixin.py:109} INFO - [2022-05-05 12:31:15,182] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:31:15,189] {logging_mixin.py:109} INFO - [2022-05-05 12:31:15,189] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:31:15,202] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.053 seconds
+[2022-05-05 12:31:48,002] {processor.py:163} INFO - Started process (PID=2690) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:31:48,011] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:31:48,011] {logging_mixin.py:109} INFO - [2022-05-05 12:31:48,011] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:31:48,020] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:31:48,029] {logging_mixin.py:109} INFO - [2022-05-05 12:31:48,029] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:31:48,036] {logging_mixin.py:109} INFO - [2022-05-05 12:31:48,036] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:31:48,049] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.049 seconds
+[2022-05-05 12:32:21,206] {processor.py:163} INFO - Started process (PID=2805) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:32:21,207] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:32:21,207] {logging_mixin.py:109} INFO - [2022-05-05 12:32:21,207] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:32:21,216] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:32:21,223] {logging_mixin.py:109} INFO - [2022-05-05 12:32:21,223] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:32:21,230] {logging_mixin.py:109} INFO - [2022-05-05 12:32:21,230] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:32:21,243] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.039 seconds
+[2022-05-05 12:32:55,945] {processor.py:163} INFO - Started process (PID=2855) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:32:55,948] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:32:55,949] {logging_mixin.py:109} INFO - [2022-05-05 12:32:55,948] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:32:55,959] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:32:55,966] {logging_mixin.py:109} INFO - [2022-05-05 12:32:55,966] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:32:55,976] {logging_mixin.py:109} INFO - [2022-05-05 12:32:55,976] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:32:55,989] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.046 seconds
+[2022-05-05 12:33:29,785] {processor.py:163} INFO - Started process (PID=2888) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:33:29,794] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:33:29,795] {logging_mixin.py:109} INFO - [2022-05-05 12:33:29,795] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:33:29,805] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:33:29,813] {logging_mixin.py:109} INFO - [2022-05-05 12:33:29,813] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:33:29,820] {logging_mixin.py:109} INFO - [2022-05-05 12:33:29,820] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:33:29,832] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.049 seconds
+[2022-05-05 12:34:03,084] {processor.py:163} INFO - Started process (PID=2921) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:34:03,093] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:34:03,094] {logging_mixin.py:109} INFO - [2022-05-05 12:34:03,093] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:34:03,103] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:34:03,111] {logging_mixin.py:109} INFO - [2022-05-05 12:34:03,111] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:34:03,118] {logging_mixin.py:109} INFO - [2022-05-05 12:34:03,118] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:34:03,131] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.049 seconds
+[2022-05-05 12:34:36,897] {processor.py:163} INFO - Started process (PID=3030) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:34:36,898] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:34:36,898] {logging_mixin.py:109} INFO - [2022-05-05 12:34:36,898] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:34:36,908] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:34:36,915] {logging_mixin.py:109} INFO - [2022-05-05 12:34:36,915] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:34:36,922] {logging_mixin.py:109} INFO - [2022-05-05 12:34:36,922] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:34:36,934] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.039 seconds
+[2022-05-05 12:35:10,716] {processor.py:163} INFO - Started process (PID=3071) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:35:10,717] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:35:10,717] {logging_mixin.py:109} INFO - [2022-05-05 12:35:10,717] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:35:10,719] {logging_mixin.py:109} INFO - [2022-05-05 12:35:10,718] {dagbag.py:334} ERROR - Failed to import: /home/udimini/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/my_first_dag.py", line 31
+    def task2():
+    ^
+IndentationError: expected an indented block
+[2022-05-05 12:35:10,719] {processor.py:654} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:35:10,738] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.025 seconds
+[2022-05-05 12:35:42,804] {processor.py:163} INFO - Started process (PID=3104) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:35:42,814] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:35:42,814] {logging_mixin.py:109} INFO - [2022-05-05 12:35:42,814] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:35:42,815] {logging_mixin.py:109} INFO - [2022-05-05 12:35:42,815] {dagbag.py:334} ERROR - Failed to import: /home/udimini/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/my_first_dag.py", line 31
+    def task2():
+    ^
+IndentationError: expected an indented block
+[2022-05-05 12:35:42,816] {processor.py:654} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:35:42,830] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.028 seconds
+[2022-05-05 12:36:17,455] {processor.py:163} INFO - Started process (PID=3224) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:36:17,456] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:36:17,456] {logging_mixin.py:109} INFO - [2022-05-05 12:36:17,456] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:36:17,458] {logging_mixin.py:109} INFO - [2022-05-05 12:36:17,457] {dagbag.py:334} ERROR - Failed to import: /home/udimini/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/my_first_dag.py", line 31
+    def task2():
+    ^
+IndentationError: expected an indented block
+[2022-05-05 12:36:17,458] {processor.py:654} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:36:17,476] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.023 seconds
+[2022-05-05 12:36:50,584] {processor.py:163} INFO - Started process (PID=3374) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:36:50,585] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:36:50,586] {logging_mixin.py:109} INFO - [2022-05-05 12:36:50,586] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:36:50,601] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:36:50,610] {logging_mixin.py:109} INFO - [2022-05-05 12:36:50,610] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:36:50,617] {logging_mixin.py:109} INFO - [2022-05-05 12:36:50,617] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:36:50,640] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.060 seconds
+[2022-05-05 12:37:24,916] {processor.py:163} INFO - Started process (PID=3543) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:37:24,918] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:37:24,918] {logging_mixin.py:109} INFO - [2022-05-05 12:37:24,918] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:37:24,927] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:37:24,935] {logging_mixin.py:109} INFO - [2022-05-05 12:37:24,934] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:37:24,942] {logging_mixin.py:109} INFO - [2022-05-05 12:37:24,942] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:37:24,955] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.041 seconds
+[2022-05-05 12:37:58,673] {processor.py:163} INFO - Started process (PID=3663) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:37:58,683] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:37:58,683] {logging_mixin.py:109} INFO - [2022-05-05 12:37:58,683] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:37:58,693] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:37:58,701] {logging_mixin.py:109} INFO - [2022-05-05 12:37:58,701] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:37:58,708] {logging_mixin.py:109} INFO - [2022-05-05 12:37:58,708] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:37:58,721] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.050 seconds
+[2022-05-05 12:38:32,502] {processor.py:163} INFO - Started process (PID=8978) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:38:32,511] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:38:32,512] {logging_mixin.py:109} INFO - [2022-05-05 12:38:32,512] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:38:32,522] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:38:32,531] {logging_mixin.py:109} INFO - [2022-05-05 12:38:32,530] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:38:32,539] {logging_mixin.py:109} INFO - [2022-05-05 12:38:32,539] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:38:32,550] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.050 seconds
+[2022-05-05 12:39:05,585] {processor.py:163} INFO - Started process (PID=9013) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:39:05,590] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:39:05,591] {logging_mixin.py:109} INFO - [2022-05-05 12:39:05,591] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:39:05,607] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:39:05,616] {logging_mixin.py:109} INFO - [2022-05-05 12:39:05,616] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:39:05,623] {logging_mixin.py:109} INFO - [2022-05-05 12:39:05,623] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:39:05,636] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.055 seconds
+[2022-05-05 12:39:39,338] {processor.py:163} INFO - Started process (PID=12696) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:39:39,339] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:39:39,339] {logging_mixin.py:109} INFO - [2022-05-05 12:39:39,339] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:39:39,350] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:39:39,358] {logging_mixin.py:109} INFO - [2022-05-05 12:39:39,358] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:39:39,367] {logging_mixin.py:109} INFO - [2022-05-05 12:39:39,366] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:39:39,381] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.045 seconds
+[2022-05-05 12:40:12,974] {processor.py:163} INFO - Started process (PID=14615) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:40:12,974] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:40:12,975] {logging_mixin.py:109} INFO - [2022-05-05 12:40:12,975] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:40:12,985] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:40:12,993] {logging_mixin.py:109} INFO - [2022-05-05 12:40:12,993] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:40:13,000] {logging_mixin.py:109} INFO - [2022-05-05 12:40:13,000] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:40:13,014] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.042 seconds
+[2022-05-05 12:40:46,367] {processor.py:163} INFO - Started process (PID=14648) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:40:46,375] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:40:46,376] {logging_mixin.py:109} INFO - [2022-05-05 12:40:46,376] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:40:46,385] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:40:46,392] {logging_mixin.py:109} INFO - [2022-05-05 12:40:46,392] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:40:46,400] {logging_mixin.py:109} INFO - [2022-05-05 12:40:46,400] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:40:46,412] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.047 seconds
+[2022-05-05 12:41:19,141] {processor.py:163} INFO - Started process (PID=15961) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:41:19,143] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:41:19,144] {logging_mixin.py:109} INFO - [2022-05-05 12:41:19,144] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:41:19,165] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:41:19,175] {logging_mixin.py:109} INFO - [2022-05-05 12:41:19,175] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:41:19,183] {logging_mixin.py:109} INFO - [2022-05-05 12:41:19,183] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:41:19,196] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.060 seconds
+[2022-05-05 12:41:53,360] {processor.py:163} INFO - Started process (PID=16493) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:41:53,369] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:41:53,369] {logging_mixin.py:109} INFO - [2022-05-05 12:41:53,369] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:41:53,380] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:41:53,388] {logging_mixin.py:109} INFO - [2022-05-05 12:41:53,388] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:41:53,396] {logging_mixin.py:109} INFO - [2022-05-05 12:41:53,396] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:41:53,407] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.051 seconds
+[2022-05-05 12:42:26,240] {processor.py:163} INFO - Started process (PID=16649) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:42:26,250] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:42:26,250] {logging_mixin.py:109} INFO - [2022-05-05 12:42:26,250] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:42:26,260] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:42:26,268] {logging_mixin.py:109} INFO - [2022-05-05 12:42:26,268] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:42:26,275] {logging_mixin.py:109} INFO - [2022-05-05 12:42:26,275] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:42:26,288] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.050 seconds
+[2022-05-05 12:43:00,806] {processor.py:163} INFO - Started process (PID=16687) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:43:00,815] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:43:00,816] {logging_mixin.py:109} INFO - [2022-05-05 12:43:00,816] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:43:00,828] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:43:00,836] {logging_mixin.py:109} INFO - [2022-05-05 12:43:00,836] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:43:00,844] {logging_mixin.py:109} INFO - [2022-05-05 12:43:00,844] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:43:00,856] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.053 seconds
+[2022-05-05 12:43:32,290] {processor.py:163} INFO - Started process (PID=16723) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:43:32,300] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:43:32,301] {logging_mixin.py:109} INFO - [2022-05-05 12:43:32,300] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:43:32,309] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:43:32,317] {logging_mixin.py:109} INFO - [2022-05-05 12:43:32,317] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:43:32,325] {logging_mixin.py:109} INFO - [2022-05-05 12:43:32,325] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:43:32,337] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.049 seconds
+[2022-05-05 12:44:06,703] {processor.py:163} INFO - Started process (PID=16954) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:44:06,707] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:44:06,707] {logging_mixin.py:109} INFO - [2022-05-05 12:44:06,707] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:44:06,726] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:44:06,735] {logging_mixin.py:109} INFO - [2022-05-05 12:44:06,735] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:44:06,743] {logging_mixin.py:109} INFO - [2022-05-05 12:44:06,743] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:44:06,755] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.055 seconds
+[2022-05-05 12:44:38,861] {processor.py:163} INFO - Started process (PID=17088) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:44:38,863] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:44:38,863] {logging_mixin.py:109} INFO - [2022-05-05 12:44:38,863] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:44:38,881] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:44:38,897] {logging_mixin.py:109} INFO - [2022-05-05 12:44:38,896] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:44:38,907] {logging_mixin.py:109} INFO - [2022-05-05 12:44:38,907] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:44:38,920] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.062 seconds
+[2022-05-05 12:45:12,526] {processor.py:163} INFO - Started process (PID=17121) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:45:12,527] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:45:12,527] {logging_mixin.py:109} INFO - [2022-05-05 12:45:12,527] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:45:12,537] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:45:12,545] {logging_mixin.py:109} INFO - [2022-05-05 12:45:12,545] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:45:12,552] {logging_mixin.py:109} INFO - [2022-05-05 12:45:12,551] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:45:12,565] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.041 seconds
+[2022-05-05 12:45:46,010] {processor.py:163} INFO - Started process (PID=17363) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:45:46,014] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:45:46,014] {logging_mixin.py:109} INFO - [2022-05-05 12:45:46,014] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:45:46,028] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:45:46,042] {logging_mixin.py:109} INFO - [2022-05-05 12:45:46,042] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:45:46,062] {logging_mixin.py:109} INFO - [2022-05-05 12:45:46,062] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:45:46,073] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.065 seconds
+[2022-05-05 12:46:19,826] {processor.py:163} INFO - Started process (PID=17563) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:46:19,836] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:46:19,836] {logging_mixin.py:109} INFO - [2022-05-05 12:46:19,836] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:46:19,847] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:46:19,855] {logging_mixin.py:109} INFO - [2022-05-05 12:46:19,855] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:46:19,862] {logging_mixin.py:109} INFO - [2022-05-05 12:46:19,862] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:46:19,875] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.051 seconds
+[2022-05-05 12:46:53,607] {processor.py:163} INFO - Started process (PID=17745) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:46:53,617] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:46:53,618] {logging_mixin.py:109} INFO - [2022-05-05 12:46:53,618] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:46:53,634] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:46:53,645] {logging_mixin.py:109} INFO - [2022-05-05 12:46:53,645] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:46:53,653] {logging_mixin.py:109} INFO - [2022-05-05 12:46:53,653] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:46:53,666] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.062 seconds
+[2022-05-05 12:47:26,845] {processor.py:163} INFO - Started process (PID=18063) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:47:26,855] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:47:26,855] {logging_mixin.py:109} INFO - [2022-05-05 12:47:26,855] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:47:26,870] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:47:26,879] {logging_mixin.py:109} INFO - [2022-05-05 12:47:26,879] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:47:26,886] {logging_mixin.py:109} INFO - [2022-05-05 12:47:26,886] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:47:26,899] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.059 seconds
+[2022-05-05 12:48:00,711] {processor.py:163} INFO - Started process (PID=18265) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:48:00,720] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:48:00,720] {logging_mixin.py:109} INFO - [2022-05-05 12:48:00,720] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:48:00,729] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:48:00,739] {logging_mixin.py:109} INFO - [2022-05-05 12:48:00,739] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:48:00,756] {logging_mixin.py:109} INFO - [2022-05-05 12:48:00,756] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:48:00,778] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.069 seconds
+[2022-05-05 12:48:35,310] {processor.py:163} INFO - Started process (PID=18472) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:48:35,316] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:48:35,317] {logging_mixin.py:109} INFO - [2022-05-05 12:48:35,316] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:48:35,335] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:48:35,344] {logging_mixin.py:109} INFO - [2022-05-05 12:48:35,344] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:48:35,352] {logging_mixin.py:109} INFO - [2022-05-05 12:48:35,352] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:48:35,365] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.062 seconds
+[2022-05-05 12:49:09,681] {processor.py:163} INFO - Started process (PID=18665) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:49:09,685] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:49:09,685] {logging_mixin.py:109} INFO - [2022-05-05 12:49:09,685] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:49:09,697] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:49:09,706] {logging_mixin.py:109} INFO - [2022-05-05 12:49:09,706] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:49:09,716] {logging_mixin.py:109} INFO - [2022-05-05 12:49:09,716] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:49:09,729] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.051 seconds
+[2022-05-05 12:49:43,132] {processor.py:163} INFO - Started process (PID=18849) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:49:43,141] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:49:43,142] {logging_mixin.py:109} INFO - [2022-05-05 12:49:43,142] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:49:43,159] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:49:43,169] {logging_mixin.py:109} INFO - [2022-05-05 12:49:43,169] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:49:43,177] {logging_mixin.py:109} INFO - [2022-05-05 12:49:43,177] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:49:43,191] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.061 seconds
+[2022-05-05 12:50:15,869] {processor.py:163} INFO - Started process (PID=18975) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:50:15,877] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:50:15,878] {logging_mixin.py:109} INFO - [2022-05-05 12:50:15,878] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:50:15,887] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:50:15,895] {logging_mixin.py:109} INFO - [2022-05-05 12:50:15,895] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:50:15,903] {logging_mixin.py:109} INFO - [2022-05-05 12:50:15,902] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:50:15,917] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.050 seconds
+[2022-05-05 12:50:49,565] {processor.py:163} INFO - Started process (PID=19210) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:50:49,566] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:50:49,567] {logging_mixin.py:109} INFO - [2022-05-05 12:50:49,567] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:50:49,577] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:50:49,585] {logging_mixin.py:109} INFO - [2022-05-05 12:50:49,585] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:50:49,594] {logging_mixin.py:109} INFO - [2022-05-05 12:50:49,594] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:50:49,610] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.047 seconds
+[2022-05-05 12:51:25,187] {processor.py:163} INFO - Started process (PID=19291) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:51:25,189] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:51:25,189] {logging_mixin.py:109} INFO - [2022-05-05 12:51:25,189] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:51:25,201] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:51:25,210] {logging_mixin.py:109} INFO - [2022-05-05 12:51:25,210] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:51:25,220] {logging_mixin.py:109} INFO - [2022-05-05 12:51:25,220] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:51:25,233] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.048 seconds
+[2022-05-05 12:51:59,550] {processor.py:163} INFO - Started process (PID=19486) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:51:59,551] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:51:59,551] {logging_mixin.py:109} INFO - [2022-05-05 12:51:59,551] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:51:59,563] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:51:59,573] {logging_mixin.py:109} INFO - [2022-05-05 12:51:59,573] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:51:59,583] {logging_mixin.py:109} INFO - [2022-05-05 12:51:59,582] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:51:59,595] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.048 seconds
+[2022-05-05 12:52:34,326] {processor.py:163} INFO - Started process (PID=19519) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:52:34,327] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:52:34,327] {logging_mixin.py:109} INFO - [2022-05-05 12:52:34,327] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:52:34,339] {processor.py:652} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:52:34,349] {logging_mixin.py:109} INFO - [2022-05-05 12:52:34,349] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-05 12:52:34,358] {logging_mixin.py:109} INFO - [2022-05-05 12:52:34,358] {dag.py:2937} INFO - Setting next_dagrun for my_first_dag to None
+[2022-05-05 12:52:34,369] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.046 seconds
+[2022-05-05 12:53:09,591] {processor.py:163} INFO - Started process (PID=19725) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:53:09,592] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:53:09,593] {logging_mixin.py:109} INFO - [2022-05-05 12:53:09,593] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:53:09,600] {logging_mixin.py:109} INFO - [2022-05-05 12:53:09,600] {dagbag.py:334} ERROR - Failed to import: /home/udimini/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/my_first_dag.py", line 6, in <module>
+    from lib.data_fetcher import fetch_data_from_twitter
+ModuleNotFoundError: No module named 'lib'
+[2022-05-05 12:53:09,601] {processor.py:654} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:53:09,618] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.029 seconds
+[2022-05-05 12:53:44,377] {processor.py:163} INFO - Started process (PID=19759) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:53:44,378] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:53:44,379] {logging_mixin.py:109} INFO - [2022-05-05 12:53:44,378] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:53:44,384] {logging_mixin.py:109} INFO - [2022-05-05 12:53:44,383] {dagbag.py:334} ERROR - Failed to import: /home/udimini/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/my_first_dag.py", line 6, in <module>
+    from lib.data_fetcher import fetch_data_from_twitter
+ModuleNotFoundError: No module named 'lib'
+[2022-05-05 12:53:44,384] {processor.py:654} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:53:44,401] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.027 seconds
+[2022-05-05 12:54:26,430] {processor.py:163} INFO - Started process (PID=19898) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:54:26,439] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:54:26,440] {logging_mixin.py:109} INFO - [2022-05-05 12:54:26,440] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:54:26,446] {logging_mixin.py:109} INFO - [2022-05-05 12:54:26,446] {dagbag.py:334} ERROR - Failed to import: /home/udimini/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/my_first_dag.py", line 6, in <module>
+    from lib.data_fetcher import fetch_data_from_twitter
+ModuleNotFoundError: No module named 'lib'
+[2022-05-05 12:54:26,446] {processor.py:654} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:54:26,464] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.037 seconds
+[2022-05-05 12:55:00,419] {processor.py:163} INFO - Started process (PID=19947) to work on /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:55:00,420] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/my_first_dag.py for tasks to queue
+[2022-05-05 12:55:00,421] {logging_mixin.py:109} INFO - [2022-05-05 12:55:00,421] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:55:00,426] {logging_mixin.py:109} INFO - [2022-05-05 12:55:00,426] {dagbag.py:334} ERROR - Failed to import: /home/udimini/airflow/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/my_first_dag.py", line 6, in <module>
+    from lib.data_fetcher import fetch_data_from_twitter
+ModuleNotFoundError: No module named 'lib'
+[2022-05-05 12:55:00,427] {processor.py:654} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/my_first_dag.py
+[2022-05-05 12:55:00,443] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/my_first_dag.py took 0.026 seconds

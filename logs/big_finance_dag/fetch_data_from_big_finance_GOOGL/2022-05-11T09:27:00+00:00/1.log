@@ -1,0 +1,24 @@
+[2022-05-11 11:28:03,699] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: big_finance_dag.fetch_data_from_big_finance_GOOGL scheduled__2022-05-11T09:27:00+00:00 [queued]>
+[2022-05-11 11:28:03,703] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: big_finance_dag.fetch_data_from_big_finance_GOOGL scheduled__2022-05-11T09:27:00+00:00 [queued]>
+[2022-05-11 11:28:03,703] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-11 11:28:03,703] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-05-11 11:28:03,703] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-11 11:28:03,717] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): fetch_data_from_big_finance_GOOGL> on 2022-05-11 09:27:00+00:00
+[2022-05-11 11:28:03,717] {standard_task_runner.py:52} INFO - Started process 6095 to run task
+[2022-05-11 11:28:03,720] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'big_finance_dag', 'fetch_data_from_big_finance_GOOGL', 'scheduled__2022-05-11T09:27:00+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/big_finance_dag.py', '--cfg-path', '/tmp/tmp7mwgk8bj', '--error-file', '/tmp/tmpbhs40bdj']
+[2022-05-11 11:28:03,720] {standard_task_runner.py:80} INFO - Job 24: Subtask fetch_data_from_big_finance_GOOGL
+[2022-05-11 11:28:03,748] {logging_mixin.py:109} INFO - Running <TaskInstance: big_finance_dag.fetch_data_from_big_finance_GOOGL scheduled__2022-05-11T09:27:00+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-05-11 11:28:03,783] {taskinstance.py:1446} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=big_finance_dag
+AIRFLOW_CTX_TASK_ID=fetch_data_from_big_finance_GOOGL
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-11T09:27:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-11T09:27:00+00:00
+[2022-05-11 11:28:04,241] {logging_mixin.py:109} INFO - {'c': 2287.9, 'd': 37.68, 'dp': 1.6745, 'h': 2325, 'l': 2258.01, 'o': 2310.15, 'pc': 2250.22, 't': 1652212804}
+[2022-05-11 11:28:04,242] {python.py:175} INFO - Done. Returned value was: {'c': 2287.9, 'd': 37.68, 'dp': 1.6745, 'h': 2325, 'l': 2258.01, 'o': 2310.15, 'pc': 2250.22, 't': 1652212804}
+[2022-05-11 11:28:04,271] {taskinstance.py:1278} INFO - Marking task as SUCCESS. dag_id=big_finance_dag, task_id=fetch_data_from_big_finance_GOOGL, execution_date=20220511T092700, start_date=20220511T092803, end_date=20220511T092804
+[2022-05-11 11:28:04,296] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-11 11:28:04,318] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

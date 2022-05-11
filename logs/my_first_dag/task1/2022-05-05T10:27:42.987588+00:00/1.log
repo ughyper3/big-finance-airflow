@@ -1,0 +1,24 @@
+[2022-05-05 12:27:44,560] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: my_first_dag.task1 manual__2022-05-05T10:27:42.987588+00:00 [queued]>
+[2022-05-05 12:27:44,566] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: my_first_dag.task1 manual__2022-05-05T10:27:42.987588+00:00 [queued]>
+[2022-05-05 12:27:44,566] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-05 12:27:44,566] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-05-05 12:27:44,566] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-05 12:27:44,578] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): task1> on 2022-05-05 10:27:42.987588+00:00
+[2022-05-05 12:27:44,579] {standard_task_runner.py:52} INFO - Started process 2447 to run task
+[2022-05-05 12:27:44,581] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'my_first_dag', 'task1', 'manual__2022-05-05T10:27:42.987588+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmppib4obsf', '--error-file', '/tmp/tmpacory9vl']
+[2022-05-05 12:27:44,582] {standard_task_runner.py:80} INFO - Job 7: Subtask task1
+[2022-05-05 12:27:44,612] {logging_mixin.py:109} INFO - Running <TaskInstance: my_first_dag.task1 manual__2022-05-05T10:27:42.987588+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-05-05 12:27:44,646] {taskinstance.py:1446} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=my_first_dag
+AIRFLOW_CTX_TASK_ID=task1
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-05T10:27:42.987588+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-05T10:27:42.987588+00:00
+[2022-05-05 12:27:44,646] {logging_mixin.py:109} INFO - Hello Airflow - This is Task 1
+[2022-05-05 12:27:44,646] {python.py:175} INFO - Done. Returned value was: None
+[2022-05-05 12:27:44,650] {taskinstance.py:1278} INFO - Marking task as SUCCESS. dag_id=my_first_dag, task_id=task1, execution_date=20220505T102742, start_date=20220505T102744, end_date=20220505T102744
+[2022-05-05 12:27:44,674] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-05 12:27:44,691] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
