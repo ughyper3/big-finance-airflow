@@ -1,0 +1,24 @@
+[2022-05-17 20:10:05,543] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: big_finance_dag.fetch_quotation_from_TSLA scheduled__2022-05-17T18:09:00+00:00 [queued]>
+[2022-05-17 20:10:05,548] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: big_finance_dag.fetch_quotation_from_TSLA scheduled__2022-05-17T18:09:00+00:00 [queued]>
+[2022-05-17 20:10:05,548] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-17 20:10:05,548] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-05-17 20:10:05,548] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-17 20:10:05,565] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): fetch_quotation_from_TSLA> on 2022-05-17 18:09:00+00:00
+[2022-05-17 20:10:05,566] {standard_task_runner.py:52} INFO - Started process 7294 to run task
+[2022-05-17 20:10:05,568] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'big_finance_dag', 'fetch_quotation_from_TSLA', 'scheduled__2022-05-17T18:09:00+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/big_finance_dag.py', '--cfg-path', '/tmp/tmplim0jdfh', '--error-file', '/tmp/tmprhuxarxr']
+[2022-05-17 20:10:05,569] {standard_task_runner.py:80} INFO - Job 37: Subtask fetch_quotation_from_TSLA
+[2022-05-17 20:10:05,600] {logging_mixin.py:109} INFO - Running <TaskInstance: big_finance_dag.fetch_quotation_from_TSLA scheduled__2022-05-17T18:09:00+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-05-17 20:10:05,634] {taskinstance.py:1446} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=big_finance_dag
+AIRFLOW_CTX_TASK_ID=fetch_quotation_from_TSLA
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-17T18:09:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-17T18:09:00+00:00
+[2022-05-17 20:10:05,645] {logging_mixin.py:109} INFO - Successful connection to mongo db
+[2022-05-17 20:10:06,134] {python.py:175} INFO - Done. Returned value was: None
+[2022-05-17 20:10:06,138] {taskinstance.py:1278} INFO - Marking task as SUCCESS. dag_id=big_finance_dag, task_id=fetch_quotation_from_TSLA, execution_date=20220517T180900, start_date=20220517T181005, end_date=20220517T181006
+[2022-05-17 20:10:06,183] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-17 20:10:06,194] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
