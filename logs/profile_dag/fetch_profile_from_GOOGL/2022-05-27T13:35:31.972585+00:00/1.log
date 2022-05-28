@@ -1,0 +1,24 @@
+[2022-05-28 15:35:53,477] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: profile_dag.fetch_profile_from_GOOGL scheduled__2022-05-27T13:35:31.972585+00:00 [queued]>
+[2022-05-28 15:35:53,483] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: profile_dag.fetch_profile_from_GOOGL scheduled__2022-05-27T13:35:31.972585+00:00 [queued]>
+[2022-05-28 15:35:53,483] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-28 15:35:53,483] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-05-28 15:35:53,483] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-28 15:35:53,498] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): fetch_profile_from_GOOGL> on 2022-05-27 13:35:31.972585+00:00
+[2022-05-28 15:35:53,500] {standard_task_runner.py:52} INFO - Started process 11772 to run task
+[2022-05-28 15:35:53,503] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'profile_dag', 'fetch_profile_from_GOOGL', 'scheduled__2022-05-27T13:35:31.972585+00:00', '--job-id', '127', '--raw', '--subdir', 'DAGS_FOLDER/profile_dag.py', '--cfg-path', '/tmp/tmpyb4poqdq', '--error-file', '/tmp/tmpjmc424tk']
+[2022-05-28 15:35:53,503] {standard_task_runner.py:80} INFO - Job 127: Subtask fetch_profile_from_GOOGL
+[2022-05-28 15:35:53,539] {logging_mixin.py:109} INFO - Running <TaskInstance: profile_dag.fetch_profile_from_GOOGL scheduled__2022-05-27T13:35:31.972585+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-05-28 15:35:53,581] {taskinstance.py:1446} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=profile_dag
+AIRFLOW_CTX_TASK_ID=fetch_profile_from_GOOGL
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-27T13:35:31.972585+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-27T13:35:31.972585+00:00
+[2022-05-28 15:35:53,596] {logging_mixin.py:109} INFO - Successful connection to mongo db
+[2022-05-28 15:36:00,878] {python.py:175} INFO - Done. Returned value was: None
+[2022-05-28 15:36:00,889] {taskinstance.py:1278} INFO - Marking task as SUCCESS. dag_id=profile_dag, task_id=fetch_profile_from_GOOGL, execution_date=20220527T133531, start_date=20220528T133553, end_date=20220528T133600
+[2022-05-28 15:36:00,928] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-28 15:36:00,935] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

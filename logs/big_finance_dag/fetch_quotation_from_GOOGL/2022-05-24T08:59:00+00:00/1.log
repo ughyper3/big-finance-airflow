@@ -1,0 +1,24 @@
+[2022-05-24 11:00:03,770] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: big_finance_dag.fetch_quotation_from_GOOGL scheduled__2022-05-24T08:59:00+00:00 [queued]>
+[2022-05-24 11:00:03,774] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: big_finance_dag.fetch_quotation_from_GOOGL scheduled__2022-05-24T08:59:00+00:00 [queued]>
+[2022-05-24 11:00:03,774] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-24 11:00:03,774] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-05-24 11:00:03,774] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-24 11:00:03,785] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): fetch_quotation_from_GOOGL> on 2022-05-24 08:59:00+00:00
+[2022-05-24 11:00:03,787] {standard_task_runner.py:52} INFO - Started process 25276 to run task
+[2022-05-24 11:00:03,789] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'big_finance_dag', 'fetch_quotation_from_GOOGL', 'scheduled__2022-05-24T08:59:00+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/big_finance_dag.py', '--cfg-path', '/tmp/tmpjo52d9in', '--error-file', '/tmp/tmpcny0c4od']
+[2022-05-24 11:00:03,790] {standard_task_runner.py:80} INFO - Job 84: Subtask fetch_quotation_from_GOOGL
+[2022-05-24 11:00:03,828] {logging_mixin.py:109} INFO - Running <TaskInstance: big_finance_dag.fetch_quotation_from_GOOGL scheduled__2022-05-24T08:59:00+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-05-24 11:00:03,891] {taskinstance.py:1446} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=big_finance_dag
+AIRFLOW_CTX_TASK_ID=fetch_quotation_from_GOOGL
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-24T08:59:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-24T08:59:00+00:00
+[2022-05-24 11:00:03,965] {logging_mixin.py:109} INFO - Successful connection to mongo db
+[2022-05-24 11:00:04,487] {python.py:175} INFO - Done. Returned value was: None
+[2022-05-24 11:00:04,492] {taskinstance.py:1278} INFO - Marking task as SUCCESS. dag_id=big_finance_dag, task_id=fetch_quotation_from_GOOGL, execution_date=20220524T085900, start_date=20220524T090003, end_date=20220524T090004
+[2022-05-24 11:00:04,526] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-24 11:00:04,538] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

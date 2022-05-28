@@ -1,0 +1,70 @@
+[2022-05-28 18:09:02,730] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: quotation_dag.fetch_quotation_from_AAPL scheduled__2022-05-28T16:08:00+00:00 [queued]>
+[2022-05-28 18:09:02,734] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: quotation_dag.fetch_quotation_from_AAPL scheduled__2022-05-28T16:08:00+00:00 [queued]>
+[2022-05-28 18:09:02,734] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-28 18:09:02,734] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-05-28 18:09:02,734] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-28 18:09:02,748] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): fetch_quotation_from_AAPL> on 2022-05-28 16:08:00+00:00
+[2022-05-28 18:09:02,750] {standard_task_runner.py:52} INFO - Started process 22011 to run task
+[2022-05-28 18:09:02,752] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'quotation_dag', 'fetch_quotation_from_AAPL', 'scheduled__2022-05-28T16:08:00+00:00', '--job-id', '201', '--raw', '--subdir', 'DAGS_FOLDER/load_quotation_dag.py', '--cfg-path', '/tmp/tmpro6sc4un', '--error-file', '/tmp/tmpsy8js4gd']
+[2022-05-28 18:09:02,753] {standard_task_runner.py:80} INFO - Job 201: Subtask fetch_quotation_from_AAPL
+[2022-05-28 18:09:02,781] {logging_mixin.py:109} INFO - Running <TaskInstance: quotation_dag.fetch_quotation_from_AAPL scheduled__2022-05-28T16:08:00+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-05-28 18:09:02,817] {taskinstance.py:1446} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=quotation_dag
+AIRFLOW_CTX_TASK_ID=fetch_quotation_from_AAPL
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-28T16:08:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-28T16:08:00+00:00
+[2022-05-28 18:09:02,877] {logging_mixin.py:109} INFO - Successful connection to mongo db
+[2022-05-28 18:09:04,890] {taskinstance.py:1774} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/airflow_venv/lib/python3.8/site-packages/requests/models.py", line 910, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/airflow_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/udimini/airflow_venv/airflow_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/udimini/airflow/dags/load_quotation_dag.py", line 24, in push_quotation_on_datalake
+    quotation = fetch_quotation_from_big_finance(company, date_from, date_to)
+  File "/home/udimini/airflow/dags/load_quotation_dag.py", line 14, in fetch_quotation_from_big_finance
+    response = get(f"https://bigfinance-api.herokuapp.com/stockdata/api/v1/intraday/{company}/{date_from}/{date_to}/", headers=header).json()
+  File "/home/udimini/airflow_venv/airflow_venv/lib/python3.8/site-packages/requests/models.py", line 917, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: [Errno Expecting value] 
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Server Error (500)</title>
+</head>
+<body>
+  <h1>Server Error (500)</h1><p></p>
+</body>
+</html>
+: 1
+[2022-05-28 18:09:04,895] {taskinstance.py:1278} INFO - Marking task as UP_FOR_RETRY. dag_id=quotation_dag, task_id=fetch_quotation_from_AAPL, execution_date=20220528T160800, start_date=20220528T160902, end_date=20220528T160904
+[2022-05-28 18:09:04,909] {standard_task_runner.py:93} ERROR - Failed to execute job 201 for task fetch_quotation_from_AAPL ([Errno Expecting value] 
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Server Error (500)</title>
+</head>
+<body>
+  <h1>Server Error (500)</h1><p></p>
+</body>
+</html>
+: 1; 22011)
+[2022-05-28 18:09:04,941] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-05-28 18:09:04,954] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

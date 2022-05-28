@@ -1,0 +1,25 @@
+[2022-05-28 18:08:39,826] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: quotation_dag.fetch_quotation_from_AAPL manual__2022-05-28T16:07:35+00:00 [queued]>
+[2022-05-28 18:08:39,831] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: quotation_dag.fetch_quotation_from_AAPL manual__2022-05-28T16:07:35+00:00 [queued]>
+[2022-05-28 18:08:39,831] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-28 18:08:39,831] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-05-28 18:08:39,831] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-28 18:08:39,846] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): fetch_quotation_from_AAPL> on 2022-05-28 16:07:35+00:00
+[2022-05-28 18:08:39,848] {standard_task_runner.py:52} INFO - Started process 21962 to run task
+[2022-05-28 18:08:39,850] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'quotation_dag', 'fetch_quotation_from_AAPL', 'manual__2022-05-28T16:07:35+00:00', '--job-id', '198', '--raw', '--subdir', 'DAGS_FOLDER/load_quotation_dag.py', '--cfg-path', '/tmp/tmp0iuhtkbh', '--error-file', '/tmp/tmpeo4b5fkl']
+[2022-05-28 18:08:39,850] {standard_task_runner.py:80} INFO - Job 198: Subtask fetch_quotation_from_AAPL
+[2022-05-28 18:08:39,881] {logging_mixin.py:109} INFO - Running <TaskInstance: quotation_dag.fetch_quotation_from_AAPL manual__2022-05-28T16:07:35+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-05-28 18:08:39,920] {taskinstance.py:1446} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=quotation_dag
+AIRFLOW_CTX_TASK_ID=fetch_quotation_from_AAPL
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-28T16:07:35+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-28T16:07:35+00:00
+[2022-05-28 18:08:39,931] {logging_mixin.py:109} INFO - Successful connection to mongo db
+[2022-05-28 18:08:41,542] {logging_mixin.py:109} INFO - push_quotation_on_datalake exception : document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+[2022-05-28 18:08:41,543] {python.py:175} INFO - Done. Returned value was: None
+[2022-05-28 18:08:41,556] {taskinstance.py:1278} INFO - Marking task as SUCCESS. dag_id=quotation_dag, task_id=fetch_quotation_from_AAPL, execution_date=20220528T160735, start_date=20220528T160839, end_date=20220528T160841
+[2022-05-28 18:08:41,595] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-28 18:08:41,605] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

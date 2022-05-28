@@ -1,0 +1,252 @@
+[2022-05-28 19:43:14,377] {processor.py:163} INFO - Started process (PID=31845) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:14,377] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:43:14,377] {logging_mixin.py:109} INFO - [2022-05-28 19:43:14,377] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:14,426] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:14,430] {logging_mixin.py:109} INFO - [2022-05-28 19:43:14,430] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:43:14,438] {logging_mixin.py:109} INFO - [2022-05-28 19:43:14,438] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:43:14.438266+00:00
+[2022-05-28 19:43:14,453] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.078 seconds
+[2022-05-28 19:43:19,361] {processor.py:163} INFO - Started process (PID=31856) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:19,362] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:43:19,362] {logging_mixin.py:109} INFO - [2022-05-28 19:43:19,362] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:19,411] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:19,415] {logging_mixin.py:109} INFO - [2022-05-28 19:43:19,415] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:43:19,423] {logging_mixin.py:109} INFO - [2022-05-28 19:43:19,422] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:43:19.422697+00:00
+[2022-05-28 19:43:19,436] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.077 seconds
+[2022-05-28 19:43:23,906] {processor.py:163} INFO - Started process (PID=31860) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:23,907] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:43:23,908] {logging_mixin.py:109} INFO - [2022-05-28 19:43:23,908] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:23,972] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:23,983] {logging_mixin.py:109} INFO - [2022-05-28 19:43:23,983] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:43:24,001] {logging_mixin.py:109} INFO - [2022-05-28 19:43:24,000] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:43:24.000307+00:00
+[2022-05-28 19:43:24,026] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.123 seconds
+[2022-05-28 19:43:27,914] {processor.py:163} INFO - Started process (PID=31864) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:27,916] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:43:27,917] {logging_mixin.py:109} INFO - [2022-05-28 19:43:27,917] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:27,969] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:27,973] {logging_mixin.py:109} INFO - [2022-05-28 19:43:27,973] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:43:27,982] {logging_mixin.py:109} INFO - [2022-05-28 19:43:27,982] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:43:27.982311+00:00
+[2022-05-28 19:43:27,996] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.086 seconds
+[2022-05-28 19:43:31,952] {processor.py:163} INFO - Started process (PID=31869) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:31,954] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:43:31,955] {logging_mixin.py:109} INFO - [2022-05-28 19:43:31,955] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:32,012] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:32,016] {logging_mixin.py:109} INFO - [2022-05-28 19:43:32,016] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:43:32,023] {logging_mixin.py:109} INFO - [2022-05-28 19:43:32,023] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:43:32.023096+00:00
+[2022-05-28 19:43:32,039] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.094 seconds
+[2022-05-28 19:43:35,964] {processor.py:163} INFO - Started process (PID=31873) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:35,965] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:43:35,966] {logging_mixin.py:109} INFO - [2022-05-28 19:43:35,966] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:36,019] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:36,023] {logging_mixin.py:109} INFO - [2022-05-28 19:43:36,023] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:43:36,031] {logging_mixin.py:109} INFO - [2022-05-28 19:43:36,030] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:43:36.030748+00:00
+[2022-05-28 19:43:36,046] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.084 seconds
+[2022-05-28 19:43:41,108] {processor.py:163} INFO - Started process (PID=31878) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:41,109] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:43:41,109] {logging_mixin.py:109} INFO - [2022-05-28 19:43:41,109] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:41,159] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:41,163] {logging_mixin.py:109} INFO - [2022-05-28 19:43:41,163] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:43:41,170] {logging_mixin.py:109} INFO - [2022-05-28 19:43:41,170] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:43:41.170738+00:00
+[2022-05-28 19:43:41,184] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.078 seconds
+[2022-05-28 19:43:45,111] {processor.py:163} INFO - Started process (PID=31882) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:45,111] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:43:45,112] {logging_mixin.py:109} INFO - [2022-05-28 19:43:45,112] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:45,158] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:45,165] {logging_mixin.py:109} INFO - [2022-05-28 19:43:45,165] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:43:45,172] {logging_mixin.py:109} INFO - [2022-05-28 19:43:45,172] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:43:45.172066+00:00
+[2022-05-28 19:43:45,185] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.076 seconds
+[2022-05-28 19:43:50,257] {processor.py:163} INFO - Started process (PID=31887) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:50,258] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:43:50,258] {logging_mixin.py:109} INFO - [2022-05-28 19:43:50,258] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:50,306] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:50,313] {logging_mixin.py:109} INFO - [2022-05-28 19:43:50,313] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:43:50,321] {logging_mixin.py:109} INFO - [2022-05-28 19:43:50,321] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:43:50.321228+00:00
+[2022-05-28 19:43:50,335] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.080 seconds
+[2022-05-28 19:43:54,813] {processor.py:163} INFO - Started process (PID=31891) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:54,813] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:43:54,814] {logging_mixin.py:109} INFO - [2022-05-28 19:43:54,814] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:54,863] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:54,871] {logging_mixin.py:109} INFO - [2022-05-28 19:43:54,870] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:43:54,878] {logging_mixin.py:109} INFO - [2022-05-28 19:43:54,878] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:43:54.877882+00:00
+[2022-05-28 19:43:54,891] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.080 seconds
+[2022-05-28 19:43:59,633] {processor.py:163} INFO - Started process (PID=31896) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:59,634] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:43:59,634] {logging_mixin.py:109} INFO - [2022-05-28 19:43:59,634] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:59,684] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:43:59,693] {logging_mixin.py:109} INFO - [2022-05-28 19:43:59,693] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:43:59,700] {logging_mixin.py:109} INFO - [2022-05-28 19:43:59,700] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:43:59.700182+00:00
+[2022-05-28 19:43:59,719] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.088 seconds
+[2022-05-28 19:44:04,096] {processor.py:163} INFO - Started process (PID=31900) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:04,106] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:04,106] {logging_mixin.py:109} INFO - [2022-05-28 19:44:04,106] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:04,155] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:04,163] {logging_mixin.py:109} INFO - [2022-05-28 19:44:04,163] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:04,170] {logging_mixin.py:109} INFO - [2022-05-28 19:44:04,170] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:44:04.170402+00:00
+[2022-05-28 19:44:04,186] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.092 seconds
+[2022-05-28 19:44:09,245] {processor.py:163} INFO - Started process (PID=31905) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:09,246] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:09,246] {logging_mixin.py:109} INFO - [2022-05-28 19:44:09,246] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:09,293] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:09,301] {logging_mixin.py:109} INFO - [2022-05-28 19:44:09,301] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:09,308] {logging_mixin.py:109} INFO - [2022-05-28 19:44:09,308] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-27T17:44:09.307870+00:00
+[2022-05-28 19:44:09,323] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.080 seconds
+[2022-05-28 19:44:23,947] {processor.py:163} INFO - Started process (PID=31969) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:23,948] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:23,948] {logging_mixin.py:109} INFO - [2022-05-28 19:44:23,948] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:23,998] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:24,005] {logging_mixin.py:109} INFO - [2022-05-28 19:44:24,005] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:24,012] {logging_mixin.py:109} INFO - [2022-05-28 19:44:24,012] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:44:24,028] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.083 seconds
+[2022-05-28 19:44:24,068] {processor.py:163} INFO - Started process (PID=31970) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:24,069] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:24,069] {logging_mixin.py:109} INFO - [2022-05-28 19:44:24,069] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:24,119] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:24,129] {logging_mixin.py:109} INFO - [2022-05-28 19:44:24,129] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:24,135] {logging_mixin.py:109} INFO - [2022-05-28 19:44:24,135] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:44:24,152] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.086 seconds
+[2022-05-28 19:44:24,169] {processor.py:163} INFO - Started process (PID=31971) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:24,170] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:24,170] {logging_mixin.py:109} INFO - [2022-05-28 19:44:24,170] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:24,216] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:24,226] {logging_mixin.py:109} INFO - [2022-05-28 19:44:24,226] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:24,232] {logging_mixin.py:109} INFO - [2022-05-28 19:44:24,232] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:44:24,248] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.081 seconds
+[2022-05-28 19:44:28,941] {processor.py:163} INFO - Started process (PID=31976) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:28,942] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:28,942] {logging_mixin.py:109} INFO - [2022-05-28 19:44:28,942] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:28,990] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:28,998] {logging_mixin.py:109} INFO - [2022-05-28 19:44:28,998] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:29,005] {logging_mixin.py:109} INFO - [2022-05-28 19:44:29,005] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:44:29,018] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.079 seconds
+[2022-05-28 19:44:33,089] {processor.py:163} INFO - Started process (PID=31980) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:33,093] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:33,094] {logging_mixin.py:109} INFO - [2022-05-28 19:44:33,094] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:33,145] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:33,153] {logging_mixin.py:109} INFO - [2022-05-28 19:44:33,153] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:33,170] {logging_mixin.py:109} INFO - [2022-05-28 19:44:33,170] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:44:33,180] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.098 seconds
+[2022-05-28 19:44:37,106] {processor.py:163} INFO - Started process (PID=31984) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:37,107] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:37,107] {logging_mixin.py:109} INFO - [2022-05-28 19:44:37,107] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:37,157] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:37,164] {logging_mixin.py:109} INFO - [2022-05-28 19:44:37,164] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:37,171] {logging_mixin.py:109} INFO - [2022-05-28 19:44:37,170] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:44:37,187] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.083 seconds
+[2022-05-28 19:44:41,223] {processor.py:163} INFO - Started process (PID=31989) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:41,232] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:41,232] {logging_mixin.py:109} INFO - [2022-05-28 19:44:41,232] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:41,284] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:41,291] {logging_mixin.py:109} INFO - [2022-05-28 19:44:41,291] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:41,299] {logging_mixin.py:109} INFO - [2022-05-28 19:44:41,299] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:44:41,314] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.092 seconds
+[2022-05-28 19:44:45,236] {processor.py:163} INFO - Started process (PID=31993) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:45,246] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:45,247] {logging_mixin.py:109} INFO - [2022-05-28 19:44:45,247] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:45,300] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:45,307] {logging_mixin.py:109} INFO - [2022-05-28 19:44:45,307] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:45,317] {logging_mixin.py:109} INFO - [2022-05-28 19:44:45,317] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:44:45,330] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.095 seconds
+[2022-05-28 19:44:49,240] {processor.py:163} INFO - Started process (PID=31997) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:49,249] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:49,249] {logging_mixin.py:109} INFO - [2022-05-28 19:44:49,249] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:49,300] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:49,308] {logging_mixin.py:109} INFO - [2022-05-28 19:44:49,308] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:49,316] {logging_mixin.py:109} INFO - [2022-05-28 19:44:49,316] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:44:49,328] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.090 seconds
+[2022-05-28 19:44:53,996] {processor.py:163} INFO - Started process (PID=32002) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:54,005] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:54,006] {logging_mixin.py:109} INFO - [2022-05-28 19:44:54,006] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:54,055] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:54,062] {logging_mixin.py:109} INFO - [2022-05-28 19:44:54,062] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:54,070] {logging_mixin.py:109} INFO - [2022-05-28 19:44:54,070] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:44:54,086] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.092 seconds
+[2022-05-28 19:44:57,397] {processor.py:163} INFO - Started process (PID=32006) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:57,398] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:44:57,399] {logging_mixin.py:109} INFO - [2022-05-28 19:44:57,398] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:57,445] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:44:57,453] {logging_mixin.py:109} INFO - [2022-05-28 19:44:57,453] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:44:57,460] {logging_mixin.py:109} INFO - [2022-05-28 19:44:57,460] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:44:57,473] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.077 seconds
+[2022-05-28 19:45:01,411] {processor.py:163} INFO - Started process (PID=32010) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:01,420] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:01,421] {logging_mixin.py:109} INFO - [2022-05-28 19:45:01,421] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:01,472] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:01,481] {logging_mixin.py:109} INFO - [2022-05-28 19:45:01,481] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:01,489] {logging_mixin.py:109} INFO - [2022-05-28 19:45:01,489] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:01,505] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.097 seconds
+[2022-05-28 19:45:06,476] {processor.py:163} INFO - Started process (PID=32015) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:06,485] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:06,486] {logging_mixin.py:109} INFO - [2022-05-28 19:45:06,486] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:06,537] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:06,544] {logging_mixin.py:109} INFO - [2022-05-28 19:45:06,544] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:06,551] {logging_mixin.py:109} INFO - [2022-05-28 19:45:06,551] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:06,567] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.097 seconds
+[2022-05-28 19:45:09,431] {processor.py:163} INFO - Started process (PID=32019) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:09,441] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:09,441] {logging_mixin.py:109} INFO - [2022-05-28 19:45:09,441] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:09,490] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:09,497] {logging_mixin.py:109} INFO - [2022-05-28 19:45:09,497] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:09,504] {logging_mixin.py:109} INFO - [2022-05-28 19:45:09,504] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:09,516] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.087 seconds
+[2022-05-28 19:45:13,609] {processor.py:163} INFO - Started process (PID=32023) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:13,610] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:13,611] {logging_mixin.py:109} INFO - [2022-05-28 19:45:13,610] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:13,661] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:13,668] {logging_mixin.py:109} INFO - [2022-05-28 19:45:13,668] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:13,675] {logging_mixin.py:109} INFO - [2022-05-28 19:45:13,675] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:13,691] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.084 seconds
+[2022-05-28 19:45:18,624] {processor.py:163} INFO - Started process (PID=32028) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:18,625] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:18,625] {logging_mixin.py:109} INFO - [2022-05-28 19:45:18,625] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:18,675] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:18,683] {logging_mixin.py:109} INFO - [2022-05-28 19:45:18,683] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:18,691] {logging_mixin.py:109} INFO - [2022-05-28 19:45:18,691] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:18,705] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.083 seconds
+[2022-05-28 19:45:22,640] {processor.py:163} INFO - Started process (PID=32032) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:22,641] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:22,641] {logging_mixin.py:109} INFO - [2022-05-28 19:45:22,641] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:22,689] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:22,697] {logging_mixin.py:109} INFO - [2022-05-28 19:45:22,697] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:22,705] {logging_mixin.py:109} INFO - [2022-05-28 19:45:22,705] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:22,720] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.082 seconds
+[2022-05-28 19:45:25,604] {processor.py:163} INFO - Started process (PID=32036) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:25,604] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:25,605] {logging_mixin.py:109} INFO - [2022-05-28 19:45:25,605] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:25,653] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:25,660] {logging_mixin.py:109} INFO - [2022-05-28 19:45:25,660] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:25,667] {logging_mixin.py:109} INFO - [2022-05-28 19:45:25,667] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:25,680] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.078 seconds
+[2022-05-28 19:45:30,649] {processor.py:163} INFO - Started process (PID=32041) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:30,650] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:30,650] {logging_mixin.py:109} INFO - [2022-05-28 19:45:30,650] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:30,697] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:30,705] {logging_mixin.py:109} INFO - [2022-05-28 19:45:30,705] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:30,712] {logging_mixin.py:109} INFO - [2022-05-28 19:45:30,712] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:30,726] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.079 seconds
+[2022-05-28 19:45:34,652] {processor.py:163} INFO - Started process (PID=32045) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:34,652] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:34,653] {logging_mixin.py:109} INFO - [2022-05-28 19:45:34,653] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:34,701] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:34,707] {logging_mixin.py:109} INFO - [2022-05-28 19:45:34,707] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:34,715] {logging_mixin.py:109} INFO - [2022-05-28 19:45:34,715] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:34,729] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.079 seconds
+[2022-05-28 19:45:38,797] {processor.py:163} INFO - Started process (PID=32049) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:38,798] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:38,799] {logging_mixin.py:109} INFO - [2022-05-28 19:45:38,799] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:38,856] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:38,864] {logging_mixin.py:109} INFO - [2022-05-28 19:45:38,864] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:38,871] {logging_mixin.py:109} INFO - [2022-05-28 19:45:38,871] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:38,886] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.094 seconds
+[2022-05-28 19:45:42,807] {processor.py:163} INFO - Started process (PID=32054) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:42,809] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:42,810] {logging_mixin.py:109} INFO - [2022-05-28 19:45:42,810] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:42,863] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:42,870] {logging_mixin.py:109} INFO - [2022-05-28 19:45:42,870] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:42,879] {logging_mixin.py:109} INFO - [2022-05-28 19:45:42,879] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:42,893] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.090 seconds
+[2022-05-28 19:45:46,805] {processor.py:163} INFO - Started process (PID=32058) to work on /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:46,814] {processor.py:642} INFO - Processing file /home/udimini/airflow/dags/load_news_dag.py for tasks to queue
+[2022-05-28 19:45:46,814] {logging_mixin.py:109} INFO - [2022-05-28 19:45:46,814] {dagbag.py:500} INFO - Filling up the DagBag from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:46,862] {processor.py:652} INFO - DAG(s) dict_keys(['news_dag']) retrieved from /home/udimini/airflow/dags/load_news_dag.py
+[2022-05-28 19:45:46,870] {logging_mixin.py:109} INFO - [2022-05-28 19:45:46,870] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-28 19:45:46,877] {logging_mixin.py:109} INFO - [2022-05-28 19:45:46,877] {dag.py:2937} INFO - Setting next_dagrun for news_dag to 2022-05-28T17:44:09.307870+00:00
+[2022-05-28 19:45:46,893] {processor.py:171} INFO - Processing /home/udimini/airflow/dags/load_news_dag.py took 0.090 seconds

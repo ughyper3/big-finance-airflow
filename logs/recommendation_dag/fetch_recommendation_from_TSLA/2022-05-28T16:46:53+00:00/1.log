@@ -1,0 +1,24 @@
+[2022-05-28 18:47:53,188] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: recommendation_dag.fetch_recommendation_from_TSLA manual__2022-05-28T16:46:53+00:00 [queued]>
+[2022-05-28 18:47:53,192] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: recommendation_dag.fetch_recommendation_from_TSLA manual__2022-05-28T16:46:53+00:00 [queued]>
+[2022-05-28 18:47:53,192] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-28 18:47:53,192] {taskinstance.py:1250} INFO - Starting attempt 1 of 2
+[2022-05-28 18:47:53,192] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-28 18:47:53,205] {taskinstance.py:1270} INFO - Executing <Task(PythonOperator): fetch_recommendation_from_TSLA> on 2022-05-28 16:46:53+00:00
+[2022-05-28 18:47:53,206] {standard_task_runner.py:52} INFO - Started process 26157 to run task
+[2022-05-28 18:47:53,208] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'recommendation_dag', 'fetch_recommendation_from_TSLA', 'manual__2022-05-28T16:46:53+00:00', '--job-id', '226', '--raw', '--subdir', 'DAGS_FOLDER/load_recommendation_dag.py', '--cfg-path', '/tmp/tmp1gqi847_', '--error-file', '/tmp/tmplwuhhrby']
+[2022-05-28 18:47:53,209] {standard_task_runner.py:80} INFO - Job 226: Subtask fetch_recommendation_from_TSLA
+[2022-05-28 18:47:53,237] {logging_mixin.py:109} INFO - Running <TaskInstance: recommendation_dag.fetch_recommendation_from_TSLA manual__2022-05-28T16:46:53+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-05-28 18:47:53,272] {taskinstance.py:1446} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=recommendation_dag
+AIRFLOW_CTX_TASK_ID=fetch_recommendation_from_TSLA
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-28T16:46:53+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-28T16:46:53+00:00
+[2022-05-28 18:47:53,283] {logging_mixin.py:109} INFO - Successful connection to mongo db
+[2022-05-28 18:47:53,850] {python.py:175} INFO - Done. Returned value was: None
+[2022-05-28 18:47:53,855] {taskinstance.py:1278} INFO - Marking task as SUCCESS. dag_id=recommendation_dag, task_id=fetch_recommendation_from_TSLA, execution_date=20220528T164653, start_date=20220528T164753, end_date=20220528T164753
+[2022-05-28 18:47:53,905] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-28 18:47:53,918] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

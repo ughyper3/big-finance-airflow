@@ -2,40 +2,35 @@ from datetime import datetime, timedelta
 
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from pymongo import MongoClient
+from helpers.mongoDB import MongoDB
 from requests import get
 
 
-def init_mongo_connection():
-
-    URI = f'mongodb+srv://airflow:adminpassword@cluster0.jdvey.mongodb.net/test'
-    try:
-        client = MongoClient(URI)
-        print(f'Successful connection to mongo db')
-        return client
-    except Exception as e:
-        print(f'Exception {e} during mongo db connection')
+mongoDB = MongoDB()
 
 
-def fetch_quotation_from_big_finance(company):
+def fetch_quotation_from_big_finance(company, date_from, date_to):
     header = {"Authorization": "Token 84170d390b7cdd924efeb95be75b8266cf15a50f"}
-    response = get(f"https://bigfinance-api.herokuapp.com/finnhub/api/v1/quote/{company}/", headers=header).json()
+    response = get(f"https://bigfinance-api.herokuapp.com/stockdata/api/v1/intraday/{company}/{date_from}/{date_to}/", headers=header).json()
     return response
 
 
 def push_quotation_on_datalake(**kwargs):
-    client = init_mongo_connection()
+    client = mongoDB.init_mongo_connection()
     db = client.big_finance
     company = kwargs['company']
-    quotation = fetch_quotation_from_big_finance(company)
-    try:
-        result = db.reviews.insert_one(quotation)
-    except Exception as e:
-        print(f'push_quotation_on_datalake exception : {e}')
+    date_from = kwargs['dag_run'].conf.get('date_from')
+    date_to = kwargs['dag_run'].conf.get('date_to')
+    quotation = fetch_quotation_from_big_finance(company, date_from, date_to)
+    for quote in quotation:
+        try:
+            result = db.intraday.insert_one(quote)
+        except Exception as e:
+            print(f'push_quotation_on_datalake exception : {e}')
 
 
 with DAG(
-    'big_finance_dag',
+    'quotation_dag',
     default_args={
         'depends_on_past': False,
         'email': ['airflow@example.com'],
@@ -45,7 +40,6 @@ with DAG(
         'retry_delay': timedelta(seconds=15),
     },
     description='DAG calling big finance api',
-    schedule_interval='*/1 * * * *',
     dagrun_timeout=timedelta(seconds=5),
     start_date=datetime(2021, 1, 1),
     catchup=False,
@@ -61,6 +55,8 @@ with DAG(
         task = PythonOperator(
             task_id=f'fetch_quotation_from_{company}',
             python_callable=push_quotation_on_datalake,
-            op_kwargs={'company': company},
+            op_kwargs={
+                'company': company
+            },
             dag=dag
         )
