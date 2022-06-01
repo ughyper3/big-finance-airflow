@@ -1,12 +1,14 @@
 from pymongo import MongoClient
+from .credentials import Credentials
 
+credentials = Credentials()
 
 
 class MongoDB:
 
     @staticmethod
     def init_mongo_connection():
-        URI = f'mongodb+srv://airflow:adminpassword@cluster0.jdvey.mongodb.net/test'
+        URI = credentials.MDB_CONNECTION_STRING
         try:
             client = MongoClient(URI)
             print(f'Successful connection to mongo db')

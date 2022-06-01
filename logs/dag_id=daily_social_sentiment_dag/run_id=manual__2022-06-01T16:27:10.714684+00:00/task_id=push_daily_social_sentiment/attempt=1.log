@@ -1,0 +1,26 @@
+[2022-06-01 18:27:35,800] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: daily_social_sentiment_dag.push_daily_social_sentiment manual__2022-06-01T16:27:10.714684+00:00 [queued]>
+[2022-06-01 18:27:35,807] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: daily_social_sentiment_dag.push_daily_social_sentiment manual__2022-06-01T16:27:10.714684+00:00 [queued]>
+[2022-06-01 18:27:35,807] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 18:27:35,807] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-01 18:27:35,807] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 18:27:35,824] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): push_daily_social_sentiment> on 2022-06-01 16:27:10.714684+00:00
+[2022-06-01 18:27:35,826] {standard_task_runner.py:52} INFO - Started process 22873 to run task
+[2022-06-01 18:27:35,829] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'daily_social_sentiment_dag', 'push_daily_social_sentiment', 'manual__2022-06-01T16:27:10.714684+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/social_sentiment/daily_social_sentiment_dag.py', '--cfg-path', '/tmp/tmpbwl_un2e', '--error-file', '/tmp/tmpa2qu1jen']
+[2022-06-01 18:27:35,829] {standard_task_runner.py:80} INFO - Job 53: Subtask push_daily_social_sentiment
+[2022-06-01 18:27:35,846] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/configuration.py:529 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-06-01 18:27:35,865] {task_command.py:370} INFO - Running <TaskInstance: daily_social_sentiment_dag.push_daily_social_sentiment manual__2022-06-01T16:27:10.714684+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-06-01 18:27:35,919] {taskinstance.py:1570} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=daily_social_sentiment_dag
+AIRFLOW_CTX_TASK_ID=push_daily_social_sentiment
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-01T16:27:10.714684+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-06-01T16:27:10.714684+00:00
+[2022-06-01 18:27:35,932] {logging_mixin.py:115} INFO - Successful connection to mongo db
+[2022-06-01 18:27:37,621] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-01 18:27:37,629] {taskinstance.py:1396} INFO - Marking task as SUCCESS. dag_id=daily_social_sentiment_dag, task_id=push_daily_social_sentiment, execution_date=20220601T162710, start_date=20220601T162735, end_date=20220601T162737
+[2022-06-01 18:27:37,661] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-01 18:27:37,680] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

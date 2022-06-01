@@ -1,0 +1,26 @@
+[2022-05-31 10:21:55,244] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: quotation_dag.fetch_quotation_from_GOOGL manual__2022-05-31T08:20:23+00:00 [queued]>
+[2022-05-31 10:21:55,248] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: quotation_dag.fetch_quotation_from_GOOGL manual__2022-05-31T08:20:23+00:00 [queued]>
+[2022-05-31 10:21:55,248] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-31 10:21:55,248] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-05-31 10:21:55,248] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-31 10:21:55,262] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): fetch_quotation_from_GOOGL> on 2022-05-31 08:20:23+00:00
+[2022-05-31 10:21:55,264] {standard_task_runner.py:52} INFO - Started process 22848 to run task
+[2022-05-31 10:21:55,266] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'quotation_dag', 'fetch_quotation_from_GOOGL', 'manual__2022-05-31T08:20:23+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/load_quotation_dag.py', '--cfg-path', '/tmp/tmp9ycc7g4j', '--error-file', '/tmp/tmp4kc7l5yh']
+[2022-05-31 10:21:55,267] {standard_task_runner.py:80} INFO - Job 10: Subtask fetch_quotation_from_GOOGL
+[2022-05-31 10:21:55,283] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/configuration.py:529 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-05-31 10:21:55,299] {task_command.py:370} INFO - Running <TaskInstance: quotation_dag.fetch_quotation_from_GOOGL manual__2022-05-31T08:20:23+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-05-31 10:21:55,346] {taskinstance.py:1570} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=quotation_dag
+AIRFLOW_CTX_TASK_ID=fetch_quotation_from_GOOGL
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-31T08:20:23+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-31T08:20:23+00:00
+[2022-05-31 10:21:55,357] {logging_mixin.py:115} INFO - Successful connection to mongo db
+[2022-05-31 10:21:55,862] {python.py:173} INFO - Done. Returned value was: None
+[2022-05-31 10:21:55,866] {taskinstance.py:1396} INFO - Marking task as SUCCESS. dag_id=quotation_dag, task_id=fetch_quotation_from_GOOGL, execution_date=20220531T082023, start_date=20220531T082155, end_date=20220531T082155
+[2022-05-31 10:21:55,922] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-05-31 10:21:55,951] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

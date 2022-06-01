@@ -1,0 +1,57 @@
+[2022-06-01 18:24:07,102] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: daily_social_sentiment_dag.push_daily_social_sentiment scheduled__2022-05-31T16:23:27.036593+00:00 [queued]>
+[2022-06-01 18:24:07,111] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: daily_social_sentiment_dag.push_daily_social_sentiment scheduled__2022-05-31T16:23:27.036593+00:00 [queued]>
+[2022-06-01 18:24:07,111] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 18:24:07,111] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-01 18:24:07,111] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 18:24:07,129] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): push_daily_social_sentiment> on 2022-05-31 16:23:27.036593+00:00
+[2022-06-01 18:24:07,132] {standard_task_runner.py:52} INFO - Started process 19890 to run task
+[2022-06-01 18:24:07,136] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'daily_social_sentiment_dag', 'push_daily_social_sentiment', 'scheduled__2022-05-31T16:23:27.036593+00:00', '--job-id', '52', '--raw', '--subdir', 'DAGS_FOLDER/social_sentiment/daily_social_sentiment_dag.py', '--cfg-path', '/tmp/tmp4p__mjuo', '--error-file', '/tmp/tmpeex0d743']
+[2022-06-01 18:24:07,137] {standard_task_runner.py:80} INFO - Job 52: Subtask push_daily_social_sentiment
+[2022-06-01 18:24:07,157] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/configuration.py:529 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-06-01 18:24:07,159] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/configuration.py:529 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-06-01 18:24:07,188] {task_command.py:370} INFO - Running <TaskInstance: daily_social_sentiment_dag.push_daily_social_sentiment scheduled__2022-05-31T16:23:27.036593+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-06-01 18:24:07,243] {taskinstance.py:1570} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=daily_social_sentiment_dag
+AIRFLOW_CTX_TASK_ID=push_daily_social_sentiment
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-31T16:23:27.036593+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-31T16:23:27.036593+00:00
+[2022-06-01 18:24:07,258] {logging_mixin.py:115} INFO - Successful connection to mongo db
+[2022-06-01 18:24:07,376] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:24:07,616] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/udimini/airflow/dags/social_sentiment/daily_social_sentiment_dag.py", line 18, in push_social_sentiment_on_datalake
+    sentiments = spark.get_daily_social_sentiments()
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 30, in get_daily_social_sentiments
+    query = session.sql(
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/session.py", line 723, in sql
+    return DataFrame(self._jsparkSession.sql(sqlQuery), self._wrapped)
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/utils.py", line 117, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: cannot resolve 'atTime' given input columns: [socialsentimentsdaycollection._id, socialsentimentsdaycollection.buy, socialsentimentsdaycollection.hold, socialsentimentsdaycollection.period, socialsentimentsdaycollection.sell, socialsentimentsdaycollection.strongBuy, socialsentimentsdaycollection.strongSell, socialsentimentsdaycollection.symbol]; line 1 pos 379;
+'Sort ['company ASC NULLS FIRST, 'DATE('atTime) ASC NULLS FIRST], true
++- 'Aggregate ['DATE('atTime), 'company, 'media], [count(distinct _id#36) AS observations#52L, 'DATE('atTime) AS date#53, 'company, 'media, 'SUM('mention) AS mention#54, 'ROUND('AVG('positiveScore), 3) AS avg_positive_score#55, 'ROUND('AVG('negativeScore), 3) AS avg_negative_score#56, 'SUM('positiveMention) AS positive_mention#57, 'SUM('negativeMention) AS negative_mention#58, 'round('AVG('score), 3) AS avg_score#59]
+   +- SubqueryAlias socialsentimentsdaycollection
+      +- View (`socialSentimentsDayCollection`, [_id#36,buy#37,hold#38,period#39,sell#40,strongBuy#41,strongSell#42,symbol#43])
+         +- Relation [_id#36,buy#37,hold#38,period#39,sell#40,strongBuy#41,strongSell#42,symbol#43] MongoRelation(MongoRDD[19] at RDD at MongoRDD.scala:51,Some(StructType(StructField(_id,StructType(StructField(oid,StringType,true)),true), StructField(buy,IntegerType,true), StructField(hold,IntegerType,true), StructField(period,StringType,true), StructField(sell,IntegerType,true), StructField(strongBuy,IntegerType,true), StructField(strongSell,IntegerType,true), StructField(symbol,StringType,true))))
+
+[2022-06-01 18:24:07,677] {taskinstance.py:1396} INFO - Marking task as UP_FOR_RETRY. dag_id=daily_social_sentiment_dag, task_id=push_daily_social_sentiment, execution_date=20220531T162327, start_date=20220601T162407, end_date=20220601T162407
+[2022-06-01 18:24:07,696] {standard_task_runner.py:92} ERROR - Failed to execute job 52 for task push_daily_social_sentiment (cannot resolve 'atTime' given input columns: [socialsentimentsdaycollection._id, socialsentimentsdaycollection.buy, socialsentimentsdaycollection.hold, socialsentimentsdaycollection.period, socialsentimentsdaycollection.sell, socialsentimentsdaycollection.strongBuy, socialsentimentsdaycollection.strongSell, socialsentimentsdaycollection.symbol]; line 1 pos 379;
+'Sort ['company ASC NULLS FIRST, 'DATE('atTime) ASC NULLS FIRST], true
++- 'Aggregate ['DATE('atTime), 'company, 'media], [count(distinct _id#36) AS observations#52L, 'DATE('atTime) AS date#53, 'company, 'media, 'SUM('mention) AS mention#54, 'ROUND('AVG('positiveScore), 3) AS avg_positive_score#55, 'ROUND('AVG('negativeScore), 3) AS avg_negative_score#56, 'SUM('positiveMention) AS positive_mention#57, 'SUM('negativeMention) AS negative_mention#58, 'round('AVG('score), 3) AS avg_score#59]
+   +- SubqueryAlias socialsentimentsdaycollection
+      +- View (`socialSentimentsDayCollection`, [_id#36,buy#37,hold#38,period#39,sell#40,strongBuy#41,strongSell#42,symbol#43])
+         +- Relation [_id#36,buy#37,hold#38,period#39,sell#40,strongBuy#41,strongSell#42,symbol#43] MongoRelation(MongoRDD[19] at RDD at MongoRDD.scala:51,Some(StructType(StructField(_id,StructType(StructField(oid,StringType,true)),true), StructField(buy,IntegerType,true), StructField(hold,IntegerType,true), StructField(period,StringType,true), StructField(sell,IntegerType,true), StructField(strongBuy,IntegerType,true), StructField(strongSell,IntegerType,true), StructField(symbol,StringType,true))))
+; 19890)
+[2022-06-01 18:24:07,711] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-06-01 18:24:07,734] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
