@@ -1,0 +1,1324 @@
+[2022-05-31 23:10:53,320] {processor.py:153} INFO - Started process (PID=32635) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:10:53,321] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:10:53,321] {logging_mixin.py:115} INFO - [2022-05-31 23:10:53,321] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:10:53,405] {logging_mixin.py:115} INFO - [2022-05-31 23:10:53,404] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:10:53,405] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:10:53,423] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.105 seconds
+[2022-05-31 23:10:54,607] {processor.py:153} INFO - Started process (PID=32636) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:10:54,608] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:10:54,610] {logging_mixin.py:115} INFO - [2022-05-31 23:10:54,610] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:10:54,689] {logging_mixin.py:115} INFO - [2022-05-31 23:10:54,689] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:10:54,689] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:10:54,716] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.120 seconds
+[2022-05-31 23:10:56,571] {processor.py:153} INFO - Started process (PID=32638) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:10:56,572] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:10:56,572] {logging_mixin.py:115} INFO - [2022-05-31 23:10:56,572] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:10:56,637] {logging_mixin.py:115} INFO - [2022-05-31 23:10:56,637] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:10:56,638] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:10:56,659] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.091 seconds
+[2022-05-31 23:11:00,093] {processor.py:153} INFO - Started process (PID=32641) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:00,094] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:00,095] {logging_mixin.py:115} INFO - [2022-05-31 23:11:00,095] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:00,177] {logging_mixin.py:115} INFO - [2022-05-31 23:11:00,177] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:00,178] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:00,203] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.114 seconds
+[2022-05-31 23:11:03,317] {processor.py:153} INFO - Started process (PID=32644) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:03,318] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:03,319] {logging_mixin.py:115} INFO - [2022-05-31 23:11:03,318] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:03,397] {logging_mixin.py:115} INFO - [2022-05-31 23:11:03,397] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:03,398] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:03,420] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.107 seconds
+[2022-05-31 23:11:07,188] {processor.py:153} INFO - Started process (PID=32705) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:07,189] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:07,190] {logging_mixin.py:115} INFO - [2022-05-31 23:11:07,190] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:07,275] {logging_mixin.py:115} INFO - [2022-05-31 23:11:07,274] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:07,275] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:07,296] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.118 seconds
+[2022-05-31 23:11:10,347] {processor.py:153} INFO - Started process (PID=32708) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:10,347] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:10,348] {logging_mixin.py:115} INFO - [2022-05-31 23:11:10,348] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:10,400] {logging_mixin.py:115} INFO - [2022-05-31 23:11:10,400] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:10,401] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:10,416] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.071 seconds
+[2022-05-31 23:11:12,859] {processor.py:153} INFO - Started process (PID=32711) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:12,859] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:12,860] {logging_mixin.py:115} INFO - [2022-05-31 23:11:12,860] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:12,927] {logging_mixin.py:115} INFO - [2022-05-31 23:11:12,926] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:12,927] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:12,944] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.091 seconds
+[2022-05-31 23:11:15,261] {processor.py:153} INFO - Started process (PID=32713) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:15,262] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:15,264] {logging_mixin.py:115} INFO - [2022-05-31 23:11:15,264] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:15,341] {logging_mixin.py:115} INFO - [2022-05-31 23:11:15,340] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:15,341] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:15,364] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.113 seconds
+[2022-05-31 23:11:18,997] {processor.py:153} INFO - Started process (PID=32716) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:18,998] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:19,000] {logging_mixin.py:115} INFO - [2022-05-31 23:11:19,000] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:19,074] {logging_mixin.py:115} INFO - [2022-05-31 23:11:19,073] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:19,074] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:19,096] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.107 seconds
+[2022-05-31 23:11:21,745] {processor.py:153} INFO - Started process (PID=32719) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:21,747] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:21,748] {logging_mixin.py:115} INFO - [2022-05-31 23:11:21,748] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:21,821] {logging_mixin.py:115} INFO - [2022-05-31 23:11:21,820] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:21,821] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:21,840] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.103 seconds
+[2022-05-31 23:11:25,539] {processor.py:153} INFO - Started process (PID=32722) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:25,540] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:25,541] {logging_mixin.py:115} INFO - [2022-05-31 23:11:25,541] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:25,614] {logging_mixin.py:115} INFO - [2022-05-31 23:11:25,614] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:25,614] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:25,638] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.105 seconds
+[2022-05-31 23:11:29,349] {processor.py:153} INFO - Started process (PID=32725) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:29,360] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:29,362] {logging_mixin.py:115} INFO - [2022-05-31 23:11:29,362] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:29,434] {logging_mixin.py:115} INFO - [2022-05-31 23:11:29,434] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:29,435] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:29,455] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.116 seconds
+[2022-05-31 23:11:33,131] {processor.py:153} INFO - Started process (PID=32728) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:33,132] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:33,134] {logging_mixin.py:115} INFO - [2022-05-31 23:11:33,134] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:33,207] {logging_mixin.py:115} INFO - [2022-05-31 23:11:33,207] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:33,208] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:33,229] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.107 seconds
+[2022-05-31 23:11:36,857] {processor.py:153} INFO - Started process (PID=32731) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:36,858] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:36,858] {logging_mixin.py:115} INFO - [2022-05-31 23:11:36,858] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:36,917] {logging_mixin.py:115} INFO - [2022-05-31 23:11:36,916] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:36,917] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:36,936] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.081 seconds
+[2022-05-31 23:11:39,595] {processor.py:153} INFO - Started process (PID=32734) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:39,596] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:39,596] {logging_mixin.py:115} INFO - [2022-05-31 23:11:39,596] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:39,654] {logging_mixin.py:115} INFO - [2022-05-31 23:11:39,653] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:39,654] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:39,674] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.081 seconds
+[2022-05-31 23:11:42,409] {processor.py:153} INFO - Started process (PID=32737) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:42,410] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:42,410] {logging_mixin.py:115} INFO - [2022-05-31 23:11:42,410] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:42,476] {logging_mixin.py:115} INFO - [2022-05-31 23:11:42,475] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:42,476] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:42,498] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.092 seconds
+[2022-05-31 23:11:45,982] {processor.py:153} INFO - Started process (PID=32744) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:45,983] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:45,983] {logging_mixin.py:115} INFO - [2022-05-31 23:11:45,983] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:46,054] {logging_mixin.py:115} INFO - [2022-05-31 23:11:46,054] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:46,054] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:46,076] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.096 seconds
+[2022-05-31 23:11:48,984] {processor.py:153} INFO - Started process (PID=319) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:48,985] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:48,986] {logging_mixin.py:115} INFO - [2022-05-31 23:11:48,986] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:49,060] {logging_mixin.py:115} INFO - [2022-05-31 23:11:49,060] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:49,060] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:49,080] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.105 seconds
+[2022-05-31 23:11:52,249] {processor.py:153} INFO - Started process (PID=322) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:52,249] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:52,250] {logging_mixin.py:115} INFO - [2022-05-31 23:11:52,250] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:52,309] {logging_mixin.py:115} INFO - [2022-05-31 23:11:52,309] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:52,309] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:52,329] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.083 seconds
+[2022-05-31 23:11:55,393] {processor.py:153} INFO - Started process (PID=325) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:55,394] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:55,395] {logging_mixin.py:115} INFO - [2022-05-31 23:11:55,395] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:55,468] {logging_mixin.py:115} INFO - [2022-05-31 23:11:55,467] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:55,468] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:55,490] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.102 seconds
+[2022-05-31 23:11:58,276] {processor.py:153} INFO - Started process (PID=328) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:58,277] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:11:58,279] {logging_mixin.py:115} INFO - [2022-05-31 23:11:58,278] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:58,349] {logging_mixin.py:115} INFO - [2022-05-31 23:11:58,349] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:11:58,349] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:11:58,374] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.107 seconds
+[2022-05-31 23:12:01,264] {processor.py:153} INFO - Started process (PID=331) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:01,265] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:01,265] {logging_mixin.py:115} INFO - [2022-05-31 23:12:01,265] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:01,333] {logging_mixin.py:115} INFO - [2022-05-31 23:12:01,332] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:01,333] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:01,357] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.096 seconds
+[2022-05-31 23:12:03,563] {processor.py:153} INFO - Started process (PID=333) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:03,571] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:03,572] {logging_mixin.py:115} INFO - [2022-05-31 23:12:03,572] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:03,632] {logging_mixin.py:115} INFO - [2022-05-31 23:12:03,631] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:03,632] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:03,655] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.095 seconds
+[2022-05-31 23:12:07,117] {processor.py:153} INFO - Started process (PID=336) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:07,117] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:07,118] {logging_mixin.py:115} INFO - [2022-05-31 23:12:07,118] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:07,191] {logging_mixin.py:115} INFO - [2022-05-31 23:12:07,190] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:07,191] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:07,214] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.103 seconds
+[2022-05-31 23:12:10,037] {processor.py:153} INFO - Started process (PID=339) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:10,039] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:10,040] {logging_mixin.py:115} INFO - [2022-05-31 23:12:10,040] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:10,118] {logging_mixin.py:115} INFO - [2022-05-31 23:12:10,117] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:10,118] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:10,144] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.115 seconds
+[2022-05-31 23:12:13,647] {processor.py:153} INFO - Started process (PID=342) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:13,648] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:13,648] {logging_mixin.py:115} INFO - [2022-05-31 23:12:13,648] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:13,709] {logging_mixin.py:115} INFO - [2022-05-31 23:12:13,708] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:13,709] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:13,728] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.083 seconds
+[2022-05-31 23:12:16,577] {processor.py:153} INFO - Started process (PID=345) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:16,578] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:16,578] {logging_mixin.py:115} INFO - [2022-05-31 23:12:16,578] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:16,637] {logging_mixin.py:115} INFO - [2022-05-31 23:12:16,636] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:16,637] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:16,661] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.093 seconds
+[2022-05-31 23:12:19,318] {processor.py:153} INFO - Started process (PID=348) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:19,319] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:19,320] {logging_mixin.py:115} INFO - [2022-05-31 23:12:19,320] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:19,392] {logging_mixin.py:115} INFO - [2022-05-31 23:12:19,392] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:19,392] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:19,416] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.107 seconds
+[2022-05-31 23:12:22,763] {processor.py:153} INFO - Started process (PID=351) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:22,764] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:22,764] {logging_mixin.py:115} INFO - [2022-05-31 23:12:22,764] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:22,824] {logging_mixin.py:115} INFO - [2022-05-31 23:12:22,823] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:22,824] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:22,848] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.090 seconds
+[2022-05-31 23:12:24,600] {processor.py:153} INFO - Started process (PID=353) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:24,600] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:24,601] {logging_mixin.py:115} INFO - [2022-05-31 23:12:24,600] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:24,671] {logging_mixin.py:115} INFO - [2022-05-31 23:12:24,670] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:24,671] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:24,693] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.096 seconds
+[2022-05-31 23:12:27,646] {processor.py:153} INFO - Started process (PID=356) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:27,646] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:27,646] {logging_mixin.py:115} INFO - [2022-05-31 23:12:27,646] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:27,707] {logging_mixin.py:115} INFO - [2022-05-31 23:12:27,706] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:27,707] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:27,729] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.087 seconds
+[2022-05-31 23:12:30,515] {processor.py:153} INFO - Started process (PID=359) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:30,516] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:30,517] {logging_mixin.py:115} INFO - [2022-05-31 23:12:30,517] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:30,576] {logging_mixin.py:115} INFO - [2022-05-31 23:12:30,576] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:30,576] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:30,600] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.088 seconds
+[2022-05-31 23:12:32,803] {processor.py:153} INFO - Started process (PID=361) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:32,804] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:32,804] {logging_mixin.py:115} INFO - [2022-05-31 23:12:32,804] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:32,861] {logging_mixin.py:115} INFO - [2022-05-31 23:12:32,861] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:32,861] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:32,885] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.084 seconds
+[2022-05-31 23:12:36,344] {processor.py:153} INFO - Started process (PID=364) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:36,346] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:36,347] {logging_mixin.py:115} INFO - [2022-05-31 23:12:36,347] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:36,421] {logging_mixin.py:115} INFO - [2022-05-31 23:12:36,420] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:36,421] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:36,443] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.107 seconds
+[2022-05-31 23:12:40,096] {processor.py:153} INFO - Started process (PID=367) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:40,106] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:40,107] {logging_mixin.py:115} INFO - [2022-05-31 23:12:40,107] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:40,189] {logging_mixin.py:115} INFO - [2022-05-31 23:12:40,189] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:40,189] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:40,211] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.117 seconds
+[2022-05-31 23:12:42,794] {processor.py:153} INFO - Started process (PID=370) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:42,795] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:42,796] {logging_mixin.py:115} INFO - [2022-05-31 23:12:42,795] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:42,873] {logging_mixin.py:115} INFO - [2022-05-31 23:12:42,872] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:42,873] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:42,895] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.104 seconds
+[2022-05-31 23:12:45,278] {processor.py:153} INFO - Started process (PID=372) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:45,278] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:45,279] {logging_mixin.py:115} INFO - [2022-05-31 23:12:45,279] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:45,340] {logging_mixin.py:115} INFO - [2022-05-31 23:12:45,340] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:45,341] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:45,365] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.092 seconds
+[2022-05-31 23:12:48,840] {processor.py:153} INFO - Started process (PID=375) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:48,840] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:48,841] {logging_mixin.py:115} INFO - [2022-05-31 23:12:48,841] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:48,901] {logging_mixin.py:115} INFO - [2022-05-31 23:12:48,900] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:48,901] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:48,924] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.089 seconds
+[2022-05-31 23:12:50,921] {processor.py:153} INFO - Started process (PID=378) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:50,922] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:50,924] {logging_mixin.py:115} INFO - [2022-05-31 23:12:50,924] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:50,995] {logging_mixin.py:115} INFO - [2022-05-31 23:12:50,995] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:50,995] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:51,017] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.105 seconds
+[2022-05-31 23:12:53,410] {processor.py:153} INFO - Started process (PID=380) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:53,410] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:53,411] {logging_mixin.py:115} INFO - [2022-05-31 23:12:53,411] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:53,473] {logging_mixin.py:115} INFO - [2022-05-31 23:12:53,473] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:53,474] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:53,496] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.089 seconds
+[2022-05-31 23:12:56,951] {processor.py:153} INFO - Started process (PID=428) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:56,951] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:12:56,951] {logging_mixin.py:115} INFO - [2022-05-31 23:12:56,951] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:57,033] {logging_mixin.py:115} INFO - [2022-05-31 23:12:57,033] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:12:57,034] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:12:57,050] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.102 seconds
+[2022-05-31 23:13:00,436] {processor.py:153} INFO - Started process (PID=431) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:00,437] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:13:00,439] {logging_mixin.py:115} INFO - [2022-05-31 23:13:00,438] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:00,518] {logging_mixin.py:115} INFO - [2022-05-31 23:13:00,517] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:13:00,518] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:00,541] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.114 seconds
+[2022-05-31 23:13:03,367] {processor.py:153} INFO - Started process (PID=434) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:03,367] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:13:03,368] {logging_mixin.py:115} INFO - [2022-05-31 23:13:03,368] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:03,426] {logging_mixin.py:115} INFO - [2022-05-31 23:13:03,425] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:13:03,426] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:03,447] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.086 seconds
+[2022-05-31 23:13:06,240] {processor.py:153} INFO - Started process (PID=469) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:06,241] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:13:06,242] {logging_mixin.py:115} INFO - [2022-05-31 23:13:06,242] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:06,312] {logging_mixin.py:115} INFO - [2022-05-31 23:13:06,312] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:13:06,312] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:06,332] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.100 seconds
+[2022-05-31 23:13:09,992] {processor.py:153} INFO - Started process (PID=484) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:09,992] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:13:09,993] {logging_mixin.py:115} INFO - [2022-05-31 23:13:09,993] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:20,871] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:13:24,323] {logging_mixin.py:115} INFO - +------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|observations| month|company|  media|mention|avg_positive_score|avg_negative_score|positive_mention|negative_mention|avg_score|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|         100|2022-5|   AAPL| reddit|    335|             0.325|            -0.871|              58|             254|    0.955|
+|         100|2022-5|   AAPL|twitter|  11806|              0.93|            -0.943|            3936|            6928|    0.939|
+|         100|2022-5|  GOOGL|twitter|   3047|             0.894|            -0.951|             871|            1889|    0.943|
+|         100|2022-5|  GOOGL| reddit|    484|             0.168|             -0.91|              24|             443|    0.963|
+|         100|2022-5|   TSLA|twitter|  32153|             0.913|            -0.948|           10104|           20122|    0.936|
+|         100|2022-5|   TSLA| reddit|    563|             0.211|             -0.95|              36|             506|    0.976|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+[2022-05-31 23:13:24,326] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:24,411] {logging_mixin.py:115} INFO - [2022-05-31 23:13:24,410] {manager.py:508} INFO - Created Permission View: can edit on DAG:monthly_recommendation_dag
+[2022-05-31 23:13:24,422] {logging_mixin.py:115} INFO - [2022-05-31 23:13:24,422] {manager.py:508} INFO - Created Permission View: can read on DAG:monthly_recommendation_dag
+[2022-05-31 23:13:24,434] {logging_mixin.py:115} INFO - [2022-05-31 23:13:24,434] {manager.py:508} INFO - Created Permission View: can delete on DAG:monthly_recommendation_dag
+[2022-05-31 23:13:24,435] {logging_mixin.py:115} INFO - [2022-05-31 23:13:24,434] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:13:24,440] {logging_mixin.py:115} INFO - [2022-05-31 23:13:24,440] {dag.py:2398} INFO - Creating ORM DAG for monthly_recommendation_dag
+[2022-05-31 23:13:24,447] {logging_mixin.py:115} INFO - [2022-05-31 23:13:24,447] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-30T21:13:24.447433+00:00, run_after=2022-05-31T21:13:24.447433+00:00
+[2022-05-31 23:13:24,471] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 14.482 seconds
+[2022-05-31 23:13:27,996] {processor.py:153} INFO - Started process (PID=709) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:27,997] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:13:27,998] {logging_mixin.py:115} INFO - [2022-05-31 23:13:27,998] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:36,883] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:13:40,310] {logging_mixin.py:115} INFO - +------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|observations| month|company|  media|mention|avg_positive_score|avg_negative_score|positive_mention|negative_mention|avg_score|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|         100|2022-5|   AAPL| reddit|    335|             0.325|            -0.871|              58|             254|    0.955|
+|         100|2022-5|   AAPL|twitter|  11806|              0.93|            -0.943|            3936|            6928|    0.939|
+|         100|2022-5|  GOOGL|twitter|   3047|             0.894|            -0.951|             871|            1889|    0.943|
+|         100|2022-5|  GOOGL| reddit|    484|             0.168|             -0.91|              24|             443|    0.963|
+|         100|2022-5|   TSLA|twitter|  32153|             0.913|            -0.948|           10104|           20122|    0.936|
+|         100|2022-5|   TSLA| reddit|    563|             0.211|             -0.95|              36|             506|    0.976|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+[2022-05-31 23:13:40,313] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:40,321] {logging_mixin.py:115} INFO - [2022-05-31 23:13:40,321] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:13:40,338] {logging_mixin.py:115} INFO - [2022-05-31 23:13:40,338] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-30T21:13:40.337945+00:00, run_after=2022-05-31T21:13:40.337945+00:00
+[2022-05-31 23:13:40,354] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 12.365 seconds
+[2022-05-31 23:13:45,224] {processor.py:153} INFO - Started process (PID=975) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:45,225] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:13:45,226] {logging_mixin.py:115} INFO - [2022-05-31 23:13:45,226] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:54,967] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:13:59,008] {logging_mixin.py:115} INFO - +------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|observations| month|company|  media|mention|avg_positive_score|avg_negative_score|positive_mention|negative_mention|avg_score|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|         100|2022-5|   AAPL| reddit|    335|             0.325|            -0.871|              58|             254|    0.955|
+|         100|2022-5|   AAPL|twitter|  11806|              0.93|            -0.943|            3936|            6928|    0.939|
+|         100|2022-5|  GOOGL|twitter|   3047|             0.894|            -0.951|             871|            1889|    0.943|
+|         100|2022-5|  GOOGL| reddit|    484|             0.168|             -0.91|              24|             443|    0.963|
+|         100|2022-5|   TSLA|twitter|  32153|             0.913|            -0.948|           10104|           20122|    0.936|
+|         100|2022-5|   TSLA| reddit|    563|             0.211|             -0.95|              36|             506|    0.976|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+[2022-05-31 23:13:59,011] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:13:59,034] {logging_mixin.py:115} INFO - [2022-05-31 23:13:59,034] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:13:59,048] {logging_mixin.py:115} INFO - [2022-05-31 23:13:59,048] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-30T21:13:59.048501+00:00, run_after=2022-05-31T21:13:59.048501+00:00
+[2022-05-31 23:13:59,063] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 13.844 seconds
+[2022-05-31 23:14:02,772] {processor.py:153} INFO - Started process (PID=1252) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:14:02,773] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:14:02,774] {logging_mixin.py:115} INFO - [2022-05-31 23:14:02,774] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:14:11,522] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:14:15,879] {logging_mixin.py:115} INFO - +------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|observations| month|company|  media|mention|avg_positive_score|avg_negative_score|positive_mention|negative_mention|avg_score|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|         100|2022-5|   AAPL| reddit|    335|             0.325|            -0.871|              58|             254|    0.955|
+|         100|2022-5|   AAPL|twitter|  11806|              0.93|            -0.943|            3936|            6928|    0.939|
+|         100|2022-5|  GOOGL|twitter|   3047|             0.894|            -0.951|             871|            1889|    0.943|
+|         100|2022-5|  GOOGL| reddit|    484|             0.168|             -0.91|              24|             443|    0.963|
+|         100|2022-5|   TSLA|twitter|  32153|             0.913|            -0.948|           10104|           20122|    0.936|
+|         100|2022-5|   TSLA| reddit|    563|             0.211|             -0.95|              36|             506|    0.976|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+[2022-05-31 23:14:15,883] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:14:15,927] {logging_mixin.py:115} INFO - [2022-05-31 23:14:15,927] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:14:15,946] {logging_mixin.py:115} INFO - [2022-05-31 23:14:15,946] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-30T21:14:15.945983+00:00, run_after=2022-05-31T21:14:15.945983+00:00
+[2022-05-31 23:14:15,985] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 13.218 seconds
+[2022-05-31 23:14:20,757] {processor.py:153} INFO - Started process (PID=1489) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:14:20,758] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:14:20,759] {logging_mixin.py:115} INFO - [2022-05-31 23:14:20,759] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:14:29,299] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:14:32,816] {logging_mixin.py:115} INFO - +------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|observations| month|company|  media|mention|avg_positive_score|avg_negative_score|positive_mention|negative_mention|avg_score|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|         100|2022-5|   AAPL| reddit|    335|             0.325|            -0.871|              58|             254|    0.955|
+|         100|2022-5|   AAPL|twitter|  11806|              0.93|            -0.943|            3936|            6928|    0.939|
+|         100|2022-5|  GOOGL|twitter|   3047|             0.894|            -0.951|             871|            1889|    0.943|
+|         100|2022-5|  GOOGL| reddit|    484|             0.168|             -0.91|              24|             443|    0.963|
+|         100|2022-5|   TSLA|twitter|  32153|             0.913|            -0.948|           10104|           20122|    0.936|
+|         100|2022-5|   TSLA| reddit|    563|             0.211|             -0.95|              36|             506|    0.976|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+[2022-05-31 23:14:32,818] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:14:32,841] {logging_mixin.py:115} INFO - [2022-05-31 23:14:32,841] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:14:32,855] {logging_mixin.py:115} INFO - [2022-05-31 23:14:32,855] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-30T21:14:32.854829+00:00, run_after=2022-05-31T21:14:32.854829+00:00
+[2022-05-31 23:14:32,877] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 12.125 seconds
+[2022-05-31 23:14:36,319] {processor.py:153} INFO - Started process (PID=1709) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:14:36,320] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:14:36,321] {logging_mixin.py:115} INFO - [2022-05-31 23:14:36,321] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:14:45,289] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:14:49,143] {logging_mixin.py:115} INFO - +------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|observations| month|company|  media|mention|avg_positive_score|avg_negative_score|positive_mention|negative_mention|avg_score|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|         100|2022-5|   AAPL| reddit|    335|             0.325|            -0.871|              58|             254|    0.955|
+|         100|2022-5|   AAPL|twitter|  11806|              0.93|            -0.943|            3936|            6928|    0.939|
+|         100|2022-5|  GOOGL|twitter|   3047|             0.894|            -0.951|             871|            1889|    0.943|
+|         100|2022-5|  GOOGL| reddit|    484|             0.168|             -0.91|              24|             443|    0.963|
+|         100|2022-5|   TSLA|twitter|  32153|             0.913|            -0.948|           10104|           20122|    0.936|
+|         100|2022-5|   TSLA| reddit|    563|             0.211|             -0.95|              36|             506|    0.976|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+[2022-05-31 23:14:49,147] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:14:49,187] {logging_mixin.py:115} INFO - [2022-05-31 23:14:49,187] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:14:49,210] {logging_mixin.py:115} INFO - [2022-05-31 23:14:49,210] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-30T21:14:49.210223+00:00, run_after=2022-05-31T21:14:49.210223+00:00
+[2022-05-31 23:14:49,238] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 12.924 seconds
+[2022-05-31 23:15:37,025] {processor.py:153} INFO - Started process (PID=2640) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:15:37,026] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:15:37,027] {logging_mixin.py:115} INFO - [2022-05-31 23:15:37,027] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:15:49,184] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:15:55,506] {logging_mixin.py:115} INFO - +------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|observations| month|company|  media|mention|avg_positive_score|avg_negative_score|positive_mention|negative_mention|avg_score|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|         100|2022-5|   AAPL| reddit|    335|             0.325|            -0.871|              58|             254|    0.955|
+|         100|2022-5|   AAPL|twitter|  11806|              0.93|            -0.943|            3936|            6928|    0.939|
+|         100|2022-5|  GOOGL|twitter|   3047|             0.894|            -0.951|             871|            1889|    0.943|
+|         100|2022-5|  GOOGL| reddit|    484|             0.168|             -0.91|              24|             443|    0.963|
+|         100|2022-5|   TSLA|twitter|  32153|             0.913|            -0.948|           10104|           20122|    0.936|
+|         100|2022-5|   TSLA| reddit|    563|             0.211|             -0.95|              36|             506|    0.976|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+[2022-05-31 23:15:55,509] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:15:55,575] {logging_mixin.py:115} INFO - [2022-05-31 23:15:55,575] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:15:55,601] {logging_mixin.py:115} INFO - [2022-05-31 23:15:55,601] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:15:55,636] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 18.618 seconds
+[2022-05-31 23:16:28,703] {processor.py:153} INFO - Started process (PID=3655) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:16:28,704] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:16:28,705] {logging_mixin.py:115} INFO - [2022-05-31 23:16:28,705] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:16:38,944] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:16:44,805] {logging_mixin.py:115} INFO - +------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|observations| month|company|  media|mention|avg_positive_score|avg_negative_score|positive_mention|negative_mention|avg_score|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|         100|2022-5|   AAPL| reddit|    335|             0.325|            -0.871|              58|             254|    0.955|
+|         100|2022-5|   AAPL|twitter|  11806|              0.93|            -0.943|            3936|            6928|    0.939|
+|         100|2022-5|  GOOGL|twitter|   3047|             0.894|            -0.951|             871|            1889|    0.943|
+|         100|2022-5|  GOOGL| reddit|    484|             0.168|             -0.91|              24|             443|    0.963|
+|         100|2022-5|   TSLA|twitter|  32153|             0.913|            -0.948|           10104|           20122|    0.936|
+|         100|2022-5|   TSLA| reddit|    563|             0.211|             -0.95|              36|             506|    0.976|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+[2022-05-31 23:16:44,808] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:16:44,841] {logging_mixin.py:115} INFO - [2022-05-31 23:16:44,841] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:16:44,860] {logging_mixin.py:115} INFO - [2022-05-31 23:16:44,860] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:16:44,888] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 16.187 seconds
+[2022-05-31 23:16:46,043] {processor.py:153} INFO - Started process (PID=3984) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:16:46,044] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:16:46,046] {logging_mixin.py:115} INFO - [2022-05-31 23:16:46,046] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:16:57,083] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:17:02,220] {logging_mixin.py:115} INFO - +------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|observations| month|company|  media|mention|avg_positive_score|avg_negative_score|positive_mention|negative_mention|avg_score|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+|         100|2022-5|   AAPL| reddit|    335|             0.325|            -0.871|              58|             254|    0.955|
+|         100|2022-5|   AAPL|twitter|  11806|              0.93|            -0.943|            3936|            6928|    0.939|
+|         100|2022-5|  GOOGL|twitter|   3047|             0.894|            -0.951|             871|            1889|    0.943|
+|         100|2022-5|  GOOGL| reddit|    484|             0.168|             -0.91|              24|             443|    0.963|
+|         100|2022-5|   TSLA|twitter|  32153|             0.913|            -0.948|           10104|           20122|    0.936|
+|         100|2022-5|   TSLA| reddit|    563|             0.211|             -0.95|              36|             506|    0.976|
++------------+------+-------+-------+-------+------------------+------------------+----------------+----------------+---------+
+[2022-05-31 23:17:02,223] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:02,251] {logging_mixin.py:115} INFO - [2022-05-31 23:17:02,251] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:17:02,269] {logging_mixin.py:115} INFO - [2022-05-31 23:17:02,268] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:17:02,294] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 16.260 seconds
+[2022-05-31 23:17:06,563] {processor.py:153} INFO - Started process (PID=4325) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:06,564] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:06,566] {logging_mixin.py:115} INFO - [2022-05-31 23:17:06,566] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:17,941] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:17:21,265] {logging_mixin.py:115} INFO - +------+------+---------+---+----+----------+----+
+| month|symbol|strongBuy|buy|hold|strongSell|sell|
++------+------+---------+---+----+----------+----+
+|2022-2|  AAPL|       17| 26|   8|         0|   0|
+|2022-3|  AAPL|       18| 26|   8|         0|   0|
+|2022-4|  AAPL|       18| 26|   8|         0|   0|
+|2022-5|  AAPL|       17| 26|   9|         0|   0|
+|2022-2| GOOGL|       20| 34|   3|         0|   0|
+|2022-3| GOOGL|       20| 34|   3|         0|   0|
+|2022-4| GOOGL|       20| 36|   3|         0|   0|
+|2022-5| GOOGL|       20| 39|   2|         0|   0|
+|2022-2|  TSLA|       13| 11|  13|         4|   7|
+|2022-3|  TSLA|       14| 13|  11|         4|   7|
+|2022-4|  TSLA|       14| 14|  10|         4|   7|
+|2022-5|  TSLA|       14| 16|  10|         4|   6|
++------+------+---------+---+----+----------+----+
+[2022-05-31 23:17:21,269] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:21,315] {logging_mixin.py:115} INFO - [2022-05-31 23:17:21,315] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:17:21,344] {logging_mixin.py:115} INFO - [2022-05-31 23:17:21,344] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:17:21,380] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 14.828 seconds
+[2022-05-31 23:17:22,521] {processor.py:153} INFO - Started process (PID=4703) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:22,522] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:22,523] {logging_mixin.py:115} INFO - [2022-05-31 23:17:22,523] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:22,630] {logging_mixin.py:115} INFO - [2022-05-31 23:17:22,629] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:17:22,630] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:22,652] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.136 seconds
+[2022-05-31 23:17:27,572] {processor.py:153} INFO - Started process (PID=4796) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:27,573] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:27,575] {logging_mixin.py:115} INFO - [2022-05-31 23:17:27,574] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:27,650] {logging_mixin.py:115} INFO - [2022-05-31 23:17:27,649] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:17:27,650] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:27,671] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.108 seconds
+[2022-05-31 23:17:29,651] {processor.py:153} INFO - Started process (PID=4798) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:29,651] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:29,651] {logging_mixin.py:115} INFO - [2022-05-31 23:17:29,651] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:29,715] {logging_mixin.py:115} INFO - [2022-05-31 23:17:29,715] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:17:29,715] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:29,736] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.088 seconds
+[2022-05-31 23:17:31,515] {processor.py:153} INFO - Started process (PID=4800) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:31,515] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:31,516] {logging_mixin.py:115} INFO - [2022-05-31 23:17:31,516] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:31,580] {logging_mixin.py:115} INFO - [2022-05-31 23:17:31,580] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:17:31,581] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:31,603] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.091 seconds
+[2022-05-31 23:17:33,725] {processor.py:153} INFO - Started process (PID=4803) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:33,726] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:33,728] {logging_mixin.py:115} INFO - [2022-05-31 23:17:33,727] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:33,801] {logging_mixin.py:115} INFO - [2022-05-31 23:17:33,801] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:17:33,801] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:33,825] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.109 seconds
+[2022-05-31 23:17:35,796] {processor.py:153} INFO - Started process (PID=4805) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:35,806] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:35,807] {logging_mixin.py:115} INFO - [2022-05-31 23:17:35,807] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:35,885] {logging_mixin.py:115} INFO - [2022-05-31 23:17:35,885] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:17:35,885] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:35,909] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.115 seconds
+[2022-05-31 23:17:36,733] {processor.py:153} INFO - Started process (PID=4807) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:36,734] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:36,735] {logging_mixin.py:115} INFO - [2022-05-31 23:17:36,735] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:36,799] {logging_mixin.py:115} INFO - [2022-05-31 23:17:36,799] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:17:36,799] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:36,818] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.088 seconds
+[2022-05-31 23:17:39,935] {processor.py:153} INFO - Started process (PID=4810) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:39,944] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:39,944] {logging_mixin.py:115} INFO - [2022-05-31 23:17:39,944] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:40,011] {logging_mixin.py:115} INFO - [2022-05-31 23:17:40,011] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:17:40,011] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:40,036] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.103 seconds
+[2022-05-31 23:17:41,773] {processor.py:153} INFO - Started process (PID=4814) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:41,774] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:41,774] {logging_mixin.py:115} INFO - [2022-05-31 23:17:41,774] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:41,869] {logging_mixin.py:115} INFO - [2022-05-31 23:17:41,869] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:17:41,869] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:41,888] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.117 seconds
+[2022-05-31 23:17:43,862] {processor.py:153} INFO - Started process (PID=4830) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:43,863] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:43,864] {logging_mixin.py:115} INFO - [2022-05-31 23:17:43,864] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:43,937] {logging_mixin.py:115} INFO - [2022-05-31 23:17:43,936] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 2, in <module>
+    from credentials import Credentials
+ModuleNotFoundError: No module named 'credentials'
+[2022-05-31 23:17:43,937] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:43,960] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 0.106 seconds
+[2022-05-31 23:17:45,945] {processor.py:153} INFO - Started process (PID=4850) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:45,946] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:45,946] {logging_mixin.py:115} INFO - [2022-05-31 23:17:45,946] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:54,070] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:17:56,204] {logging_mixin.py:115} INFO - +------+------+---------+---+----+----------+----+
+| month|symbol|strongBuy|buy|hold|strongSell|sell|
++------+------+---------+---+----+----------+----+
+|2022-2|  AAPL|       17| 26|   8|         0|   0|
+|2022-3|  AAPL|       18| 26|   8|         0|   0|
+|2022-4|  AAPL|       18| 26|   8|         0|   0|
+|2022-5|  AAPL|       17| 26|   9|         0|   0|
+|2022-2| GOOGL|       20| 34|   3|         0|   0|
+|2022-3| GOOGL|       20| 34|   3|         0|   0|
+|2022-4| GOOGL|       20| 36|   3|         0|   0|
+|2022-5| GOOGL|       20| 39|   2|         0|   0|
+|2022-2|  TSLA|       13| 11|  13|         4|   7|
+|2022-3|  TSLA|       14| 13|  11|         4|   7|
+|2022-4|  TSLA|       14| 14|  10|         4|   7|
+|2022-5|  TSLA|       14| 16|  10|         4|   6|
++------+------+---------+---+----+----------+----+
+[2022-05-31 23:17:56,207] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:56,229] {logging_mixin.py:115} INFO - [2022-05-31 23:17:56,229] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:17:56,244] {logging_mixin.py:115} INFO - [2022-05-31 23:17:56,244] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:17:56,274] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 10.331 seconds
+[2022-05-31 23:17:57,438] {processor.py:153} INFO - Started process (PID=5060) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:17:57,438] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:17:57,439] {logging_mixin.py:115} INFO - [2022-05-31 23:17:57,438] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:05,343] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:18:07,323] {logging_mixin.py:115} INFO - +------+------+---------+---+----+----------+----+
+| month|symbol|strongBuy|buy|hold|strongSell|sell|
++------+------+---------+---+----+----------+----+
+|2022-2|  AAPL|       17| 26|   8|         0|   0|
+|2022-3|  AAPL|       18| 26|   8|         0|   0|
+|2022-4|  AAPL|       18| 26|   8|         0|   0|
+|2022-5|  AAPL|       17| 26|   9|         0|   0|
+|2022-2| GOOGL|       20| 34|   3|         0|   0|
+|2022-3| GOOGL|       20| 34|   3|         0|   0|
+|2022-4| GOOGL|       20| 36|   3|         0|   0|
+|2022-5| GOOGL|       20| 39|   2|         0|   0|
+|2022-2|  TSLA|       13| 11|  13|         4|   7|
+|2022-3|  TSLA|       14| 13|  11|         4|   7|
+|2022-4|  TSLA|       14| 14|  10|         4|   7|
+|2022-5|  TSLA|       14| 16|  10|         4|   6|
++------+------+---------+---+----+----------+----+
+[2022-05-31 23:18:07,326] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:07,357] {logging_mixin.py:115} INFO - [2022-05-31 23:18:07,357] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:18:07,373] {logging_mixin.py:115} INFO - [2022-05-31 23:18:07,373] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:18:07,398] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 9.963 seconds
+[2022-05-31 23:18:11,441] {processor.py:153} INFO - Started process (PID=5257) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:11,442] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:18:11,443] {logging_mixin.py:115} INFO - [2022-05-31 23:18:11,443] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:19,510] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:18:21,618] {logging_mixin.py:115} INFO - +------+------+---------+---+----+----------+----+
+| month|symbol|strongBuy|buy|hold|strongSell|sell|
++------+------+---------+---+----+----------+----+
+|2022-2|  AAPL|       17| 26|   8|         0|   0|
+|2022-3|  AAPL|       18| 26|   8|         0|   0|
+|2022-4|  AAPL|       18| 26|   8|         0|   0|
+|2022-5|  AAPL|       17| 26|   9|         0|   0|
+|2022-2| GOOGL|       20| 34|   3|         0|   0|
+|2022-3| GOOGL|       20| 34|   3|         0|   0|
+|2022-4| GOOGL|       20| 36|   3|         0|   0|
+|2022-5| GOOGL|       20| 39|   2|         0|   0|
+|2022-2|  TSLA|       13| 11|  13|         4|   7|
+|2022-3|  TSLA|       14| 13|  11|         4|   7|
+|2022-4|  TSLA|       14| 14|  10|         4|   7|
+|2022-5|  TSLA|       14| 16|  10|         4|   6|
++------+------+---------+---+----+----------+----+
+[2022-05-31 23:18:21,620] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:21,641] {logging_mixin.py:115} INFO - [2022-05-31 23:18:21,641] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:18:21,654] {logging_mixin.py:115} INFO - [2022-05-31 23:18:21,654] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:18:21,676] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 10.245 seconds
+[2022-05-31 23:18:22,817] {processor.py:153} INFO - Started process (PID=5452) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:22,818] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:18:22,819] {logging_mixin.py:115} INFO - [2022-05-31 23:18:22,818] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:30,519] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:18:32,541] {logging_mixin.py:115} INFO - +------+------+---------+---+----+----------+----+
+| month|symbol|strongBuy|buy|hold|strongSell|sell|
++------+------+---------+---+----+----------+----+
+|2022-2|  AAPL|       17| 26|   8|         0|   0|
+|2022-3|  AAPL|       18| 26|   8|         0|   0|
+|2022-4|  AAPL|       18| 26|   8|         0|   0|
+|2022-5|  AAPL|       17| 26|   9|         0|   0|
+|2022-2| GOOGL|       20| 34|   3|         0|   0|
+|2022-3| GOOGL|       20| 34|   3|         0|   0|
+|2022-4| GOOGL|       20| 36|   3|         0|   0|
+|2022-5| GOOGL|       20| 39|   2|         0|   0|
+|2022-2|  TSLA|       13| 11|  13|         4|   7|
+|2022-3|  TSLA|       14| 13|  11|         4|   7|
+|2022-4|  TSLA|       14| 14|  10|         4|   7|
+|2022-5|  TSLA|       14| 16|  10|         4|   6|
++------+------+---------+---+----+----------+----+
+[2022-05-31 23:18:32,543] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:32,564] {logging_mixin.py:115} INFO - [2022-05-31 23:18:32,564] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:18:32,578] {logging_mixin.py:115} INFO - [2022-05-31 23:18:32,578] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:18:32,598] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 9.792 seconds
+[2022-05-31 23:18:36,836] {processor.py:153} INFO - Started process (PID=5708) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:36,837] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:18:36,839] {logging_mixin.py:115} INFO - [2022-05-31 23:18:36,838] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:45,555] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:18:47,815] {logging_mixin.py:115} INFO - +------+------+---------+---+----+----------+----+
+| month|symbol|strongBuy|buy|hold|strongSell|sell|
++------+------+---------+---+----+----------+----+
+|2022-2|  AAPL|       17| 26|   8|         0|   0|
+|2022-3|  AAPL|       18| 26|   8|         0|   0|
+|2022-4|  AAPL|       18| 26|   8|         0|   0|
+|2022-5|  AAPL|       17| 26|   9|         0|   0|
+|2022-2| GOOGL|       20| 34|   3|         0|   0|
+|2022-3| GOOGL|       20| 34|   3|         0|   0|
+|2022-4| GOOGL|       20| 36|   3|         0|   0|
+|2022-5| GOOGL|       20| 39|   2|         0|   0|
+|2022-2|  TSLA|       13| 11|  13|         4|   7|
+|2022-3|  TSLA|       14| 13|  11|         4|   7|
+|2022-4|  TSLA|       14| 14|  10|         4|   7|
+|2022-5|  TSLA|       14| 16|  10|         4|   6|
++------+------+---------+---+----+----------+----+
+[2022-05-31 23:18:47,818] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:47,852] {logging_mixin.py:115} INFO - [2022-05-31 23:18:47,852] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:18:47,871] {logging_mixin.py:115} INFO - [2022-05-31 23:18:47,871] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:18:47,897] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 11.070 seconds
+[2022-05-31 23:18:49,036] {processor.py:153} INFO - Started process (PID=5906) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:49,037] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:18:49,038] {logging_mixin.py:115} INFO - [2022-05-31 23:18:49,037] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:18:57,680] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:18:59,993] {logging_mixin.py:115} INFO - +------+------+---------+---+----+----------+----+
+| month|symbol|strongBuy|buy|hold|strongSell|sell|
++------+------+---------+---+----+----------+----+
+|2022-2|  AAPL|       17| 26|   8|         0|   0|
+|2022-3|  AAPL|       18| 26|   8|         0|   0|
+|2022-4|  AAPL|       18| 26|   8|         0|   0|
+|2022-5|  AAPL|       17| 26|   9|         0|   0|
+|2022-2| GOOGL|       20| 34|   3|         0|   0|
+|2022-3| GOOGL|       20| 34|   3|         0|   0|
+|2022-4| GOOGL|       20| 36|   3|         0|   0|
+|2022-5| GOOGL|       20| 39|   2|         0|   0|
+|2022-2|  TSLA|       13| 11|  13|         4|   7|
+|2022-3|  TSLA|       14| 13|  11|         4|   7|
+|2022-4|  TSLA|       14| 14|  10|         4|   7|
+|2022-5|  TSLA|       14| 16|  10|         4|   6|
++------+------+---------+---+----+----------+----+
+[2022-05-31 23:18:59,996] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:19:00,036] {logging_mixin.py:115} INFO - [2022-05-31 23:19:00,035] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:19:00,053] {logging_mixin.py:115} INFO - [2022-05-31 23:19:00,053] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:19:00,072] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 11.045 seconds
+[2022-05-31 23:19:04,047] {processor.py:153} INFO - Started process (PID=6115) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:19:04,048] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:19:04,048] {logging_mixin.py:115} INFO - [2022-05-31 23:19:04,048] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:19:12,245] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:19:14,351] {logging_mixin.py:115} INFO - +------+------+---------+---+----+----------+----+
+| month|symbol|strongBuy|buy|hold|strongSell|sell|
++------+------+---------+---+----+----------+----+
+|2022-2|  AAPL|       17| 26|   8|         0|   0|
+|2022-3|  AAPL|       18| 26|   8|         0|   0|
+|2022-4|  AAPL|       18| 26|   8|         0|   0|
+|2022-5|  AAPL|       17| 26|   9|         0|   0|
+|2022-2| GOOGL|       20| 34|   3|         0|   0|
+|2022-3| GOOGL|       20| 34|   3|         0|   0|
+|2022-4| GOOGL|       20| 36|   3|         0|   0|
+|2022-5| GOOGL|       20| 39|   2|         0|   0|
+|2022-2|  TSLA|       13| 11|  13|         4|   7|
+|2022-3|  TSLA|       14| 13|  11|         4|   7|
+|2022-4|  TSLA|       14| 14|  10|         4|   7|
+|2022-5|  TSLA|       14| 16|  10|         4|   6|
++------+------+---------+---+----+----------+----+
+[2022-05-31 23:19:14,353] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:19:14,377] {logging_mixin.py:115} INFO - [2022-05-31 23:19:14,377] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:19:14,393] {logging_mixin.py:115} INFO - [2022-05-31 23:19:14,392] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:19:14,416] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 10.372 seconds
+[2022-05-31 23:19:15,547] {processor.py:153} INFO - Started process (PID=6310) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:19:15,549] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:19:15,550] {logging_mixin.py:115} INFO - [2022-05-31 23:19:15,550] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:19:23,793] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:19:25,990] {logging_mixin.py:115} INFO - +------+------+---------+---+----+----------+----+
+| month|symbol|strongBuy|buy|hold|strongSell|sell|
++------+------+---------+---+----+----------+----+
+|2022-2|  AAPL|       17| 26|   8|         0|   0|
+|2022-3|  AAPL|       18| 26|   8|         0|   0|
+|2022-4|  AAPL|       18| 26|   8|         0|   0|
+|2022-5|  AAPL|       17| 26|   9|         0|   0|
+|2022-2| GOOGL|       20| 34|   3|         0|   0|
+|2022-3| GOOGL|       20| 34|   3|         0|   0|
+|2022-4| GOOGL|       20| 36|   3|         0|   0|
+|2022-5| GOOGL|       20| 39|   2|         0|   0|
+|2022-2|  TSLA|       13| 11|  13|         4|   7|
+|2022-3|  TSLA|       14| 13|  11|         4|   7|
+|2022-4|  TSLA|       14| 14|  10|         4|   7|
+|2022-5|  TSLA|       14| 16|  10|         4|   6|
++------+------+---------+---+----+----------+----+
+[2022-05-31 23:19:25,992] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:19:26,020] {logging_mixin.py:115} INFO - [2022-05-31 23:19:26,020] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:19:26,037] {logging_mixin.py:115} INFO - [2022-05-31 23:19:26,037] {dag.py:2923} INFO - Setting next_dagrun for monthly_recommendation_dag to 2022-05-31T21:14:49.210223+00:00, run_after=2022-06-01T21:14:49.210223+00:00
+[2022-05-31 23:19:26,062] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 10.524 seconds
+[2022-05-31 23:19:30,352] {processor.py:153} INFO - Started process (PID=6511) to work on /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:19:30,352] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py for tasks to queue
+[2022-05-31 23:19:30,353] {logging_mixin.py:115} INFO - [2022-05-31 23:19:30,353] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-05-31 23:19:42,803] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:20:04,581] {logging_mixin.py:115} INFO - [2022-05-31 23:20:04,580] {timeout.py:67} ERROR - Process timed out, PID: 6511
+[2022-06-01 10:21:11,044] {logging_mixin.py:115} INFO - [2022-05-31 23:20:04,657] {clientserver.py:502} INFO - Error while receiving.
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/py4j/clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.1/best-practices.html#reducing-dag-complexity, PID: 6511
+[2022-06-01 10:21:11,044] {logging_mixin.py:115} INFO - [2022-06-01 10:21:11,044] {clientserver.py:507} INFO - Closing down clientserver connection
+[2022-06-01 10:21:11,045] {logging_mixin.py:115} INFO - [2022-06-01 10:21:11,045] {java_gateway.py:1055} ERROR - Exception while sending command.
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/py4j/clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.1/best-practices.html#reducing-dag-complexity, PID: 6511
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/py4j/clientserver.py", line 503, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+[2022-06-01 10:21:11,334] {logging_mixin.py:115} INFO - [2022-06-01 10:21:11,046] {dagbag.py:320} ERROR - Failed to import: /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 7, in <module>
+    from helpers.spark import Spark
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 67, in <module>
+    spark.get_monthly_recommendations()
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 61, in get_monthly_recommendations
+    df_json = query.toJSON()
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py", line 117, in toJSON
+    return RDD(rdd.toJavaRDD(), self._sc, UTF8Deserializer(use_unicode))
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/utils.py", line 111, in deco
+    return f(*a, **kw)
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o45.toJavaRDD
+[2022-06-01 10:21:11,335] {processor.py:653} WARNING - No viable dags retrieved from /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py
+[2022-06-01 10:21:11,390] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py took 34.820 seconds

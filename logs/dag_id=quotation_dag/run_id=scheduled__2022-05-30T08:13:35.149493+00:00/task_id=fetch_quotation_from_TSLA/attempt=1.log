@@ -1,0 +1,73 @@
+[2022-05-31 10:13:54,058] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: quotation_dag.fetch_quotation_from_TSLA scheduled__2022-05-30T08:13:35.149493+00:00 [queued]>
+[2022-05-31 10:13:54,064] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: quotation_dag.fetch_quotation_from_TSLA scheduled__2022-05-30T08:13:35.149493+00:00 [queued]>
+[2022-05-31 10:13:54,064] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-31 10:13:54,064] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-05-31 10:13:54,064] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-31 10:13:54,079] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): fetch_quotation_from_TSLA> on 2022-05-30 08:13:35.149493+00:00
+[2022-05-31 10:13:54,080] {standard_task_runner.py:52} INFO - Started process 22101 to run task
+[2022-05-31 10:13:54,084] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'quotation_dag', 'fetch_quotation_from_TSLA', 'scheduled__2022-05-30T08:13:35.149493+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/load_quotation_dag.py', '--cfg-path', '/tmp/tmpkuna0v8s', '--error-file', '/tmp/tmpkl424_0f']
+[2022-05-31 10:13:54,085] {standard_task_runner.py:80} INFO - Job 5: Subtask fetch_quotation_from_TSLA
+[2022-05-31 10:13:54,103] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/configuration.py:529 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-05-31 10:13:54,105] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/configuration.py:529 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-05-31 10:13:54,127] {task_command.py:370} INFO - Running <TaskInstance: quotation_dag.fetch_quotation_from_TSLA scheduled__2022-05-30T08:13:35.149493+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-05-31 10:13:54,189] {taskinstance.py:1570} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=quotation_dag
+AIRFLOW_CTX_TASK_ID=fetch_quotation_from_TSLA
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-30T08:13:35.149493+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-30T08:13:35.149493+00:00
+[2022-05-31 10:13:54,209] {logging_mixin.py:115} INFO - Successful connection to mongo db
+[2022-05-31 10:13:54,545] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/requests/models.py", line 910, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/udimini/airflow/dags/load_quotation_dag.py", line 24, in push_quotation_on_datalake
+    quotation = fetch_quotation_from_big_finance(company, date_from, date_to)
+  File "/home/udimini/airflow/dags/load_quotation_dag.py", line 14, in fetch_quotation_from_big_finance
+    response = get(f"https://bigfinance-api.herokuapp.com/stockdata/api/v1/intraday/{company}/{date_from}/{date_to}/", headers=header).json()
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/requests/models.py", line 917, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: [Errno Expecting value] 
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Server Error (500)</title>
+</head>
+<body>
+  <h1>Server Error (500)</h1><p></p>
+</body>
+</html>
+: 1
+[2022-05-31 10:13:54,548] {taskinstance.py:1396} INFO - Marking task as UP_FOR_RETRY. dag_id=quotation_dag, task_id=fetch_quotation_from_TSLA, execution_date=20220530T081335, start_date=20220531T081354, end_date=20220531T081354
+[2022-05-31 10:13:54,562] {standard_task_runner.py:92} ERROR - Failed to execute job 5 for task fetch_quotation_from_TSLA ([Errno Expecting value] 
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Server Error (500)</title>
+</head>
+<body>
+  <h1>Server Error (500)</h1><p></p>
+</body>
+</html>
+: 1; 22101)
+[2022-05-31 10:13:54,576] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-05-31 10:13:54,590] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

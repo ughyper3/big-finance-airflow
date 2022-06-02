@@ -1,0 +1,51 @@
+[2022-06-01 16:40:57,886] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: monthly_recommendation_dag.push_recommendation_from_AAPL manual__2022-06-01T14:40:44.693519+00:00 [queued]>
+[2022-06-01 16:40:57,891] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: monthly_recommendation_dag.push_recommendation_from_AAPL manual__2022-06-01T14:40:44.693519+00:00 [queued]>
+[2022-06-01 16:40:57,891] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 16:40:57,891] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-01 16:40:57,891] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 16:40:57,905] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): push_recommendation_from_AAPL> on 2022-06-01 14:40:44.693519+00:00
+[2022-06-01 16:40:57,907] {standard_task_runner.py:52} INFO - Started process 20105 to run task
+[2022-06-01 16:40:57,911] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'monthly_recommendation_dag', 'push_recommendation_from_AAPL', 'manual__2022-06-01T14:40:44.693519+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/recommendation/load_monthly_recommendation_dag.py', '--cfg-path', '/tmp/tmpdkqznckf', '--error-file', '/tmp/tmp1wr5vh3x']
+[2022-06-01 16:40:57,911] {standard_task_runner.py:80} INFO - Job 41: Subtask push_recommendation_from_AAPL
+[2022-06-01 16:40:57,929] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/configuration.py:529 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-06-01 16:40:57,957] {task_command.py:370} INFO - Running <TaskInstance: monthly_recommendation_dag.push_recommendation_from_AAPL manual__2022-06-01T14:40:44.693519+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-06-01 16:40:58,011] {taskinstance.py:1570} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=monthly_recommendation_dag
+AIRFLOW_CTX_TASK_ID=push_recommendation_from_AAPL
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-01T14:40:44.693519+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-06-01T14:40:44.693519+00:00
+[2022-06-01 16:40:58,037] {logging_mixin.py:115} INFO - Successful connection to mongo db
+[2022-06-01 16:40:58,688] {logging_mixin.py:115} INFO - +------+------+---------+---+----+----------+----+
+| month|symbol|strongBuy|buy|hold|strongSell|sell|
++------+------+---------+---+----+----------+----+
+|2022-2|  AAPL|       17| 26|   8|         0|   0|
+|2022-3|  AAPL|       18| 26|   8|         0|   0|
+|2022-4|  AAPL|       18| 26|   8|         0|   0|
+|2022-5|  AAPL|       17| 26|   9|         0|   0|
+|2022-2| GOOGL|       20| 34|   3|         0|   0|
+|2022-3| GOOGL|       20| 34|   3|         0|   0|
+|2022-4| GOOGL|       20| 36|   3|         0|   0|
+|2022-5| GOOGL|       20| 39|   2|         0|   0|
+|2022-2|  TSLA|       13| 11|  13|         4|   7|
+|2022-3|  TSLA|       14| 13|  11|         4|   7|
+|2022-4|  TSLA|       14| 14|  10|         4|   7|
+|2022-5|  TSLA|       14| 16|  10|         4|   6|
++------+------+---------+---+----+----------+----+
+[2022-06-01 16:40:58,688] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 20, in push_recommendation_on_datalake
+    for recommendation in recommendations:
+TypeError: 'RDD' object is not iterable
+[2022-06-01 16:40:58,693] {taskinstance.py:1396} INFO - Marking task as UP_FOR_RETRY. dag_id=monthly_recommendation_dag, task_id=push_recommendation_from_AAPL, execution_date=20220601T144044, start_date=20220601T144057, end_date=20220601T144058
+[2022-06-01 16:40:58,708] {standard_task_runner.py:92} ERROR - Failed to execute job 41 for task push_recommendation_from_AAPL ('RDD' object is not iterable; 20105)
+[2022-06-01 16:40:58,725] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-06-01 16:40:58,740] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

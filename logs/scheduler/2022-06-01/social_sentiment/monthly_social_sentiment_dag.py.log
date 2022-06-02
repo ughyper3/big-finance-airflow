@@ -1,0 +1,348 @@
+[2022-06-01 18:36:00,748] {processor.py:153} INFO - Started process (PID=30626) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:36:00,748] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:36:00,749] {logging_mixin.py:115} INFO - [2022-06-01 18:36:00,749] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:36:14,929] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:36:19,659] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:36:19,761] {logging_mixin.py:115} INFO - [2022-06-01 18:36:19,761] {manager.py:508} INFO - Created Permission View: can edit on DAG:monthly_social_sentiment_dag
+[2022-06-01 18:36:19,800] {logging_mixin.py:115} INFO - [2022-06-01 18:36:19,800] {manager.py:508} INFO - Created Permission View: can read on DAG:monthly_social_sentiment_dag
+[2022-06-01 18:36:19,817] {logging_mixin.py:115} INFO - [2022-06-01 18:36:19,817] {manager.py:508} INFO - Created Permission View: can delete on DAG:monthly_social_sentiment_dag
+[2022-06-01 18:36:19,817] {logging_mixin.py:115} INFO - [2022-06-01 18:36:19,817] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:36:19,829] {logging_mixin.py:115} INFO - [2022-06-01 18:36:19,829] {dag.py:2398} INFO - Creating ORM DAG for monthly_social_sentiment_dag
+[2022-06-01 18:36:19,846] {logging_mixin.py:115} INFO - [2022-06-01 18:36:19,846] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-05-31T16:36:19.846494+00:00, run_after=2022-06-01T16:36:19.846494+00:00
+[2022-06-01 18:36:19,865] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 19.120 seconds
+[2022-06-01 18:37:00,509] {processor.py:153} INFO - Started process (PID=31438) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:37:00,512] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:37:00,513] {logging_mixin.py:115} INFO - [2022-06-01 18:37:00,513] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:37:12,086] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:37:15,875] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:37:15,912] {logging_mixin.py:115} INFO - [2022-06-01 18:37:15,911] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:37:15,931] {logging_mixin.py:115} INFO - [2022-06-01 18:37:15,931] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-05-31T16:37:15.930801+00:00, run_after=2022-06-01T16:37:15.930801+00:00
+[2022-06-01 18:37:15,955] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 15.449 seconds
+[2022-06-01 18:37:50,599] {processor.py:153} INFO - Started process (PID=32079) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:37:50,600] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:37:50,600] {logging_mixin.py:115} INFO - [2022-06-01 18:37:50,600] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:37:59,015] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:38:02,920] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:38:02,958] {logging_mixin.py:115} INFO - [2022-06-01 18:38:02,958] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:38:02,983] {logging_mixin.py:115} INFO - [2022-06-01 18:38:02,983] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-05-31T16:38:02.982969+00:00, run_after=2022-06-01T16:38:02.982969+00:00
+[2022-06-01 18:38:03,014] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.417 seconds
+[2022-06-01 18:39:09,231] {processor.py:153} INFO - Started process (PID=866) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:39:09,232] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:39:09,232] {logging_mixin.py:115} INFO - [2022-06-01 18:39:09,232] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:39:19,881] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:39:23,561] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:39:23,600] {logging_mixin.py:115} INFO - [2022-06-01 18:39:23,600] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:39:23,620] {logging_mixin.py:115} INFO - [2022-06-01 18:39:23,620] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:39:23,647] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 14.418 seconds
+[2022-06-01 18:39:23,688] {processor.py:153} INFO - Started process (PID=1039) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:39:23,689] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:39:23,690] {logging_mixin.py:115} INFO - [2022-06-01 18:39:23,689] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:39:32,784] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:39:36,450] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:39:36,487] {logging_mixin.py:115} INFO - [2022-06-01 18:39:36,487] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:39:36,502] {logging_mixin.py:115} INFO - [2022-06-01 18:39:36,502] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:39:36,527] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.843 seconds
+[2022-06-01 18:39:36,626] {processor.py:153} INFO - Started process (PID=1288) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:39:36,627] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:39:36,627] {logging_mixin.py:115} INFO - [2022-06-01 18:39:36,627] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:39:46,322] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:39:50,461] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:39:50,490] {logging_mixin.py:115} INFO - [2022-06-01 18:39:50,490] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:39:50,514] {logging_mixin.py:115} INFO - [2022-06-01 18:39:50,514] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:39:50,541] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.918 seconds
+[2022-06-01 18:40:21,622] {processor.py:153} INFO - Started process (PID=1917) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:40:21,624] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:40:21,625] {logging_mixin.py:115} INFO - [2022-06-01 18:40:21,625] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:40:36,552] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:40:42,581] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:40:42,632] {logging_mixin.py:115} INFO - [2022-06-01 18:40:42,632] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:40:42,666] {logging_mixin.py:115} INFO - [2022-06-01 18:40:42,665] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:40:42,691] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 21.072 seconds
+[2022-06-01 18:41:06,888] {processor.py:153} INFO - Started process (PID=2575) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:41:06,888] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:41:06,889] {logging_mixin.py:115} INFO - [2022-06-01 18:41:06,889] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:41:17,516] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:41:21,474] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:41:21,511] {logging_mixin.py:115} INFO - [2022-06-01 18:41:21,510] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:41:21,533] {logging_mixin.py:115} INFO - [2022-06-01 18:41:21,533] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:41:21,557] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 14.673 seconds
+[2022-06-01 18:41:35,746] {processor.py:153} INFO - Started process (PID=2950) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:41:35,746] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:41:35,747] {logging_mixin.py:115} INFO - [2022-06-01 18:41:35,747] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:41:45,863] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:41:52,617] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:41:52,660] {logging_mixin.py:115} INFO - [2022-06-01 18:41:52,660] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:41:52,686] {logging_mixin.py:115} INFO - [2022-06-01 18:41:52,686] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:41:52,710] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 16.968 seconds
+[2022-06-01 18:42:31,994] {processor.py:153} INFO - Started process (PID=3895) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:42:31,995] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:42:31,995] {logging_mixin.py:115} INFO - [2022-06-01 18:42:31,995] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:42:42,125] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:42:46,029] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:42:46,077] {logging_mixin.py:115} INFO - [2022-06-01 18:42:46,077] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:42:46,096] {logging_mixin.py:115} INFO - [2022-06-01 18:42:46,096] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:42:46,119] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 14.129 seconds
+[2022-06-01 18:42:51,209] {processor.py:153} INFO - Started process (PID=4106) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:42:51,210] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:42:51,210] {logging_mixin.py:115} INFO - [2022-06-01 18:42:51,210] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:43:00,646] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:43:05,599] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:43:05,624] {logging_mixin.py:115} INFO - [2022-06-01 18:43:05,624] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:43:05,640] {logging_mixin.py:115} INFO - [2022-06-01 18:43:05,640] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:43:05,660] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 14.452 seconds
+[2022-06-01 18:43:33,564] {processor.py:153} INFO - Started process (PID=4812) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:43:33,564] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:43:33,565] {logging_mixin.py:115} INFO - [2022-06-01 18:43:33,565] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:43:42,638] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:43:46,378] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:43:46,406] {logging_mixin.py:115} INFO - [2022-06-01 18:43:46,405] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:43:46,430] {logging_mixin.py:115} INFO - [2022-06-01 18:43:46,429] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:43:46,449] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.890 seconds
+[2022-06-01 18:44:19,091] {processor.py:153} INFO - Started process (PID=5462) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:44:19,091] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:44:19,092] {logging_mixin.py:115} INFO - [2022-06-01 18:44:19,092] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:44:27,355] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:44:31,078] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:44:31,105] {logging_mixin.py:115} INFO - [2022-06-01 18:44:31,105] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:44:31,123] {logging_mixin.py:115} INFO - [2022-06-01 18:44:31,123] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:44:31,150] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.061 seconds
+[2022-06-01 18:44:58,939] {processor.py:153} INFO - Started process (PID=6071) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:44:58,945] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:44:58,945] {logging_mixin.py:115} INFO - [2022-06-01 18:44:58,945] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:45:08,035] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:45:11,880] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:45:11,912] {logging_mixin.py:115} INFO - [2022-06-01 18:45:11,912] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:45:11,929] {logging_mixin.py:115} INFO - [2022-06-01 18:45:11,929] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:45:11,953] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.018 seconds
+[2022-06-01 18:45:44,467] {processor.py:153} INFO - Started process (PID=6807) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:45:44,475] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:45:44,476] {logging_mixin.py:115} INFO - [2022-06-01 18:45:44,476] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:45:52,947] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:45:56,919] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:45:56,947] {logging_mixin.py:115} INFO - [2022-06-01 18:45:56,947] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:45:56,968] {logging_mixin.py:115} INFO - [2022-06-01 18:45:56,968] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:45:57,002] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.537 seconds
+[2022-06-01 18:46:25,830] {processor.py:153} INFO - Started process (PID=7412) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:46:25,831] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:46:25,831] {logging_mixin.py:115} INFO - [2022-06-01 18:46:25,831] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:46:35,055] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:46:38,928] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:46:38,964] {logging_mixin.py:115} INFO - [2022-06-01 18:46:38,964] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:46:38,982] {logging_mixin.py:115} INFO - [2022-06-01 18:46:38,982] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:46:39,001] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.176 seconds
+[2022-06-01 18:47:11,170] {processor.py:153} INFO - Started process (PID=8057) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:47:11,174] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:47:11,174] {logging_mixin.py:115} INFO - [2022-06-01 18:47:11,174] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:47:19,699] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:47:23,469] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:47:23,496] {logging_mixin.py:115} INFO - [2022-06-01 18:47:23,496] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:47:23,514] {logging_mixin.py:115} INFO - [2022-06-01 18:47:23,514] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:47:23,532] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.366 seconds
+[2022-06-01 18:47:50,132] {processor.py:153} INFO - Started process (PID=8682) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:47:50,135] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:47:50,137] {logging_mixin.py:115} INFO - [2022-06-01 18:47:50,136] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:47:59,176] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:48:02,949] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:48:02,982] {logging_mixin.py:115} INFO - [2022-06-01 18:48:02,982] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:48:03,006] {logging_mixin.py:115} INFO - [2022-06-01 18:48:03,006] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:48:03,029] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.902 seconds
+[2022-06-01 18:48:35,768] {processor.py:153} INFO - Started process (PID=9324) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:48:35,777] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:48:35,778] {logging_mixin.py:115} INFO - [2022-06-01 18:48:35,778] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:48:44,650] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:48:49,259] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:48:49,291] {logging_mixin.py:115} INFO - [2022-06-01 18:48:49,291] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:48:49,315] {logging_mixin.py:115} INFO - [2022-06-01 18:48:49,315] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:48:49,341] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.577 seconds
+[2022-06-01 18:49:16,205] {processor.py:153} INFO - Started process (PID=9943) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:49:16,209] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:49:16,209] {logging_mixin.py:115} INFO - [2022-06-01 18:49:16,209] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:49:25,278] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:49:28,919] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:49:28,953] {logging_mixin.py:115} INFO - [2022-06-01 18:49:28,953] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:49:28,972] {logging_mixin.py:115} INFO - [2022-06-01 18:49:28,972] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:49:28,999] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.796 seconds
+[2022-06-01 18:50:01,235] {processor.py:153} INFO - Started process (PID=10566) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:50:01,244] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:50:01,244] {logging_mixin.py:115} INFO - [2022-06-01 18:50:01,244] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:50:09,479] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:50:13,189] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:50:13,216] {logging_mixin.py:115} INFO - [2022-06-01 18:50:13,216] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:50:13,234] {logging_mixin.py:115} INFO - [2022-06-01 18:50:13,234] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:50:13,265] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.032 seconds
+[2022-06-01 18:50:40,281] {processor.py:153} INFO - Started process (PID=11139) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:50:40,283] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:50:40,284] {logging_mixin.py:115} INFO - [2022-06-01 18:50:40,284] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:50:49,327] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:50:53,726] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:50:53,766] {logging_mixin.py:115} INFO - [2022-06-01 18:50:53,766] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:50:53,785] {logging_mixin.py:115} INFO - [2022-06-01 18:50:53,785] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:50:53,811] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.533 seconds
+[2022-06-01 18:51:26,039] {processor.py:153} INFO - Started process (PID=11799) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:51:26,048] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:51:26,049] {logging_mixin.py:115} INFO - [2022-06-01 18:51:26,048] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:51:34,271] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:51:37,969] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:51:37,996] {logging_mixin.py:115} INFO - [2022-06-01 18:51:37,996] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:51:38,015] {logging_mixin.py:115} INFO - [2022-06-01 18:51:38,015] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:51:38,043] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.009 seconds
+[2022-06-01 18:52:04,462] {processor.py:153} INFO - Started process (PID=12421) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:52:04,463] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:52:04,464] {logging_mixin.py:115} INFO - [2022-06-01 18:52:04,464] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:52:13,724] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:52:17,389] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:52:17,421] {logging_mixin.py:115} INFO - [2022-06-01 18:52:17,421] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:52:17,442] {logging_mixin.py:115} INFO - [2022-06-01 18:52:17,442] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:52:17,467] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.009 seconds
+[2022-06-01 18:52:49,196] {processor.py:153} INFO - Started process (PID=13074) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:52:49,205] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:52:49,206] {logging_mixin.py:115} INFO - [2022-06-01 18:52:49,206] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:52:57,249] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:53:01,028] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:53:01,057] {logging_mixin.py:115} INFO - [2022-06-01 18:53:01,057] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:53:01,079] {logging_mixin.py:115} INFO - [2022-06-01 18:53:01,079] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:53:01,105] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 11.911 seconds
+[2022-06-01 18:53:27,846] {processor.py:153} INFO - Started process (PID=13662) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:53:27,847] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:53:27,848] {logging_mixin.py:115} INFO - [2022-06-01 18:53:27,848] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:53:37,084] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:53:41,499] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:53:41,539] {logging_mixin.py:115} INFO - [2022-06-01 18:53:41,539] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:53:41,566] {logging_mixin.py:115} INFO - [2022-06-01 18:53:41,566] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:53:41,595] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.752 seconds
+[2022-06-01 18:54:12,339] {processor.py:153} INFO - Started process (PID=14322) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:54:12,348] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:54:12,348] {logging_mixin.py:115} INFO - [2022-06-01 18:54:12,348] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:54:21,008] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:54:24,829] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:54:24,865] {logging_mixin.py:115} INFO - [2022-06-01 18:54:24,865] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:54:24,884] {logging_mixin.py:115} INFO - [2022-06-01 18:54:24,884] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:54:24,903] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.566 seconds
+[2022-06-01 18:54:53,301] {processor.py:153} INFO - Started process (PID=14901) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:54:53,305] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:54:53,306] {logging_mixin.py:115} INFO - [2022-06-01 18:54:53,305] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:55:02,262] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:55:05,889] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:55:05,930] {logging_mixin.py:115} INFO - [2022-06-01 18:55:05,930] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:55:05,952] {logging_mixin.py:115} INFO - [2022-06-01 18:55:05,952] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:55:05,973] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.677 seconds
+[2022-06-01 18:55:37,794] {processor.py:153} INFO - Started process (PID=15566) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:55:37,803] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:55:37,803] {logging_mixin.py:115} INFO - [2022-06-01 18:55:37,803] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:55:46,134] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:55:49,859] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:55:49,898] {logging_mixin.py:115} INFO - [2022-06-01 18:55:49,898] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:55:49,931] {logging_mixin.py:115} INFO - [2022-06-01 18:55:49,931] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:55:49,960] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.168 seconds
+[2022-06-01 18:56:17,237] {processor.py:153} INFO - Started process (PID=16143) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:56:17,237] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:56:17,238] {logging_mixin.py:115} INFO - [2022-06-01 18:56:17,238] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:56:26,300] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:56:30,110] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:56:30,143] {logging_mixin.py:115} INFO - [2022-06-01 18:56:30,143] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:56:30,166] {logging_mixin.py:115} INFO - [2022-06-01 18:56:30,166] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:56:30,187] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.954 seconds
+[2022-06-01 18:57:01,334] {processor.py:153} INFO - Started process (PID=16801) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:57:01,343] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:57:01,343] {logging_mixin.py:115} INFO - [2022-06-01 18:57:01,343] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:57:09,858] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:57:13,628] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:57:13,656] {logging_mixin.py:115} INFO - [2022-06-01 18:57:13,656] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:57:13,674] {logging_mixin.py:115} INFO - [2022-06-01 18:57:13,674] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:57:13,698] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.366 seconds
+[2022-06-01 18:57:40,619] {processor.py:153} INFO - Started process (PID=17383) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:57:40,622] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:57:40,623] {logging_mixin.py:115} INFO - [2022-06-01 18:57:40,623] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:57:49,800] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:57:53,629] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:57:53,664] {logging_mixin.py:115} INFO - [2022-06-01 18:57:53,664] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:57:53,687] {logging_mixin.py:115} INFO - [2022-06-01 18:57:53,687] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:57:53,708] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.093 seconds
+[2022-06-01 18:58:25,318] {processor.py:153} INFO - Started process (PID=18055) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:58:25,326] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:58:25,327] {logging_mixin.py:115} INFO - [2022-06-01 18:58:25,327] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:58:33,698] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:58:37,409] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:58:37,440] {logging_mixin.py:115} INFO - [2022-06-01 18:58:37,440] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:58:37,459] {logging_mixin.py:115} INFO - [2022-06-01 18:58:37,459] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:58:37,481] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 12.165 seconds
+[2022-06-01 18:59:04,765] {processor.py:153} INFO - Started process (PID=18630) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:59:04,766] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:59:04,767] {logging_mixin.py:115} INFO - [2022-06-01 18:59:04,767] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:59:13,931] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 18:59:18,038] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:59:18,066] {logging_mixin.py:115} INFO - [2022-06-01 18:59:18,066] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 18:59:18,089] {logging_mixin.py:115} INFO - [2022-06-01 18:59:18,088] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 18:59:18,114] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.353 seconds
+[2022-06-01 18:59:53,991] {processor.py:153} INFO - Started process (PID=19311) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 18:59:53,992] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 18:59:53,992] {logging_mixin.py:115} INFO - [2022-06-01 18:59:53,992] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:00:03,645] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 19:00:07,630] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:00:07,670] {logging_mixin.py:115} INFO - [2022-06-01 19:00:07,669] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 19:00:07,695] {logging_mixin.py:115} INFO - [2022-06-01 19:00:07,695] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 19:00:07,723] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.734 seconds
+[2022-06-01 19:00:36,953] {processor.py:153} INFO - Started process (PID=19904) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:00:36,957] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 19:00:36,958] {logging_mixin.py:115} INFO - [2022-06-01 19:00:36,958] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:00:49,060] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 19:00:53,329] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:00:53,373] {logging_mixin.py:115} INFO - [2022-06-01 19:00:53,373] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 19:00:53,398] {logging_mixin.py:115} INFO - [2022-06-01 19:00:53,398] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 19:00:53,421] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 16.471 seconds
+[2022-06-01 19:01:26,760] {processor.py:153} INFO - Started process (PID=20653) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:01:26,769] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 19:01:26,769] {logging_mixin.py:115} INFO - [2022-06-01 19:01:26,769] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:01:35,875] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 19:01:40,389] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:01:40,426] {logging_mixin.py:115} INFO - [2022-06-01 19:01:40,426] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 19:01:40,448] {logging_mixin.py:115} INFO - [2022-06-01 19:01:40,448] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 19:01:40,473] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.716 seconds
+[2022-06-01 19:02:08,827] {processor.py:153} INFO - Started process (PID=21254) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:02:08,831] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 19:02:08,832] {logging_mixin.py:115} INFO - [2022-06-01 19:02:08,832] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:02:22,517] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 19:02:27,621] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:02:27,663] {logging_mixin.py:115} INFO - [2022-06-01 19:02:27,663] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 19:02:27,683] {logging_mixin.py:115} INFO - [2022-06-01 19:02:27,683] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 19:02:27,705] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 18.884 seconds
+[2022-06-01 19:02:59,863] {processor.py:153} INFO - Started process (PID=21922) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:02:59,866] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 19:02:59,866] {logging_mixin.py:115} INFO - [2022-06-01 19:02:59,866] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:03:09,795] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 19:03:13,859] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:03:13,889] {logging_mixin.py:115} INFO - [2022-06-01 19:03:13,889] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 19:03:13,907] {logging_mixin.py:115} INFO - [2022-06-01 19:03:13,907] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 19:03:13,944] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 14.083 seconds
+[2022-06-01 19:03:40,805] {processor.py:153} INFO - Started process (PID=22507) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:03:40,808] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 19:03:40,809] {logging_mixin.py:115} INFO - [2022-06-01 19:03:40,809] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:03:50,491] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 19:03:54,209] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:03:54,238] {logging_mixin.py:115} INFO - [2022-06-01 19:03:54,238] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 19:03:54,258] {logging_mixin.py:115} INFO - [2022-06-01 19:03:54,257] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 19:03:54,284] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 13.482 seconds
+[2022-06-01 19:04:28,398] {processor.py:153} INFO - Started process (PID=23169) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:04:28,407] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 19:04:28,408] {logging_mixin.py:115} INFO - [2022-06-01 19:04:28,408] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:04:40,378] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 19:04:45,069] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:04:45,099] {logging_mixin.py:115} INFO - [2022-06-01 19:04:45,099] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 19:04:45,118] {logging_mixin.py:115} INFO - [2022-06-01 19:04:45,118] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 19:04:45,139] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 16.743 seconds
+[2022-06-01 19:05:14,538] {processor.py:153} INFO - Started process (PID=23781) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:05:14,547] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 19:05:14,547] {logging_mixin.py:115} INFO - [2022-06-01 19:05:14,547] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:05:23,974] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 19:05:28,959] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:05:28,999] {logging_mixin.py:115} INFO - [2022-06-01 19:05:28,999] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 19:05:29,021] {logging_mixin.py:115} INFO - [2022-06-01 19:05:29,021] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 19:05:29,043] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 14.507 seconds
+[2022-06-01 19:06:05,549] {processor.py:153} INFO - Started process (PID=24479) to work on /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:06:05,550] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py for tasks to queue
+[2022-06-01 19:06:05,550] {logging_mixin.py:115} INFO - [2022-06-01 19:06:05,550] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:06:15,850] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-06-01 19:06:20,099] {processor.py:651} INFO - DAG(s) dict_keys(['monthly_social_sentiment_dag']) retrieved from /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py
+[2022-06-01 19:06:20,145] {logging_mixin.py:115} INFO - [2022-06-01 19:06:20,144] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-01 19:06:20,175] {logging_mixin.py:115} INFO - [2022-06-01 19:06:20,175] {dag.py:2923} INFO - Setting next_dagrun for monthly_social_sentiment_dag to 2022-06-01T16:38:02.982969+00:00, run_after=2022-06-02T16:38:02.982969+00:00
+[2022-06-01 19:06:20,208] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/social_sentiment/monthly_social_sentiment_dag.py took 14.662 seconds

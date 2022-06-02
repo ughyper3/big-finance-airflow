@@ -1,0 +1,57 @@
+[2022-05-31 23:15:56,899] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: monthly_recommendation_dag.push_recommendation_from_AAPL scheduled__2022-05-30T21:14:49.210223+00:00 [queued]>
+[2022-05-31 23:15:56,905] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: monthly_recommendation_dag.push_recommendation_from_AAPL scheduled__2022-05-30T21:14:49.210223+00:00 [queued]>
+[2022-05-31 23:15:56,905] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-31 23:15:56,905] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-05-31 23:15:56,905] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-31 23:15:56,922] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): push_recommendation_from_AAPL> on 2022-05-30 21:14:49.210223+00:00
+[2022-05-31 23:15:56,924] {standard_task_runner.py:52} INFO - Started process 3063 to run task
+[2022-05-31 23:15:56,927] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'monthly_recommendation_dag', 'push_recommendation_from_AAPL', 'scheduled__2022-05-30T21:14:49.210223+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/recommendation/load_monthly_recommendation_dag.py', '--cfg-path', '/tmp/tmpm_qi3puc', '--error-file', '/tmp/tmp08kyolx_']
+[2022-05-31 23:15:56,928] {standard_task_runner.py:80} INFO - Job 32: Subtask push_recommendation_from_AAPL
+[2022-05-31 23:15:56,945] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/configuration.py:529 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-05-31 23:15:56,946] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/configuration.py:529 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-05-31 23:15:56,967] {task_command.py:370} INFO - Running <TaskInstance: monthly_recommendation_dag.push_recommendation_from_AAPL scheduled__2022-05-30T21:14:49.210223+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-05-31 23:15:57,019] {taskinstance.py:1570} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=monthly_recommendation_dag
+AIRFLOW_CTX_TASK_ID=push_recommendation_from_AAPL
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-30T21:14:49.210223+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-30T21:14:49.210223+00:00
+[2022-05-31 23:15:57,032] {logging_mixin.py:115} INFO - Successful connection to mongo db
+[2022-05-31 23:15:57,203] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/dataframe.py:138 FutureWarning: Deprecated in 2.0, use createOrReplaceTempView instead.
+[2022-05-31 23:15:57,337] {taskinstance.py:1890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/udimini/airflow/dags/recommendation/load_monthly_recommendation_dag.py", line 19, in push_recommendation_on_datalake
+    recommendations = spark.get_monthly_recommendations()
+  File "/home/udimini/airflow/dags/helpers/spark.py", line 56, in get_monthly_recommendations
+    query = session.sql(
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/session.py", line 723, in sql
+    return DataFrame(self._jsparkSession.sql(sqlQuery), self._wrapped)
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/home/udimini/airflow_venv/lib/python3.8/site-packages/pyspark/sql/utils.py", line 117, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: cannot resolve 'period' given input columns: [recommendationsmonthcollection._id, recommendationsmonthcollection.atTime, recommendationsmonthcollection.company, recommendationsmonthcollection.media, recommendationsmonthcollection.mention, recommendationsmonthcollection.negativeMention, recommendationsmonthcollection.negativeScore, recommendationsmonthcollection.positiveMention, recommendationsmonthcollection.positiveScore, recommendationsmonthcollection.score]; line 1 pos 19;
+'Sort ['symbol ASC NULLS FIRST, 'CONCAT('YEAR('period), -, 'MONTH('period)) ASC NULLS FIRST], true
++- 'Project ['CONCAT('YEAR('period), -, 'MONTH('period)) AS month#273, 'symbol, 'strongBuy, 'buy, 'hold, 'strongSell, 'sell]
+   +- SubqueryAlias recommendationsmonthcollection
+      +- View (`recommendationsMonthCollection`, [_id#253,atTime#254,company#255,media#256,mention#257,negativeMention#258,negativeScore#259,positiveMention#260,positiveScore#261,score#262])
+         +- Relation [_id#253,atTime#254,company#255,media#256,mention#257,negativeMention#258,negativeScore#259,positiveMention#260,positiveScore#261,score#262] MongoRelation(MongoRDD[37] at RDD at MongoRDD.scala:51,Some(StructType(StructField(_id,StructType(StructField(oid,StringType,true)),true), StructField(atTime,StringType,true), StructField(company,StringType,true), StructField(media,StringType,true), StructField(mention,IntegerType,true), StructField(negativeMention,IntegerType,true), StructField(negativeScore,DoubleType,true), StructField(positiveMention,IntegerType,true), StructField(positiveScore,DoubleType,true), StructField(score,DoubleType,true))))
+
+[2022-05-31 23:15:57,395] {taskinstance.py:1396} INFO - Marking task as UP_FOR_RETRY. dag_id=monthly_recommendation_dag, task_id=push_recommendation_from_AAPL, execution_date=20220530T211449, start_date=20220531T211556, end_date=20220531T211557
+[2022-05-31 23:15:57,409] {standard_task_runner.py:92} ERROR - Failed to execute job 32 for task push_recommendation_from_AAPL (cannot resolve 'period' given input columns: [recommendationsmonthcollection._id, recommendationsmonthcollection.atTime, recommendationsmonthcollection.company, recommendationsmonthcollection.media, recommendationsmonthcollection.mention, recommendationsmonthcollection.negativeMention, recommendationsmonthcollection.negativeScore, recommendationsmonthcollection.positiveMention, recommendationsmonthcollection.positiveScore, recommendationsmonthcollection.score]; line 1 pos 19;
+'Sort ['symbol ASC NULLS FIRST, 'CONCAT('YEAR('period), -, 'MONTH('period)) ASC NULLS FIRST], true
++- 'Project ['CONCAT('YEAR('period), -, 'MONTH('period)) AS month#273, 'symbol, 'strongBuy, 'buy, 'hold, 'strongSell, 'sell]
+   +- SubqueryAlias recommendationsmonthcollection
+      +- View (`recommendationsMonthCollection`, [_id#253,atTime#254,company#255,media#256,mention#257,negativeMention#258,negativeScore#259,positiveMention#260,positiveScore#261,score#262])
+         +- Relation [_id#253,atTime#254,company#255,media#256,mention#257,negativeMention#258,negativeScore#259,positiveMention#260,positiveScore#261,score#262] MongoRelation(MongoRDD[37] at RDD at MongoRDD.scala:51,Some(StructType(StructField(_id,StructType(StructField(oid,StringType,true)),true), StructField(atTime,StringType,true), StructField(company,StringType,true), StructField(media,StringType,true), StructField(mention,IntegerType,true), StructField(negativeMention,IntegerType,true), StructField(negativeScore,DoubleType,true), StructField(positiveMention,IntegerType,true), StructField(positiveScore,DoubleType,true), StructField(score,DoubleType,true))))
+; 3063)
+[2022-05-31 23:15:57,420] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-05-31 23:15:57,436] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,26 @@
+[2022-06-01 18:08:14,469] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: monthly_recommendation_dag.push_monthly_recommendations manual__2022-06-01T16:07:49.108887+00:00 [queued]>
+[2022-06-01 18:08:14,479] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: monthly_recommendation_dag.push_monthly_recommendations manual__2022-06-01T16:07:49.108887+00:00 [queued]>
+[2022-06-01 18:08:14,479] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 18:08:14,479] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-01 18:08:14,479] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-01 18:08:14,502] {taskinstance.py:1378} INFO - Executing <Task(PythonOperator): push_monthly_recommendations> on 2022-06-01 16:07:49.108887+00:00
+[2022-06-01 18:08:14,504] {standard_task_runner.py:52} INFO - Started process 4571 to run task
+[2022-06-01 18:08:14,509] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'monthly_recommendation_dag', 'push_monthly_recommendations', 'manual__2022-06-01T16:07:49.108887+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/recommendation/load_monthly_recommendation_dag.py', '--cfg-path', '/tmp/tmpez7bf229', '--error-file', '/tmp/tmpqcmcru5f']
+[2022-06-01 18:08:14,510] {standard_task_runner.py:80} INFO - Job 50: Subtask push_monthly_recommendations
+[2022-06-01 18:08:14,532] {logging_mixin.py:115} WARNING - /home/udimini/airflow_venv/lib/python3.8/site-packages/airflow/configuration.py:529 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-06-01 18:08:14,561] {task_command.py:370} INFO - Running <TaskInstance: monthly_recommendation_dag.push_monthly_recommendations manual__2022-06-01T16:07:49.108887+00:00 [running]> on host DESKTOP-O4M0F04.localdomain
+[2022-06-01 18:08:14,619] {taskinstance.py:1570} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=monthly_recommendation_dag
+AIRFLOW_CTX_TASK_ID=push_monthly_recommendations
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-01T16:07:49.108887+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-06-01T16:07:49.108887+00:00
+[2022-06-01 18:08:14,635] {logging_mixin.py:115} INFO - Successful connection to mongo db
+[2022-06-01 18:08:15,766] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-01 18:08:15,775] {taskinstance.py:1396} INFO - Marking task as SUCCESS. dag_id=monthly_recommendation_dag, task_id=push_monthly_recommendations, execution_date=20220601T160749, start_date=20220601T160814, end_date=20220601T160815
+[2022-06-01 18:08:15,806] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-01 18:08:15,819] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

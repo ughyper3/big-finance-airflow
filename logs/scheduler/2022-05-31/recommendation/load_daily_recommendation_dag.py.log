@@ -1,0 +1,518 @@
+[2022-05-31 23:02:55,489] {processor.py:153} INFO - Started process (PID=30258) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:02:55,490] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:02:55,491] {logging_mixin.py:115} INFO - [2022-05-31 23:02:55,490] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:02:55,557] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:02:55,625] {logging_mixin.py:115} INFO - [2022-05-31 23:02:55,625] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:02:55,642] {logging_mixin.py:115} INFO - [2022-05-31 23:02:55,642] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:02:55.641908+00:00, run_after=2022-05-31T21:02:55.641908+00:00
+[2022-05-31 23:02:55,669] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.183 seconds
+[2022-05-31 23:03:03,445] {processor.py:153} INFO - Started process (PID=30351) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:03,448] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:03:03,449] {logging_mixin.py:115} INFO - [2022-05-31 23:03:03,449] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:03,571] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:03,584] {logging_mixin.py:115} INFO - [2022-05-31 23:03:03,584] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:03:03,633] {logging_mixin.py:115} INFO - [2022-05-31 23:03:03,633] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:03:03.633227+00:00, run_after=2022-05-31T21:03:03.633227+00:00
+[2022-05-31 23:03:03,657] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.220 seconds
+[2022-05-31 23:03:05,960] {processor.py:153} INFO - Started process (PID=30362) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:05,961] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:03:05,961] {logging_mixin.py:115} INFO - [2022-05-31 23:03:05,961] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:06,042] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:06,052] {logging_mixin.py:115} INFO - [2022-05-31 23:03:06,051] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:03:06,081] {logging_mixin.py:115} INFO - [2022-05-31 23:03:06,080] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:03:06.080470+00:00, run_after=2022-05-31T21:03:06.080470+00:00
+[2022-05-31 23:03:06,108] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.151 seconds
+[2022-05-31 23:03:09,733] {processor.py:153} INFO - Started process (PID=30384) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:09,734] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:03:09,742] {logging_mixin.py:115} INFO - [2022-05-31 23:03:09,742] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:09,840] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:09,851] {logging_mixin.py:115} INFO - [2022-05-31 23:03:09,851] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:03:09,889] {logging_mixin.py:115} INFO - [2022-05-31 23:03:09,888] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:03:09.888455+00:00, run_after=2022-05-31T21:03:09.888455+00:00
+[2022-05-31 23:03:09,986] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.256 seconds
+[2022-05-31 23:03:11,227] {processor.py:153} INFO - Started process (PID=30394) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:11,227] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:03:11,228] {logging_mixin.py:115} INFO - [2022-05-31 23:03:11,228] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:11,297] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:11,307] {logging_mixin.py:115} INFO - [2022-05-31 23:03:11,306] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:03:11,330] {logging_mixin.py:115} INFO - [2022-05-31 23:03:11,330] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:03:11.330163+00:00, run_after=2022-05-31T21:03:11.330163+00:00
+[2022-05-31 23:03:11,352] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.130 seconds
+[2022-05-31 23:03:14,986] {processor.py:153} INFO - Started process (PID=30411) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:14,987] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:03:14,987] {logging_mixin.py:115} INFO - [2022-05-31 23:03:14,987] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:15,066] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:15,079] {logging_mixin.py:115} INFO - [2022-05-31 23:03:15,079] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:03:15,111] {logging_mixin.py:115} INFO - [2022-05-31 23:03:15,111] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:03:15.111319+00:00, run_after=2022-05-31T21:03:15.111319+00:00
+[2022-05-31 23:03:15,135] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.153 seconds
+[2022-05-31 23:03:17,761] {processor.py:153} INFO - Started process (PID=30428) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:17,762] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:03:17,763] {logging_mixin.py:115} INFO - [2022-05-31 23:03:17,762] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:17,949] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:17,966] {logging_mixin.py:115} INFO - [2022-05-31 23:03:17,966] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:03:18,022] {logging_mixin.py:115} INFO - [2022-05-31 23:03:18,021] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:03:18.021525+00:00, run_after=2022-05-31T21:03:18.021525+00:00
+[2022-05-31 23:03:18,059] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.303 seconds
+[2022-05-31 23:03:34,437] {processor.py:153} INFO - Started process (PID=30551) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:34,446] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:03:34,447] {logging_mixin.py:115} INFO - [2022-05-31 23:03:34,447] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:34,562] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:34,590] {logging_mixin.py:115} INFO - [2022-05-31 23:03:34,590] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:03:34,633] {logging_mixin.py:115} INFO - [2022-05-31 23:03:34,633] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:03:34.632487+00:00, run_after=2022-05-31T21:03:34.632487+00:00
+[2022-05-31 23:03:34,675] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.243 seconds
+[2022-05-31 23:03:41,888] {processor.py:153} INFO - Started process (PID=30585) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:41,889] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:03:41,890] {logging_mixin.py:115} INFO - [2022-05-31 23:03:41,890] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:42,010] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:42,027] {logging_mixin.py:115} INFO - [2022-05-31 23:03:42,026] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:03:42,069] {logging_mixin.py:115} INFO - [2022-05-31 23:03:42,069] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:03:42.069038+00:00, run_after=2022-05-31T21:03:42.069038+00:00
+[2022-05-31 23:03:42,097] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.213 seconds
+[2022-05-31 23:03:44,388] {processor.py:153} INFO - Started process (PID=30599) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:44,388] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:03:44,389] {logging_mixin.py:115} INFO - [2022-05-31 23:03:44,389] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:44,463] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:44,471] {logging_mixin.py:115} INFO - [2022-05-31 23:03:44,471] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:03:44,495] {logging_mixin.py:115} INFO - [2022-05-31 23:03:44,495] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:03:44.494997+00:00, run_after=2022-05-31T21:03:44.494997+00:00
+[2022-05-31 23:03:44,517] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.131 seconds
+[2022-05-31 23:03:48,253] {processor.py:153} INFO - Started process (PID=30614) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:48,253] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:03:48,254] {logging_mixin.py:115} INFO - [2022-05-31 23:03:48,254] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:48,328] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:48,338] {logging_mixin.py:115} INFO - [2022-05-31 23:03:48,338] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:03:48,364] {logging_mixin.py:115} INFO - [2022-05-31 23:03:48,364] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:03:48.364218+00:00, run_after=2022-05-31T21:03:48.364218+00:00
+[2022-05-31 23:03:48,391] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.144 seconds
+[2022-05-31 23:03:50,880] {processor.py:153} INFO - Started process (PID=30629) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:50,881] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:03:50,882] {logging_mixin.py:115} INFO - [2022-05-31 23:03:50,882] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:50,957] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:03:50,967] {logging_mixin.py:115} INFO - [2022-05-31 23:03:50,967] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:03:50,998] {logging_mixin.py:115} INFO - [2022-05-31 23:03:50,997] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:03:50.997401+00:00, run_after=2022-05-31T21:03:50.997401+00:00
+[2022-05-31 23:03:51,036] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.159 seconds
+[2022-05-31 23:05:53,303] {processor.py:153} INFO - Started process (PID=31409) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:05:53,303] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:05:53,304] {logging_mixin.py:115} INFO - [2022-05-31 23:05:53,304] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:05:53,344] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:05:53,382] {logging_mixin.py:115} INFO - [2022-05-31 23:05:53,382] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:05:53,396] {logging_mixin.py:115} INFO - [2022-05-31 23:05:53,396] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:05:53.396130+00:00, run_after=2022-05-31T21:05:53.396130+00:00
+[2022-05-31 23:05:53,415] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.114 seconds
+[2022-05-31 23:06:00,678] {processor.py:153} INFO - Started process (PID=31427) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:00,679] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:00,680] {logging_mixin.py:115} INFO - [2022-05-31 23:06:00,680] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:00,740] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:00,745] {logging_mixin.py:115} INFO - [2022-05-31 23:06:00,745] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:00,759] {logging_mixin.py:115} INFO - [2022-05-31 23:06:00,759] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:00.759477+00:00, run_after=2022-05-31T21:06:00.759477+00:00
+[2022-05-31 23:06:00,775] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.102 seconds
+[2022-05-31 23:06:03,187] {processor.py:153} INFO - Started process (PID=31492) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:03,187] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:03,188] {logging_mixin.py:115} INFO - [2022-05-31 23:06:03,188] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:03,255] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:03,263] {logging_mixin.py:115} INFO - [2022-05-31 23:06:03,262] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:03,277] {logging_mixin.py:115} INFO - [2022-05-31 23:06:03,276] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:03.276792+00:00, run_after=2022-05-31T21:06:03.276792+00:00
+[2022-05-31 23:06:03,292] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.117 seconds
+[2022-05-31 23:06:06,861] {processor.py:153} INFO - Started process (PID=31503) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:06,863] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:06,864] {logging_mixin.py:115} INFO - [2022-05-31 23:06:06,864] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:06,914] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:06,919] {logging_mixin.py:115} INFO - [2022-05-31 23:06:06,919] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:06,933] {logging_mixin.py:115} INFO - [2022-05-31 23:06:06,933] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:06.933354+00:00, run_after=2022-05-31T21:06:06.933354+00:00
+[2022-05-31 23:06:06,958] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.105 seconds
+[2022-05-31 23:06:09,760] {processor.py:153} INFO - Started process (PID=31506) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:09,769] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:09,770] {logging_mixin.py:115} INFO - [2022-05-31 23:06:09,770] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:09,835] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:09,845] {logging_mixin.py:115} INFO - [2022-05-31 23:06:09,845] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:09,874] {logging_mixin.py:115} INFO - [2022-05-31 23:06:09,874] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:09.874370+00:00, run_after=2022-05-31T21:06:09.874370+00:00
+[2022-05-31 23:06:09,890] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.134 seconds
+[2022-05-31 23:06:13,470] {processor.py:153} INFO - Started process (PID=31509) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:13,472] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:13,473] {logging_mixin.py:115} INFO - [2022-05-31 23:06:13,473] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:13,534] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:13,540] {logging_mixin.py:115} INFO - [2022-05-31 23:06:13,540] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:13,554] {logging_mixin.py:115} INFO - [2022-05-31 23:06:13,554] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:13.554658+00:00, run_after=2022-05-31T21:06:13.554658+00:00
+[2022-05-31 23:06:13,575] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.114 seconds
+[2022-05-31 23:06:16,303] {processor.py:153} INFO - Started process (PID=31512) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:16,304] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:16,305] {logging_mixin.py:115} INFO - [2022-05-31 23:06:16,305] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:16,375] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:16,380] {logging_mixin.py:115} INFO - [2022-05-31 23:06:16,380] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:16,394] {logging_mixin.py:115} INFO - [2022-05-31 23:06:16,393] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:16.393750+00:00, run_after=2022-05-31T21:06:16.393750+00:00
+[2022-05-31 23:06:16,410] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.112 seconds
+[2022-05-31 23:06:19,063] {processor.py:153} INFO - Started process (PID=31528) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:19,064] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:19,066] {logging_mixin.py:115} INFO - [2022-05-31 23:06:19,065] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:19,127] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:19,133] {logging_mixin.py:115} INFO - [2022-05-31 23:06:19,133] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:19,148] {logging_mixin.py:115} INFO - [2022-05-31 23:06:19,148] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:19.147961+00:00, run_after=2022-05-31T21:06:19.147961+00:00
+[2022-05-31 23:06:19,165] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.110 seconds
+[2022-05-31 23:06:22,744] {processor.py:153} INFO - Started process (PID=31541) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:22,746] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:22,747] {logging_mixin.py:115} INFO - [2022-05-31 23:06:22,747] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:22,804] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:22,809] {logging_mixin.py:115} INFO - [2022-05-31 23:06:22,809] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:22,822] {logging_mixin.py:115} INFO - [2022-05-31 23:06:22,822] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:22.822118+00:00, run_after=2022-05-31T21:06:22.822118+00:00
+[2022-05-31 23:06:22,839] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.103 seconds
+[2022-05-31 23:06:24,346] {processor.py:153} INFO - Started process (PID=31580) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:24,350] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:24,350] {logging_mixin.py:115} INFO - [2022-05-31 23:06:24,350] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:24,417] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:24,422] {logging_mixin.py:115} INFO - [2022-05-31 23:06:24,422] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:24,437] {logging_mixin.py:115} INFO - [2022-05-31 23:06:24,437] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:24.437195+00:00, run_after=2022-05-31T21:06:24.437195+00:00
+[2022-05-31 23:06:24,458] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.115 seconds
+[2022-05-31 23:06:26,865] {processor.py:153} INFO - Started process (PID=31587) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:26,866] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:26,867] {logging_mixin.py:115} INFO - [2022-05-31 23:06:26,867] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:26,946] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:26,951] {logging_mixin.py:115} INFO - [2022-05-31 23:06:26,951] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:26,967] {logging_mixin.py:115} INFO - [2022-05-31 23:06:26,966] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:26.966640+00:00, run_after=2022-05-31T21:06:26.966640+00:00
+[2022-05-31 23:06:26,995] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.139 seconds
+[2022-05-31 23:06:29,599] {processor.py:153} INFO - Started process (PID=31600) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:29,600] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:29,600] {logging_mixin.py:115} INFO - [2022-05-31 23:06:29,600] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:29,656] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:29,662] {logging_mixin.py:115} INFO - [2022-05-31 23:06:29,662] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:29,677] {logging_mixin.py:115} INFO - [2022-05-31 23:06:29,677] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:29.677312+00:00, run_after=2022-05-31T21:06:29.677312+00:00
+[2022-05-31 23:06:29,694] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.096 seconds
+[2022-05-31 23:06:33,160] {processor.py:153} INFO - Started process (PID=31613) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:33,160] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:33,161] {logging_mixin.py:115} INFO - [2022-05-31 23:06:33,161] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:33,210] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:33,215] {logging_mixin.py:115} INFO - [2022-05-31 23:06:33,215] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:33,230] {logging_mixin.py:115} INFO - [2022-05-31 23:06:33,230] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:33.230026+00:00, run_after=2022-05-31T21:06:33.230026+00:00
+[2022-05-31 23:06:33,249] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.094 seconds
+[2022-05-31 23:06:34,762] {processor.py:153} INFO - Started process (PID=31615) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:34,764] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:34,765] {logging_mixin.py:115} INFO - [2022-05-31 23:06:34,765] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:34,825] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:34,830] {logging_mixin.py:115} INFO - [2022-05-31 23:06:34,830] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:34,844] {logging_mixin.py:115} INFO - [2022-05-31 23:06:34,843] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:34.843777+00:00, run_after=2022-05-31T21:06:34.843777+00:00
+[2022-05-31 23:06:34,869] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.115 seconds
+[2022-05-31 23:06:38,570] {processor.py:153} INFO - Started process (PID=31618) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:38,570] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:38,571] {logging_mixin.py:115} INFO - [2022-05-31 23:06:38,571] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:38,620] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:38,625] {logging_mixin.py:115} INFO - [2022-05-31 23:06:38,625] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:38,639] {logging_mixin.py:115} INFO - [2022-05-31 23:06:38,638] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:38.638685+00:00, run_after=2022-05-31T21:06:38.638685+00:00
+[2022-05-31 23:06:38,656] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.091 seconds
+[2022-05-31 23:06:41,169] {processor.py:153} INFO - Started process (PID=31649) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:41,170] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:41,170] {logging_mixin.py:115} INFO - [2022-05-31 23:06:41,170] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:41,210] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:41,215] {logging_mixin.py:115} INFO - [2022-05-31 23:06:41,215] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:41,232] {logging_mixin.py:115} INFO - [2022-05-31 23:06:41,232] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:41.231820+00:00, run_after=2022-05-31T21:06:41.231820+00:00
+[2022-05-31 23:06:41,256] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.089 seconds
+[2022-05-31 23:06:43,447] {processor.py:153} INFO - Started process (PID=31659) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:43,447] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:43,448] {logging_mixin.py:115} INFO - [2022-05-31 23:06:43,448] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:43,504] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:43,509] {logging_mixin.py:115} INFO - [2022-05-31 23:06:43,509] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:43,522] {logging_mixin.py:115} INFO - [2022-05-31 23:06:43,521] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:43.521770+00:00, run_after=2022-05-31T21:06:43.521770+00:00
+[2022-05-31 23:06:43,543] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.100 seconds
+[2022-05-31 23:06:46,459] {processor.py:153} INFO - Started process (PID=31662) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:46,475] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:46,476] {logging_mixin.py:115} INFO - [2022-05-31 23:06:46,475] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:46,524] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:46,533] {logging_mixin.py:115} INFO - [2022-05-31 23:06:46,533] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:46,550] {logging_mixin.py:115} INFO - [2022-05-31 23:06:46,550] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:46.549989+00:00, run_after=2022-05-31T21:06:46.549989+00:00
+[2022-05-31 23:06:46,566] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.110 seconds
+[2022-05-31 23:06:50,225] {processor.py:153} INFO - Started process (PID=31665) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:50,226] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:50,226] {logging_mixin.py:115} INFO - [2022-05-31 23:06:50,226] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:50,268] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:50,273] {logging_mixin.py:115} INFO - [2022-05-31 23:06:50,273] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:50,287] {logging_mixin.py:115} INFO - [2022-05-31 23:06:50,287] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:50.287272+00:00, run_after=2022-05-31T21:06:50.287272+00:00
+[2022-05-31 23:06:50,308] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.085 seconds
+[2022-05-31 23:06:52,882] {processor.py:153} INFO - Started process (PID=31668) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:52,884] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:52,885] {logging_mixin.py:115} INFO - [2022-05-31 23:06:52,885] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:52,941] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:52,947] {logging_mixin.py:115} INFO - [2022-05-31 23:06:52,947] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:52,960] {logging_mixin.py:115} INFO - [2022-05-31 23:06:52,960] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:52.960428+00:00, run_after=2022-05-31T21:06:52.960428+00:00
+[2022-05-31 23:06:52,977] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.103 seconds
+[2022-05-31 23:06:54,490] {processor.py:153} INFO - Started process (PID=31670) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:54,492] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:54,493] {logging_mixin.py:115} INFO - [2022-05-31 23:06:54,493] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:54,547] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:54,577] {logging_mixin.py:115} INFO - [2022-05-31 23:06:54,577] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:54,589] {logging_mixin.py:115} INFO - [2022-05-31 23:06:54,589] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:54.589700+00:00, run_after=2022-05-31T21:06:54.589700+00:00
+[2022-05-31 23:06:54,614] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.132 seconds
+[2022-05-31 23:06:58,114] {processor.py:153} INFO - Started process (PID=31716) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:58,115] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:06:58,117] {logging_mixin.py:115} INFO - [2022-05-31 23:06:58,117] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:58,162] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:06:58,167] {logging_mixin.py:115} INFO - [2022-05-31 23:06:58,167] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:06:58,180] {logging_mixin.py:115} INFO - [2022-05-31 23:06:58,180] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:06:58.180218+00:00, run_after=2022-05-31T21:06:58.180218+00:00
+[2022-05-31 23:06:58,205] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.103 seconds
+[2022-05-31 23:07:00,857] {processor.py:153} INFO - Started process (PID=31767) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:00,857] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:00,857] {logging_mixin.py:115} INFO - [2022-05-31 23:07:00,857] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:00,894] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:00,899] {logging_mixin.py:115} INFO - [2022-05-31 23:07:00,899] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:00,912] {logging_mixin.py:115} INFO - [2022-05-31 23:07:00,912] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:00.912039+00:00, run_after=2022-05-31T21:07:00.912039+00:00
+[2022-05-31 23:07:00,925] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.071 seconds
+[2022-05-31 23:07:04,404] {processor.py:153} INFO - Started process (PID=31790) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:04,405] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:04,405] {logging_mixin.py:115} INFO - [2022-05-31 23:07:04,405] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:04,497] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:04,503] {logging_mixin.py:115} INFO - [2022-05-31 23:07:04,503] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:04,521] {logging_mixin.py:115} INFO - [2022-05-31 23:07:04,521] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:04.521362+00:00, run_after=2022-05-31T21:07:04.521362+00:00
+[2022-05-31 23:07:04,535] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.134 seconds
+[2022-05-31 23:07:06,010] {processor.py:153} INFO - Started process (PID=31813) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:06,011] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:06,012] {logging_mixin.py:115} INFO - [2022-05-31 23:07:06,012] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:06,114] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:06,121] {logging_mixin.py:115} INFO - [2022-05-31 23:07:06,121] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:06,139] {logging_mixin.py:115} INFO - [2022-05-31 23:07:06,139] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:06.139182+00:00, run_after=2022-05-31T21:07:06.139182+00:00
+[2022-05-31 23:07:06,158] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.152 seconds
+[2022-05-31 23:07:08,948] {processor.py:153} INFO - Started process (PID=31848) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:08,949] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:08,949] {logging_mixin.py:115} INFO - [2022-05-31 23:07:08,949] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:08,992] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:08,997] {logging_mixin.py:115} INFO - [2022-05-31 23:07:08,997] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:09,012] {logging_mixin.py:115} INFO - [2022-05-31 23:07:09,012] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:09.012008+00:00, run_after=2022-05-31T21:07:09.012008+00:00
+[2022-05-31 23:07:09,028] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.082 seconds
+[2022-05-31 23:07:12,456] {processor.py:153} INFO - Started process (PID=31887) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:12,456] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:12,457] {logging_mixin.py:115} INFO - [2022-05-31 23:07:12,456] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:12,498] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:12,504] {logging_mixin.py:115} INFO - [2022-05-31 23:07:12,504] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:12,517] {logging_mixin.py:115} INFO - [2022-05-31 23:07:12,517] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:12.517684+00:00, run_after=2022-05-31T21:07:12.517684+00:00
+[2022-05-31 23:07:12,539] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.086 seconds
+[2022-05-31 23:07:14,744] {processor.py:153} INFO - Started process (PID=31893) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:14,745] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:14,747] {logging_mixin.py:115} INFO - [2022-05-31 23:07:14,746] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:14,810] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:14,815] {logging_mixin.py:115} INFO - [2022-05-31 23:07:14,815] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:14,828] {logging_mixin.py:115} INFO - [2022-05-31 23:07:14,828] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:14.828324+00:00, run_after=2022-05-31T21:07:14.828324+00:00
+[2022-05-31 23:07:14,848] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.112 seconds
+[2022-05-31 23:07:16,455] {processor.py:153} INFO - Started process (PID=31896) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:16,456] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:16,466] {logging_mixin.py:115} INFO - [2022-05-31 23:07:16,466] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:16,515] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:16,523] {logging_mixin.py:115} INFO - [2022-05-31 23:07:16,522] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:16,540] {logging_mixin.py:115} INFO - [2022-05-31 23:07:16,540] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:16.540343+00:00, run_after=2022-05-31T21:07:16.540343+00:00
+[2022-05-31 23:07:16,563] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.111 seconds
+[2022-05-31 23:07:20,213] {processor.py:153} INFO - Started process (PID=31943) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:20,214] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:20,215] {logging_mixin.py:115} INFO - [2022-05-31 23:07:20,215] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:20,319] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:20,326] {logging_mixin.py:115} INFO - [2022-05-31 23:07:20,326] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:20,344] {logging_mixin.py:115} INFO - [2022-05-31 23:07:20,344] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:20.344247+00:00, run_after=2022-05-31T21:07:20.344247+00:00
+[2022-05-31 23:07:20,359] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.150 seconds
+[2022-05-31 23:07:21,710] {processor.py:153} INFO - Started process (PID=31969) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:21,711] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:21,711] {logging_mixin.py:115} INFO - [2022-05-31 23:07:21,711] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:21,760] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:21,766] {logging_mixin.py:115} INFO - [2022-05-31 23:07:21,766] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:21,782] {logging_mixin.py:115} INFO - [2022-05-31 23:07:21,782] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:21.781897+00:00, run_after=2022-05-31T21:07:21.781897+00:00
+[2022-05-31 23:07:21,797] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.091 seconds
+[2022-05-31 23:07:25,259] {processor.py:153} INFO - Started process (PID=32012) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:25,259] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:25,260] {logging_mixin.py:115} INFO - [2022-05-31 23:07:25,260] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:25,315] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:25,332] {logging_mixin.py:115} INFO - [2022-05-31 23:07:25,332] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:25,354] {logging_mixin.py:115} INFO - [2022-05-31 23:07:25,354] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:25.354194+00:00, run_after=2022-05-31T21:07:25.354194+00:00
+[2022-05-31 23:07:25,370] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.114 seconds
+[2022-05-31 23:07:28,154] {processor.py:153} INFO - Started process (PID=32027) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:28,154] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:28,155] {logging_mixin.py:115} INFO - [2022-05-31 23:07:28,155] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:28,199] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:28,210] {logging_mixin.py:115} INFO - [2022-05-31 23:07:28,210] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:28,223] {logging_mixin.py:115} INFO - [2022-05-31 23:07:28,223] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:28.223054+00:00, run_after=2022-05-31T21:07:28.223054+00:00
+[2022-05-31 23:07:28,242] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.092 seconds
+[2022-05-31 23:07:31,779] {processor.py:153} INFO - Started process (PID=32030) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:31,781] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:31,782] {logging_mixin.py:115} INFO - [2022-05-31 23:07:31,782] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:31,846] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:31,851] {logging_mixin.py:115} INFO - [2022-05-31 23:07:31,851] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:31,864] {logging_mixin.py:115} INFO - [2022-05-31 23:07:31,864] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:31.863915+00:00, run_after=2022-05-31T21:07:31.863915+00:00
+[2022-05-31 23:07:31,888] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.114 seconds
+[2022-05-31 23:07:34,698] {processor.py:153} INFO - Started process (PID=32033) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:34,699] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:34,701] {logging_mixin.py:115} INFO - [2022-05-31 23:07:34,700] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:34,765] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:34,771] {logging_mixin.py:115} INFO - [2022-05-31 23:07:34,771] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:34,784] {logging_mixin.py:115} INFO - [2022-05-31 23:07:34,784] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:34.783829+00:00, run_after=2022-05-31T21:07:34.783829+00:00
+[2022-05-31 23:07:34,809] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.115 seconds
+[2022-05-31 23:07:37,448] {processor.py:153} INFO - Started process (PID=32036) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:37,448] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:37,449] {logging_mixin.py:115} INFO - [2022-05-31 23:07:37,449] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:37,495] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:37,501] {logging_mixin.py:115} INFO - [2022-05-31 23:07:37,500] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:37,513] {logging_mixin.py:115} INFO - [2022-05-31 23:07:37,513] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:37.513581+00:00, run_after=2022-05-31T21:07:37.513581+00:00
+[2022-05-31 23:07:37,530] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.087 seconds
+[2022-05-31 23:07:40,574] {processor.py:153} INFO - Started process (PID=32049) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:40,575] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:40,575] {logging_mixin.py:115} INFO - [2022-05-31 23:07:40,575] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:40,629] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:40,636] {logging_mixin.py:115} INFO - [2022-05-31 23:07:40,636] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:40,652] {logging_mixin.py:115} INFO - [2022-05-31 23:07:40,652] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:40.652542+00:00, run_after=2022-05-31T21:07:40.652542+00:00
+[2022-05-31 23:07:40,672] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.100 seconds
+[2022-05-31 23:07:42,601] {processor.py:153} INFO - Started process (PID=32059) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:42,603] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:42,604] {logging_mixin.py:115} INFO - [2022-05-31 23:07:42,604] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:42,653] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:42,659] {logging_mixin.py:115} INFO - [2022-05-31 23:07:42,659] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:42,672] {logging_mixin.py:115} INFO - [2022-05-31 23:07:42,672] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:42.672692+00:00, run_after=2022-05-31T21:07:42.672692+00:00
+[2022-05-31 23:07:42,696] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.104 seconds
+[2022-05-31 23:07:45,651] {processor.py:153} INFO - Started process (PID=32062) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:45,652] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:45,654] {logging_mixin.py:115} INFO - [2022-05-31 23:07:45,653] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:45,710] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:45,716] {logging_mixin.py:115} INFO - [2022-05-31 23:07:45,715] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:45,728] {logging_mixin.py:115} INFO - [2022-05-31 23:07:45,728] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:45.728633+00:00, run_after=2022-05-31T21:07:45.728633+00:00
+[2022-05-31 23:07:45,749] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.107 seconds
+[2022-05-31 23:07:49,033] {processor.py:153} INFO - Started process (PID=32065) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:49,034] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:49,034] {logging_mixin.py:115} INFO - [2022-05-31 23:07:49,034] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:49,072] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:49,077] {logging_mixin.py:115} INFO - [2022-05-31 23:07:49,077] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:49,091] {logging_mixin.py:115} INFO - [2022-05-31 23:07:49,091] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:49.091428+00:00, run_after=2022-05-31T21:07:49.091428+00:00
+[2022-05-31 23:07:49,107] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.076 seconds
+[2022-05-31 23:07:51,435] {processor.py:153} INFO - Started process (PID=32067) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:51,436] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:51,437] {logging_mixin.py:115} INFO - [2022-05-31 23:07:51,437] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:51,497] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:51,504] {logging_mixin.py:115} INFO - [2022-05-31 23:07:51,503] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:51,523] {logging_mixin.py:115} INFO - [2022-05-31 23:07:51,523] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:51.523115+00:00, run_after=2022-05-31T21:07:51.523115+00:00
+[2022-05-31 23:07:51,539] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.110 seconds
+[2022-05-31 23:07:54,335] {processor.py:153} INFO - Started process (PID=32070) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:54,335] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:54,336] {logging_mixin.py:115} INFO - [2022-05-31 23:07:54,336] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:54,375] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:54,380] {logging_mixin.py:115} INFO - [2022-05-31 23:07:54,380] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:54,393] {logging_mixin.py:115} INFO - [2022-05-31 23:07:54,393] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:54.393384+00:00, run_after=2022-05-31T21:07:54.393384+00:00
+[2022-05-31 23:07:54,407] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.075 seconds
+[2022-05-31 23:07:57,101] {processor.py:153} INFO - Started process (PID=32073) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:57,105] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:57,107] {logging_mixin.py:115} INFO - [2022-05-31 23:07:57,106] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:57,162] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:57,168] {logging_mixin.py:115} INFO - [2022-05-31 23:07:57,168] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:57,181] {logging_mixin.py:115} INFO - [2022-05-31 23:07:57,181] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:57.180967+00:00, run_after=2022-05-31T21:07:57.180967+00:00
+[2022-05-31 23:07:57,202] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.108 seconds
+[2022-05-31 23:07:59,609] {processor.py:153} INFO - Started process (PID=32075) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:59,610] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:07:59,611] {logging_mixin.py:115} INFO - [2022-05-31 23:07:59,611] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:59,659] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:07:59,664] {logging_mixin.py:115} INFO - [2022-05-31 23:07:59,664] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:07:59,677] {logging_mixin.py:115} INFO - [2022-05-31 23:07:59,677] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:07:59.677158+00:00, run_after=2022-05-31T21:07:59.677158+00:00
+[2022-05-31 23:07:59,693] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.088 seconds
+[2022-05-31 23:08:03,254] {processor.py:153} INFO - Started process (PID=32089) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:03,257] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:03,258] {logging_mixin.py:115} INFO - [2022-05-31 23:08:03,257] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:03,299] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:03,339] {logging_mixin.py:115} INFO - [2022-05-31 23:08:03,339] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:03,349] {logging_mixin.py:115} INFO - [2022-05-31 23:08:03,349] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:03.349702+00:00, run_after=2022-05-31T21:08:03.349702+00:00
+[2022-05-31 23:08:03,367] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.116 seconds
+[2022-05-31 23:08:06,103] {processor.py:153} INFO - Started process (PID=32124) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:06,105] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:06,106] {logging_mixin.py:115} INFO - [2022-05-31 23:08:06,106] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:06,177] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:06,182] {logging_mixin.py:115} INFO - [2022-05-31 23:08:06,182] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:06,195] {logging_mixin.py:115} INFO - [2022-05-31 23:08:06,195] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:06.195341+00:00, run_after=2022-05-31T21:08:06.195341+00:00
+[2022-05-31 23:08:06,220] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.125 seconds
+[2022-05-31 23:08:08,897] {processor.py:153} INFO - Started process (PID=32127) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:08,898] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:08,899] {logging_mixin.py:115} INFO - [2022-05-31 23:08:08,899] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:08,956] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:08,962] {logging_mixin.py:115} INFO - [2022-05-31 23:08:08,962] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:08,975] {logging_mixin.py:115} INFO - [2022-05-31 23:08:08,975] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:08.974978+00:00, run_after=2022-05-31T21:08:08.974978+00:00
+[2022-05-31 23:08:08,995] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.107 seconds
+[2022-05-31 23:08:12,334] {processor.py:153} INFO - Started process (PID=32130) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:12,334] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:12,334] {logging_mixin.py:115} INFO - [2022-05-31 23:08:12,334] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:12,373] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:12,379] {logging_mixin.py:115} INFO - [2022-05-31 23:08:12,379] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:12,392] {logging_mixin.py:115} INFO - [2022-05-31 23:08:12,392] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:12.392184+00:00, run_after=2022-05-31T21:08:12.392184+00:00
+[2022-05-31 23:08:12,411] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.083 seconds
+[2022-05-31 23:08:14,176] {processor.py:153} INFO - Started process (PID=32132) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:14,177] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:14,178] {logging_mixin.py:115} INFO - [2022-05-31 23:08:14,177] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:14,219] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:14,225] {logging_mixin.py:115} INFO - [2022-05-31 23:08:14,224] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:14,238] {logging_mixin.py:115} INFO - [2022-05-31 23:08:14,238] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:14.238112+00:00, run_after=2022-05-31T21:08:14.238112+00:00
+[2022-05-31 23:08:14,257] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.083 seconds
+[2022-05-31 23:08:17,604] {processor.py:153} INFO - Started process (PID=32135) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:17,604] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:17,605] {logging_mixin.py:115} INFO - [2022-05-31 23:08:17,605] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:17,649] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:17,654] {logging_mixin.py:115} INFO - [2022-05-31 23:08:17,654] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:17,667] {logging_mixin.py:115} INFO - [2022-05-31 23:08:17,667] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:17.667531+00:00, run_after=2022-05-31T21:08:17.667531+00:00
+[2022-05-31 23:08:17,687] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.086 seconds
+[2022-05-31 23:08:20,509] {processor.py:153} INFO - Started process (PID=32138) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:20,512] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:20,512] {logging_mixin.py:115} INFO - [2022-05-31 23:08:20,512] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:20,563] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:20,568] {logging_mixin.py:115} INFO - [2022-05-31 23:08:20,568] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:20,582] {logging_mixin.py:115} INFO - [2022-05-31 23:08:20,582] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:20.582012+00:00, run_after=2022-05-31T21:08:20.582012+00:00
+[2022-05-31 23:08:20,599] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.093 seconds
+[2022-05-31 23:08:24,092] {processor.py:153} INFO - Started process (PID=32151) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:24,092] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:24,092] {logging_mixin.py:115} INFO - [2022-05-31 23:08:24,092] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:24,132] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:24,138] {logging_mixin.py:115} INFO - [2022-05-31 23:08:24,138] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:24,152] {logging_mixin.py:115} INFO - [2022-05-31 23:08:24,151] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:24.151749+00:00, run_after=2022-05-31T21:08:24.151749+00:00
+[2022-05-31 23:08:24,178] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.088 seconds
+[2022-05-31 23:08:26,362] {processor.py:153} INFO - Started process (PID=32154) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:26,363] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:26,364] {logging_mixin.py:115} INFO - [2022-05-31 23:08:26,364] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:26,412] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:26,418] {logging_mixin.py:115} INFO - [2022-05-31 23:08:26,418] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:26,432] {logging_mixin.py:115} INFO - [2022-05-31 23:08:26,432] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:26.432499+00:00, run_after=2022-05-31T21:08:26.432499+00:00
+[2022-05-31 23:08:26,451] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.096 seconds
+[2022-05-31 23:08:27,877] {processor.py:153} INFO - Started process (PID=32156) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:27,879] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:27,880] {logging_mixin.py:115} INFO - [2022-05-31 23:08:27,880] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:27,940] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:27,945] {logging_mixin.py:115} INFO - [2022-05-31 23:08:27,945] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:27,958] {logging_mixin.py:115} INFO - [2022-05-31 23:08:27,958] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:27.958475+00:00, run_after=2022-05-31T21:08:27.958475+00:00
+[2022-05-31 23:08:27,979] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.110 seconds
+[2022-05-31 23:08:29,682] {processor.py:153} INFO - Started process (PID=32158) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:29,682] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:29,683] {logging_mixin.py:115} INFO - [2022-05-31 23:08:29,683] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:29,730] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:29,736] {logging_mixin.py:115} INFO - [2022-05-31 23:08:29,736] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:29,749] {logging_mixin.py:115} INFO - [2022-05-31 23:08:29,749] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:29.748960+00:00, run_after=2022-05-31T21:08:29.748960+00:00
+[2022-05-31 23:08:29,771] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.092 seconds
+[2022-05-31 23:08:33,356] {processor.py:153} INFO - Started process (PID=32161) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:33,357] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:33,359] {logging_mixin.py:115} INFO - [2022-05-31 23:08:33,358] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:33,417] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:33,427] {logging_mixin.py:115} INFO - [2022-05-31 23:08:33,427] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:33,439] {logging_mixin.py:115} INFO - [2022-05-31 23:08:33,439] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:33.439522+00:00, run_after=2022-05-31T21:08:33.439522+00:00
+[2022-05-31 23:08:33,457] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.107 seconds
+[2022-05-31 23:08:36,874] {processor.py:153} INFO - Started process (PID=32164) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:36,875] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:36,876] {logging_mixin.py:115} INFO - [2022-05-31 23:08:36,876] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:36,921] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:36,932] {logging_mixin.py:115} INFO - [2022-05-31 23:08:36,932] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:36,945] {logging_mixin.py:115} INFO - [2022-05-31 23:08:36,945] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:36.944979+00:00, run_after=2022-05-31T21:08:36.944979+00:00
+[2022-05-31 23:08:36,965] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.095 seconds
+[2022-05-31 23:08:39,901] {processor.py:153} INFO - Started process (PID=32167) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:39,902] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:39,903] {logging_mixin.py:115} INFO - [2022-05-31 23:08:39,903] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:39,961] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:39,970] {logging_mixin.py:115} INFO - [2022-05-31 23:08:39,970] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:39,983] {logging_mixin.py:115} INFO - [2022-05-31 23:08:39,983] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:39.983417+00:00, run_after=2022-05-31T21:08:39.983417+00:00
+[2022-05-31 23:08:40,005] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.112 seconds
+[2022-05-31 23:08:42,763] {processor.py:153} INFO - Started process (PID=32170) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:42,765] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:42,766] {logging_mixin.py:115} INFO - [2022-05-31 23:08:42,766] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:42,824] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:42,829] {logging_mixin.py:115} INFO - [2022-05-31 23:08:42,829] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:42,843] {logging_mixin.py:115} INFO - [2022-05-31 23:08:42,843] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:42.843624+00:00, run_after=2022-05-31T21:08:42.843624+00:00
+[2022-05-31 23:08:42,863] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.108 seconds
+[2022-05-31 23:08:45,181] {processor.py:153} INFO - Started process (PID=32173) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:45,181] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:45,182] {logging_mixin.py:115} INFO - [2022-05-31 23:08:45,182] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:45,232] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:45,237] {logging_mixin.py:115} INFO - [2022-05-31 23:08:45,237] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:45,250] {logging_mixin.py:115} INFO - [2022-05-31 23:08:45,250] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:45.250365+00:00, run_after=2022-05-31T21:08:45.250365+00:00
+[2022-05-31 23:08:45,272] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.094 seconds
+[2022-05-31 23:08:48,381] {processor.py:153} INFO - Started process (PID=32176) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:48,382] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:48,383] {logging_mixin.py:115} INFO - [2022-05-31 23:08:48,383] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:48,443] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:48,448] {logging_mixin.py:115} INFO - [2022-05-31 23:08:48,448] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:48,462] {logging_mixin.py:115} INFO - [2022-05-31 23:08:48,462] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:48.461909+00:00, run_after=2022-05-31T21:08:48.461909+00:00
+[2022-05-31 23:08:48,480] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.108 seconds
+[2022-05-31 23:08:51,490] {processor.py:153} INFO - Started process (PID=32179) to work on /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:51,491] {processor.py:641} INFO - Processing file /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py for tasks to queue
+[2022-05-31 23:08:51,491] {logging_mixin.py:115} INFO - [2022-05-31 23:08:51,491] {dagbag.py:507} INFO - Filling up the DagBag from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:51,538] {processor.py:651} INFO - DAG(s) dict_keys(['recommendation_dag']) retrieved from /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py
+[2022-05-31 23:08:51,543] {logging_mixin.py:115} INFO - [2022-05-31 23:08:51,543] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-31 23:08:51,557] {logging_mixin.py:115} INFO - [2022-05-31 23:08:51,557] {dag.py:2923} INFO - Setting next_dagrun for recommendation_dag to 2022-05-30T21:08:51.557116+00:00, run_after=2022-05-31T21:08:51.557116+00:00
+[2022-05-31 23:08:51,572] {processor.py:161} INFO - Processing /home/udimini/airflow/dags/recommendation/load_daily_recommendation_dag.py took 0.084 seconds
